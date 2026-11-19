@@ -57,6 +57,10 @@ The API checks Turnstile hostname and action `inquiry`, not merely the client to
 
 ## 4. Build and deploy
 
+In the dashboard, select **Workers & Pages > Create application > Pages > Connect to Git** (or **Import an existing Git repository**), then choose `badgerh543-lab/altaviatravel`, production branch `main`, and the Astro preset. Leave the root directory empty. Pages does not ask for a deploy command or preview deploy command. A screen requiring those commands is the Workers build flow; create a Pages project instead.
+
+Do not use `npx wrangler deploy` for this application. Without a Workers configuration, Wrangler can automatically add an Astro adapter and rebuild into a different output layout. That does not deploy the existing root `functions/` API. Use Pages Git deployment or the explicit `wrangler pages deploy` command below. Do not accept an automatically generated adapter/configuration pull request for this Pages setup.
+
 Configure a Pages Git project with build command `npm run build`, output `dist`, and Node version 24 or later. Keep `functions/` at the repository root. Set `SITE_URL` and `BUSINESS_READY` in the build environment as well as runtime; the build validates business fields when enabled. Alternatively deploy from the root with Wrangler after building:
 
 ```powershell
@@ -66,6 +70,8 @@ npx wrangler pages deploy dist --project-name altavia
 ```
 
 Use Wrangler or Git deployment for Functions; do not drag only `dist/` into an upload UI and expect the backend to accompany it. `public/_routes.json` restricts function execution to `/api/*`. `_headers`, `robots.txt` and `sitemap.xml` are generated into `dist/` by postbuild. Local/example builds are deliberately noindex. Cloudflare applies the configured static security/cache headers.
+
+Keep `_headers`, `robots.txt` and `sitemap.xml` out of `public/`: the build already generates these files. A duplicate `public/robots.txt` overrides the Astro endpoint during the build, and a copied `_headers` file can conflict with an adapter's generated rules. Set production `SITE_URL=https://altavitravel.uz` explicitly; a successful build without it remains noindex.
 
 Read [Pages configuration](https://developers.cloudflare.com/pages/functions/wrangler-configuration/) and [deployment commands](https://developers.cloudflare.com/workers/wrangler/commands/pages/). Dashboard configuration changes require redeployment. Configure preview independently with a preview database and secrets; leave `BUSINESS_READY` false until that environment is intentionally enabled.
 
