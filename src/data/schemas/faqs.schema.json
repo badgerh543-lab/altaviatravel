@@ -1,0 +1,80 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "q",
+      "a"
+    ],
+    "properties": {
+      "q": {
+        "type": "object",
+        "required": [
+          "uz",
+          "en",
+          "ru",
+          "ky",
+          "tg"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "uz": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ky": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tg": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "a": {
+        "type": "object",
+        "required": [
+          "uz",
+          "en",
+          "ru",
+          "ky",
+          "tg"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "uz": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ky": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tg": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ALTAVIA faqs"
+}

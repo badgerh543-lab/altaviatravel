@@ -1,0 +1,12 @@
+name = "altavia-inquiry-retention"
+main = "workers/retention.js"
+compatibility_date = "2026-11-18"
+workers_dev = false
+
+[triggers]
+crons = ["17 2 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "altavia-inquiries"
+database_id = "REPLACE_WITH_THE_SAME_PRODUCTION_D1_DATABASE_ID"

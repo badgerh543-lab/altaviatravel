@@ -1,0 +1,28 @@
+/* Autumn is the existing palette. Presets affect public pages, never staff tools. */
+:root[data-season=spring],.edit-season-preview[data-season=spring]{--orange:#edb9d2;--orange-ink:#8e2857;--yellow:#d9efb1;--teal:#346a4a;--sky:#f1f8ed;--ink:#203c32;--muted:#50675d;--line:#dce9da;--season-surface:#fff8fb;--brand-filter:hue-rotate(297deg) saturate(.8)}
+:root[data-season=summer],.edit-season-preview[data-season=summer]{--orange:#ffd54a;--orange-ink:#765200;--yellow:#8be1dc;--teal:#006775;--sky:#e8f9fc;--ink:#113947;--muted:#49656d;--line:#cfe7eb;--season-surface:#fffef5;--brand-filter:hue-rotate(28deg)}
+:root[data-season=winter],.edit-season-preview[data-season=winter]{--orange:#acdfff;--orange-ink:#15517d;--yellow:#d9eafa;--teal:#175880;--sky:#eaf4fc;--ink:#163248;--muted:#4c6579;--line:#d4e3ef;--season-surface:#f8fcff;--brand-filter:hue-rotate(175deg) saturate(.7)}
+html[data-season]:not([data-season=autumn]) body:not(.edit-body){background:var(--season-surface)}
+html[data-season]:not([data-season=autumn]) .site-header .brand-mark{filter:var(--brand-filter)}
+html[data-season]:not([data-season=autumn]) .collection{background:var(--sky)}
+html[data-season]:not([data-season=autumn]) .inquiry-panel{background:var(--sky)}
+html[data-season]:not([data-season=autumn]) .choice input:checked+span{background:var(--teal)}
+html[data-season]:not([data-season=autumn]) .plan-review,html[data-season]:not([data-season=autumn]) .quote-panel{background:var(--season-surface)}
+html[data-season]:not([data-season=autumn]) .topline{background:var(--yellow)}
+html[data-season]:not([data-season=autumn]) .hero h1 span,html[data-season]:not([data-season=autumn]) .tiny-sun,html[data-season]:not([data-season=autumn]) .hero-stamp{color:var(--yellow)}
+html[data-season]:not([data-season=autumn]) .button:hover{background:color-mix(in srgb,var(--orange) 78%,white);border-color:var(--orange)}
+html[data-season]:not([data-season=autumn]) .button-dark:hover{background:var(--teal);border-color:var(--teal);color:white}
+html[data-season]:not([data-season=autumn]) .cta-sun{color:var(--orange)}
+html[data-season]:not([data-season=autumn]) .optional-label{background:var(--yellow);color:var(--ink)}
+html[data-season]:not([data-season=autumn]) .travel-notes{background:var(--sky)}
+html[data-season]:not([data-season=autumn]) .quote-panel{border-color:var(--line)}
+html[data-season]:not([data-season=autumn]) .notice:not(.error){background:var(--sky);border-color:var(--line);color:var(--ink)}
+html[data-season]:not([data-season=autumn]) .why-icon{background:var(--sky);color:var(--teal)}
+html[data-season]:not([data-season=autumn]) .why-items>div:nth-child(2) .why-icon{background:var(--yellow);color:var(--orange-ink)}
+html[data-season]:not([data-season=autumn]) ::selection{background:var(--yellow);color:var(--ink)}
+.season-snow{position:fixed;inset:0;z-index:45;overflow:hidden;pointer-events:none;contain:strict}
+.season-flake{position:absolute;top:-12px;left:var(--left);width:var(--size);height:var(--size);border-radius:50%;background:#fff;border:1px solid #729eb877;opacity:var(--opacity);animation:season-snowfall var(--duration) linear var(--delay) infinite;will-change:transform}
+@keyframes season-snowfall{from{transform:translate3d(0,-15px,0)}to{transform:translate3d(var(--drift),calc(100vh + 30px),0)}}
+.season-snow[data-paused=true] .season-flake{animation-play-state:paused}
+.season-snow-toggle{position:fixed;bottom:18px;left:18px;z-index:46;border:1px solid #b5cde0;background:#fffffff0;color:#163248;border-radius:30px;padding:10px 15px;font:700 11px/1.5 var(--body);box-shadow:0 3px 15px #183b5510;min-height:42px}
+@media(prefers-reduced-motion:reduce){.season-snow,.season-snow-toggle{display:none!important}.season-flake{animation:none!important}}

@@ -1,0 +1,1213 @@
+{
+  "home": {
+    "en": "Home",
+    "uz": "Bosh sahifa",
+    "ru": "Главная",
+    "ky": "Башкы бет",
+    "tg": "Асосӣ"
+  },
+  "destinations": {
+    "en": "Destinations",
+    "uz": "Yo‘nalishlar",
+    "ru": "Направления",
+    "ky": "Багыттар",
+    "tg": "Самтҳо"
+  },
+  "tours": {
+    "en": "Find a trip",
+    "uz": "Sayohat tanlash",
+    "ru": "Найти путешествие",
+    "ky": "Саякат табуу",
+    "tg": "Ёфтани саёҳат"
+  },
+  "inbound": {
+    "en": "Visit Uzbekistan",
+    "uz": "O‘zbekistonga sayohat",
+    "ru": "В Узбекистан",
+    "ky": "Өзбекстанга саякат",
+    "tg": "Ба Ӯзбекистон"
+  },
+  "outbound": {
+    "en": "Beyond Uzbekistan",
+    "uz": "Xorijga sayohat",
+    "ru": "За рубеж",
+    "ky": "Чет өлкөгө",
+    "tg": "Ба хориҷ"
+  },
+  "domestic": {
+    "en": "Explore close to home",
+    "uz": "Yurtimiz bo‘ylab",
+    "ru": "По Узбекистану",
+    "ky": "Өлкө ичинде",
+    "tg": "Дар дохили кишвар"
+  },
+  "custom": {
+    "en": "Make it your own",
+    "uz": "O‘zingiz rejalang",
+    "ru": "Ваше путешествие",
+    "ky": "Өз саякатыңыз",
+    "tg": "Саёҳати шахсии шумо"
+  },
+  "gallery": {
+    "en": "Travel gallery",
+    "uz": "Fotogalereya",
+    "ru": "Фотогалерея",
+    "ky": "Сүрөттөр",
+    "tg": "Аксҳо"
+  },
+  "about": {
+    "en": "Our approach",
+    "uz": "Bizning yondashuv",
+    "ru": "Наш подход",
+    "ky": "Биздин мамиле",
+    "tg": "Равиши мо"
+  },
+  "contact": {
+    "en": "Get in touch",
+    "uz": "Bog‘lanish",
+    "ru": "Связаться",
+    "ky": "Байланышуу",
+    "tg": "Тамос"
+  },
+  "journal": {
+    "en": "Field notes",
+    "uz": "Sayohat qaydlari",
+    "ru": "Заметки о путешествиях",
+    "ky": "Саякат жазмалары",
+    "tg": "Ёддоштҳои сафар"
+  },
+  "faq": {
+    "en": "Your questions, answered",
+    "uz": "Savollarga javoblar",
+    "ru": "Вопросы и ответы",
+    "ky": "Суроолорго жооптор",
+    "tg": "Саволу ҷавоб"
+  },
+  "privacy": {
+    "en": "Privacy",
+    "uz": "Maxfiylik",
+    "ru": "Конфиденциальность",
+    "ky": "Купуялык",
+    "tg": "Махфият"
+  },
+  "terms": {
+    "en": "Website terms",
+    "uz": "Sayt shartlari",
+    "ru": "Условия сайта",
+    "ky": "Сайттын шарттары",
+    "tg": "Шартҳои сомона"
+  },
+  "bookingConditions": {
+    "en": "Booking conditions",
+    "uz": "Bron qilish shartlari",
+    "ru": "Условия бронирования",
+    "ky": "Брондоо шарттары",
+    "tg": "Шартҳои фармоиш"
+  },
+  "credits": {
+    "en": "Photo credits",
+    "uz": "Surat mualliflari",
+    "ru": "Авторы фотографий",
+    "ky": "Сүрөт авторлору",
+    "tg": "Муаллифони аксҳо"
+  },
+  "plan": {
+    "en": "Plan my trip",
+    "uz": "Sayohatni rejalash",
+    "ru": "Спланировать поездку",
+    "ky": "Саякатты пландоо",
+    "tg": "Банақшагирии сафар"
+  },
+  "skip": {
+    "en": "Skip to content",
+    "uz": "Asosiy mazmunga o‘tish",
+    "ru": "К содержанию",
+    "ky": "Мазмунга өтүү",
+    "tg": "Ба муҳтаво"
+  },
+  "menu": {
+    "en": "Open menu",
+    "uz": "Menyuni ochish",
+    "ru": "Открыть меню",
+    "ky": "Менюну ачуу",
+    "tg": "Кушодани меню"
+  },
+  "close": {
+    "en": "Close",
+    "uz": "Yopish",
+    "ru": "Закрыть",
+    "ky": "Жабуу",
+    "tg": "Пӯшидан"
+  },
+  "tagline": {
+    "en": "A little wonder. A whole new world.",
+    "uz": "Kichik kashfiyot. Butunlay yangi dunyo.",
+    "ru": "Немного чуда. Целый новый мир.",
+    "ky": "Бир аз керемет. Жаңы дүйнө.",
+    "tg": "Каме ҳайрат. Ҷаҳони нав."
+  },
+  "heroKicker": {
+    "en": "UZBEKISTAN. THE WORLD. YOUR WAY.",
+    "uz": "O‘ZBEKISTON. DUNYO. SIZNING YO‘LINGIZ.",
+    "ru": "УЗБЕКИСТАН. МИР. ВАШ ПУТЬ.",
+    "ky": "ӨЗБЕКСТАН. ДҮЙНӨ. СИЗДИН ЖОЛУҢУЗ.",
+    "tg": "ӮЗБЕКИСТОН. ҶАҲОН. РОҲИ ШУМО."
+  },
+  "heroLine1": {
+    "en": "Life looks better",
+    "uz": "Hayot sayohatda",
+    "ru": "Мир ярче",
+    "ky": "Саякат менен",
+    "tg": "Ҷаҳон зеботар аст"
+  },
+  "heroLine2": {
+    "en": "from here.",
+    "uz": "yanada go‘zal.",
+    "ru": "в путешествии.",
+    "ky": "дүйнө жарык.",
+    "tg": "дар саёҳат."
+  },
+  "heroText": {
+    "en": "Silk Road mornings. Saltwater afternoons. Find the places that make you feel wonderfully alive.",
+    "uz": "Ipak yo‘li tonglari. Dengiz bo‘yidagi damlar. Hayot zavqini his etadigan manzilingizni toping.",
+    "ru": "Утро на Шёлковом пути. Вечер у моря. Откройте места, где жизнь ощущается ярче.",
+    "ky": "Жибек жолундагы таңдар. Деңиз жээгиндеги кечтер. Жашоого дем берген жерлерди ачыңыз.",
+    "tg": "Субҳ дар Роҳи Абрешим. Шом дар соҳил. Ҷойҳоеро кашф кунед, ки ба зиндагӣ илҳом мебахшанд."
+  },
+  "explore": {
+    "en": "Explore the journeys",
+    "uz": "Sayohatlarni ko‘rish",
+    "ru": "Посмотреть маршруты",
+    "ky": "Маршруттарды көрүү",
+    "tg": "Дидани масирҳо"
+  },
+  "where": {
+    "en": "Where to?",
+    "uz": "Qayerga?",
+    "ru": "Куда?",
+    "ky": "Кайда?",
+    "tg": "Ба куҷо?"
+  },
+  "anywhere": {
+    "en": "Anywhere feels possible",
+    "uz": "Istalgan manzil sari",
+    "ru": "Выберите направление",
+    "ky": "Багытты тандаңыз",
+    "tg": "Самтро интихоб кунед"
+  },
+  "travelType": {
+    "en": "Your kind of trip",
+    "uz": "Sayohat turi",
+    "ru": "Тип путешествия",
+    "ky": "Саякаттын түрү",
+    "tg": "Навъи саёҳат"
+  },
+  "allTrips": {
+    "en": "All journeys",
+    "uz": "Barcha sayohatlar",
+    "ru": "Все путешествия",
+    "ky": "Бардык саякаттар",
+    "tg": "Ҳамаи саёҳатҳо"
+  },
+  "search": {
+    "en": "Let’s find it",
+    "uz": "Izlash",
+    "ru": "Найти",
+    "ky": "Табуу",
+    "tg": "Ҷустуҷӯ"
+  },
+  "discovery": {
+    "en": "Follow your curiosity",
+    "uz": "Qiziqishingiz ortidan boring",
+    "ru": "Следуйте любопытству",
+    "ky": "Кызыгууңузду ээрчиңиз",
+    "tg": "Ба кунҷковӣ пайравӣ кунед"
+  },
+  "discoveryText": {
+    "en": "A city you’ve dreamed of. A coastline you haven’t met. Start with a place that calls to you.",
+    "uz": "Orzuingizdagi shahar. Hali ko‘rmagan sohil. Sizni chorlayotgan manzildan boshlang.",
+    "ru": "Город вашей мечты. Незнакомое побережье. Начните с места, которое вас зовёт.",
+    "ky": "Кыялдагы шаар. Көрө элек жээк. Сизди чакырган жерден баштаңыз.",
+    "tg": "Шаҳри орзуҳо. Соҳили ношинос. Аз ҷое оғоз кунед, ки шуморо мехонад."
+  },
+  "viewAll": {
+    "en": "View all",
+    "uz": "Barchasini ko‘rish",
+    "ru": "Смотреть все",
+    "ky": "Баарын көрүү",
+    "tg": "Дидани ҳама"
+  },
+  "collection": {
+    "en": "THE JOURNEY COLLECTION",
+    "uz": "SAYOHATLAR TO‘PLAMI",
+    "ru": "КОЛЛЕКЦИЯ ПУТЕШЕСТВИЙ",
+    "ky": "САЯКАТТАР ЖЫЙНАГЫ",
+    "tg": "МАҶМӮИ САЁҲАТҲО"
+  },
+  "featured": {
+    "en": "Good days start here.",
+    "uz": "Yaxshi kunlar shu yerdan.",
+    "ru": "Здесь начинаются яркие дни.",
+    "ky": "Жакшы күндөр ушул жерден.",
+    "tg": "Рӯзҳои хуб аз ин ҷо оғоз мешаванд."
+  },
+  "featuredText": {
+    "en": "Thoughtful route ideas with space to make them yours. Every trip is tailored and confirmed before you commit.",
+    "uz": "Sizga moslash mumkin bo‘lgan yo‘nalishlar. Har bir sayohat buyurtmadan oldin kelishiladi va tasdiqlanadi.",
+    "ru": "Идеи маршрутов, которые можно изменить под себя. Все детали согласовываются до бронирования.",
+    "ky": "Өзүңүзгө ылайык өзгөртө турган маршруттар. Бардык шарттар брондоого чейин макулдашылат.",
+    "tg": "Ғояҳои масир, ки ба шумо мутобиқ мешаванд. Ҳамаи ҷузъиёт пеш аз фармоиш тасдиқ мешаванд."
+  },
+  "quote": {
+    "en": "Request a quote",
+    "uz": "Narxni so‘rash",
+    "ru": "Запросить стоимость",
+    "ky": "Баасын суроо",
+    "tg": "Дархости нарх"
+  },
+  "days": {
+    "en": "days",
+    "uz": "kun",
+    "ru": "дней",
+    "ky": "күн",
+    "tg": "рӯз"
+  },
+  "suggested": {
+    "en": "Suggested itinerary",
+    "uz": "Tavsiya etilgan yo‘nalish",
+    "ru": "Идея маршрута",
+    "ky": "Сунушталган маршрут",
+    "tg": "Масири пешниҳодӣ"
+  },
+  "details": {
+    "en": "Explore this trip",
+    "uz": "Batafsil ko‘rish",
+    "ru": "Подробнее о поездке",
+    "ky": "Саякат жөнүндө",
+    "tg": "Тафсилоти саёҳат"
+  },
+  "silkEyebrow": {
+    "en": "SOMEWHERE EXTRAORDINARY. CLOSER THAN YOU THINK.",
+    "uz": "AJOYIB MANZILLAR SIZ O‘YLAGANDAN YAQIN.",
+    "ru": "УДИВИТЕЛЬНОЕ БЛИЖЕ, ЧЕМ КАЖЕТСЯ.",
+    "ky": "КЕРЕМЕТ СИЗ ОЙЛОГОНДОН ЖАКЫН.",
+    "tg": "ҶОЙҲОИ АҶОИБ АЗ ОН ЧӢ МЕПИНДОРЕД НАЗДИКТАРАНД."
+  },
+  "silkTitle": {
+    "en": "A thousand stories. One Uzbekistan.",
+    "uz": "Ming bir hikoya. Yagona O‘zbekiston.",
+    "ru": "Тысяча историй. Один Узбекистан.",
+    "ky": "Миңдеген окуялар. Бир Өзбекстан.",
+    "tg": "Ҳазор қисса. Як Ӯзбекистон."
+  },
+  "silkText": {
+    "en": "Blue-tiled skylines, courtyard conversations, and roads that once connected the world. Come for the architecture. Stay for everything in between.",
+    "uz": "Moviy gumbazlar, hovlilardagi suhbatlar, dunyoni bog‘lagan yo‘llar. Me’morchilikni ko‘rishga keling, har lahzadan zavqlaning.",
+    "ru": "Голубые купола, беседы во дворах и дороги, соединившие мир. Приезжайте ради архитектуры, открывайте жизнь вокруг.",
+    "ky": "Көк күмбөздөр, короодогу маектер, дүйнөнү бириктирген жолдор. Архитектураны көрүп, жергиликтүү жашоону тааныңыз.",
+    "tg": "Гунбазҳои нилгун, суҳбатҳо дар ҳавлӣ ва роҳҳое, ки ҷаҳонро пайвастанд. Меъмориро бубинед ва зиндагии маҳаллиро кашф кунед."
+  },
+  "customTitle": {
+    "en": "Your trip. Your rhythm.",
+    "uz": "Sayohatingiz. Sizning sur’atingiz.",
+    "ru": "Ваше путешествие. Ваш ритм.",
+    "ky": "Сиздин саякатыңыз. Сиздин ыргагыңыз.",
+    "tg": "Саёҳати шумо. Суръати шумо."
+  },
+  "customText": {
+    "en": "More markets, fewer museums? A slow morning or an early trail? Tell us what makes a great trip for you.",
+    "uz": "Ko‘proq bozorlar, kamroq muzeylar? Sokin tong yoki erta sayr? Siz uchun ajoyib sayohat qanday bo‘lishini ayting.",
+    "ru": "Больше рынков, меньше музеев? Неспешное утро или ранний поход? Расскажите о своей идеальной поездке.",
+    "ky": "Базарбы же музейби? Шашпай эс алуубу же эрте сейилдөөбү? Каалоолоруңузду айтыңыз.",
+    "tg": "Бозор ё осорхона? Субҳи ором ё сайри барвақт? Дар бораи сафари дилхоҳатон бигӯед."
+  },
+  "step1": {
+    "en": "Tell us your idea",
+    "uz": "G‘oyangizni ayting",
+    "ru": "Поделитесь идеей",
+    "ky": "Оюңузду айтыңыз",
+    "tg": "Ғояатонро бигӯед"
+  },
+  "step2": {
+    "en": "Shape the details",
+    "uz": "Tafsilotlarni kelishing",
+    "ru": "Согласуйте детали",
+    "ky": "Шарттарды макулдашыңыз",
+    "tg": "Ҷузъиётро мувофиқа кунед"
+  },
+  "step3": {
+    "en": "Confirm, then travel",
+    "uz": "Tasdiqlang va yo‘lga chiqing",
+    "ru": "Подтвердите и отправляйтесь",
+    "ky": "Ырастап, жолго чыгыңыз",
+    "tg": "Тасдиқ кунед ва сафар кунед"
+  },
+  "whyTitle": {
+    "en": "Travel feels better with clarity.",
+    "uz": "Aniq reja — yoqimli sayohat.",
+    "ru": "Спокойнее, когда всё понятно.",
+    "ky": "Баары түшүнүктүү болсо, саякат жеңил.",
+    "tg": "Бо равшанӣ сафар осонтар аст."
+  },
+  "why1": {
+    "en": "Your preferences first",
+    "uz": "Avvalo sizning istaklaringiz",
+    "ru": "Ваши пожелания важны",
+    "ky": "Каалоолоруңуз биринчи орунда",
+    "tg": "Хоҳишҳои шумо дар ҷойи аввал"
+  },
+  "why2": {
+    "en": "No surprise bookings",
+    "uz": "Kutilmagan bronlarsiz",
+    "ru": "Бронирование без сюрпризов",
+    "ky": "Күтүүсүз брондоо жок",
+    "tg": "Фармоиш бе ногаҳонӣ"
+  },
+  "why3": {
+    "en": "The details in writing",
+    "uz": "Tafsilotlar yozma ravishda",
+    "ru": "Все детали письменно",
+    "ky": "Шарттар жазуу түрүндө",
+    "tg": "Ҷузъиёт дар шакли хаттӣ"
+  },
+  "whyText": {
+    "en": "An inquiry starts a conversation. Availability, services and the final price are confirmed before any booking or payment.",
+    "uz": "So‘rov suhbatni boshlaydi. Mavjudlik, xizmatlar va yakuniy narx bron yoki to‘lovdan oldin tasdiqlanadi.",
+    "ru": "Запрос начинает диалог. Наличие, услуги и итоговая цена подтверждаются до бронирования и оплаты.",
+    "ky": "Суроо маекти баштайт. Орундар, кызматтар жана акыркы баа брондоо менен төлөмгө чейин ырасталат.",
+    "tg": "Дархост оғози суҳбат аст. Мавҷудият, хизматҳо ва нархи ниҳоӣ пеш аз фармоишу пардохт тасдиқ мешаванд."
+  },
+  "galleryTitle": {
+    "en": "A world worth looking closer at.",
+    "uz": "Yaqindan ko‘rishga arziydigan dunyo.",
+    "ru": "Мир, который хочется рассмотреть.",
+    "ky": "Жакындан көрүүгө татыктуу дүйнө.",
+    "tg": "Ҷаҳоне, ки сазовори дидани наздик аст."
+  },
+  "galleryText": {
+    "en": "Destination photography to spark an idea. These images show places, not ALTAVIA customer trips.",
+    "uz": "Ilhom beruvchi manzil suratlari. Bular ALTAVIA mijozlari sayohatlari emas, joylar tasviridir.",
+    "ru": "Фотографии направлений для вдохновения. На снимках места, а не поездки клиентов ALTAVIA.",
+    "ky": "Илхам берген жерлердин сүрөттөрү. Бул ALTAVIA кардарларынын саякаттары эмес.",
+    "tg": "Аксҳои самтҳо барои илҳом. Инҳо ҷойҳоро нишон медиҳанд, на сафарҳои муштариёни ALTAVIA."
+  },
+  "journalTitle": {
+    "en": "A little reading. A lot of inspiration.",
+    "uz": "Bir oz mutolaa. Ko‘p ilhom.",
+    "ru": "Немного чтения. Много вдохновения.",
+    "ky": "Бир аз окуу. Көп илхам.",
+    "tg": "Каме мутолиа. Илҳоми зиёд."
+  },
+  "read": {
+    "en": "Read the story",
+    "uz": "Maqolani o‘qish",
+    "ru": "Читать статью",
+    "ky": "Макаланы окуу",
+    "tg": "Хондани мақола"
+  },
+  "ctaTitle": {
+    "en": "Your next story starts with a hello.",
+    "uz": "Keyingi hikoyangiz salomdan boshlanadi.",
+    "ru": "Новая история начинается с «здравствуйте».",
+    "ky": "Жаңы окуя саламдан башталат.",
+    "tg": "Қиссаи нав аз салом оғоз мешавад."
+  },
+  "ctaText": {
+    "en": "A destination in mind, or just a feeling? Let’s turn it into a trip request.",
+    "uz": "Aniq manzilmi yoki shunchaki istakmi? Uni sayohat so‘roviga aylantiraylik.",
+    "ru": "Уже выбрали место или пока только мечтаете? Составим запрос на путешествие.",
+    "ky": "Багытты тандадыңызбы же жөн гана кыялбы? Саякатка суроо түзөлү.",
+    "tg": "Самт интихоб кардед ё танҳо орзу доред? Дархости сафар созем."
+  },
+  "all": {
+    "en": "All",
+    "uz": "Barchasi",
+    "ru": "Все",
+    "ky": "Баары",
+    "tg": "Ҳама"
+  },
+  "country": {
+    "en": "Country",
+    "uz": "Mamlakat",
+    "ru": "Страна",
+    "ky": "Өлкө",
+    "tg": "Кишвар"
+  },
+  "destination": {
+    "en": "Destination",
+    "uz": "Manzil",
+    "ru": "Направление",
+    "ky": "Багыт",
+    "tg": "Самт"
+  },
+  "duration": {
+    "en": "Duration",
+    "uz": "Davomiylik",
+    "ru": "Продолжительность",
+    "ky": "Узактыгы",
+    "tg": "Давомнокӣ"
+  },
+  "budget": {
+    "en": "Budget per person (USD)",
+    "uz": "Bir kishi uchun byudjet (USD)",
+    "ru": "Бюджет на человека (USD)",
+    "ky": "Бир адамга бюджет (USD)",
+    "tg": "Буҷет барои як нафар (USD)"
+  },
+  "price": {
+    "en": "Price",
+    "uz": "Narx",
+    "ru": "Стоимость",
+    "ky": "Баасы",
+    "tg": "Нарх"
+  },
+  "style": {
+    "en": "Travel style",
+    "uz": "Sayohat uslubi",
+    "ru": "Стиль путешествия",
+    "ky": "Саякат стили",
+    "tg": "Услуби саёҳат"
+  },
+  "season": {
+    "en": "Season",
+    "uz": "Mavsum",
+    "ru": "Сезон",
+    "ky": "Мезгил",
+    "tg": "Мавсим"
+  },
+  "spring": {
+    "en": "Spring",
+    "uz": "Bahor",
+    "ru": "Весна",
+    "ky": "Жаз",
+    "tg": "Баҳор"
+  },
+  "summer": {
+    "en": "Summer",
+    "uz": "Yoz",
+    "ru": "Лето",
+    "ky": "Жай",
+    "tg": "Тобистон"
+  },
+  "autumn": {
+    "en": "Autumn",
+    "uz": "Kuz",
+    "ru": "Осень",
+    "ky": "Күз",
+    "tg": "Тирамоҳ"
+  },
+  "winter": {
+    "en": "Winter",
+    "uz": "Qish",
+    "ru": "Зима",
+    "ky": "Кыш",
+    "tg": "Зимистон"
+  },
+  "culture": {
+    "en": "Culture & discovery",
+    "uz": "Madaniyat va kashfiyot",
+    "ru": "Культура и открытия",
+    "ky": "Маданият жана ачылыштар",
+    "tg": "Фарҳанг ва кашфиёт"
+  },
+  "beach": {
+    "en": "Beach & unwind",
+    "uz": "Sohil va hordiq",
+    "ru": "Пляж и отдых",
+    "ky": "Деңиз жана эс алуу",
+    "tg": "Соҳил ва истироҳат"
+  },
+  "adventure": {
+    "en": "Nature & adventure",
+    "uz": "Tabiat va sarguzasht",
+    "ru": "Природа и приключения",
+    "ky": "Жаратылыш жана укмуштуу окуялар",
+    "tg": "Табиат ва моҷаро"
+  },
+  "city": {
+    "en": "City escapes",
+    "uz": "Shahar sayohatlari",
+    "ru": "Городские поездки",
+    "ky": "Шаар саякаттары",
+    "tg": "Саёҳатҳои шаҳрӣ"
+  },
+  "sort": {
+    "en": "Sort by",
+    "uz": "Saralash",
+    "ru": "Сортировка",
+    "ky": "Иреттөө",
+    "tg": "Ҷобаҷогузорӣ"
+  },
+  "recommended": {
+    "en": "Our selection",
+    "uz": "Tavsiya etilgan",
+    "ru": "Наш выбор",
+    "ky": "Биздин тандоо",
+    "tg": "Интихоби мо"
+  },
+  "shortest": {
+    "en": "Shortest first",
+    "uz": "Avval qisqalari",
+    "ru": "Сначала короткие",
+    "ky": "Кыскасынан баштоо",
+    "tg": "Аввал кӯтоҳтарин"
+  },
+  "longest": {
+    "en": "Longest first",
+    "uz": "Avval uzunlari",
+    "ru": "Сначала длинные",
+    "ky": "Узунунан баштоо",
+    "tg": "Аввал дарозтарин"
+  },
+  "reset": {
+    "en": "Clear filters",
+    "uz": "Filtrlarni tozalash",
+    "ru": "Сбросить фильтры",
+    "ky": "Чыпкаларды тазалоо",
+    "tg": "Тоза кардани филтрҳо"
+  },
+  "empty": {
+    "en": "No matching trips. Try fewer filters or tell us what you have in mind.",
+    "uz": "Mos sayohat topilmadi. Filtrlarni kamaytiring yoki istagingizni yozing.",
+    "ru": "Подходящих поездок нет. Уберите часть фильтров или расскажите о пожеланиях.",
+    "ky": "Туура келген саякат жок. Чыпкаларды азайтыңыз же каалооңузду жазыңыз.",
+    "tg": "Сафари мувофиқ ёфт нашуд. Филтрҳоро кам кунед ё хоҳишатонро нависед."
+  },
+  "results": {
+    "en": "Journeys found",
+    "uz": "Topilgan sayohatlar",
+    "ru": "Найдено маршрутов",
+    "ky": "Табылган саякаттар",
+    "tg": "Саёҳатҳои ёфтшуда"
+  },
+  "loadMore": {
+    "en": "Show more journeys",
+    "uz": "Ko‘proq ko‘rish",
+    "ru": "Показать ещё",
+    "ky": "Дагы көрсөтүү",
+    "tg": "Нишон додани бештар"
+  },
+  "budgetHint": {
+    "en": "All prices are quoted individually. A budget filter cannot exclude unpriced routes; include your target in your inquiry.",
+    "uz": "Narxlar individual hisoblanadi. Byudjet filtri narxsiz yo‘nalishlarni chetlatmaydi; so‘rovda byudjetingizni yozing.",
+    "ru": "Цены рассчитываются индивидуально. Фильтр бюджета не исключает маршруты без цены; укажите бюджет в запросе.",
+    "ky": "Баалар жеке эсептелет. Бюджет чыпкасы баасы жок маршруттарды чыгарбайт; суроодо бюджетиңизди жазыңыз.",
+    "tg": "Нархҳо инфиродӣ ҳисоб мешаванд. Филтри буҷет масирҳои бенархро истисно намекунад; буҷетро дар дархост нависед."
+  },
+  "overview": {
+    "en": "The idea",
+    "uz": "Sayohat g‘oyasi",
+    "ru": "Идея поездки",
+    "ky": "Саякаттын идеясы",
+    "tg": "Ғояи сафар"
+  },
+  "highlights": {
+    "en": "Little moments. Big memories.",
+    "uz": "Kichik lahzalar. Katta xotiralar.",
+    "ru": "Моменты, которые запомнятся.",
+    "ky": "Эсте каларлык көз ирмемдер.",
+    "tg": "Лаҳзаҳои хотирмон."
+  },
+  "itinerary": {
+    "en": "Your day-by-day",
+    "uz": "Kunma-kun dastur",
+    "ru": "По дням",
+    "ky": "Күндөр боюнча",
+    "tg": "Барнома рӯз ба рӯз"
+  },
+  "day": {
+    "en": "Day",
+    "uz": "Kun",
+    "ru": "День",
+    "ky": "Күн",
+    "tg": "Рӯз"
+  },
+  "included": {
+    "en": "Services to discuss",
+    "uz": "Kelishiladigan xizmatlar",
+    "ru": "Услуги для согласования",
+    "ky": "Макулдашылуучу кызматтар",
+    "tg": "Хизматҳо барои мувофиқа"
+  },
+  "excluded": {
+    "en": "Usually arranged separately",
+    "uz": "Odatda alohida tashkil etiladi",
+    "ru": "Обычно оформляются отдельно",
+    "ky": "Адатта өзүнчө уюштурулат",
+    "tg": "Одатан ҷудогона ташкил мешаванд"
+  },
+  "accommodation": {
+    "en": "Accommodation",
+    "uz": "Turar joy",
+    "ru": "Проживание",
+    "ky": "Жатакана",
+    "tg": "Ҷойи иқомат"
+  },
+  "transport": {
+    "en": "Getting around",
+    "uz": "Transport",
+    "ru": "Транспорт",
+    "ky": "Унаа",
+    "tg": "Нақлиёт"
+  },
+  "suitable": {
+    "en": "Who it suits",
+    "uz": "Kimlar uchun",
+    "ru": "Кому подойдёт",
+    "ky": "Кимге ылайык",
+    "tg": "Барои кӣ муносиб аст"
+  },
+  "practical": {
+    "en": "Before you go",
+    "uz": "Yo‘lga chiqishdan oldin",
+    "ru": "Перед поездкой",
+    "ky": "Жолго чыгаарда",
+    "tg": "Пеш аз сафар"
+  },
+  "related": {
+    "en": "Keep exploring",
+    "uz": "Kashf etishda davom eting",
+    "ru": "Продолжайте открывать",
+    "ky": "Дагы ачыңыз",
+    "tg": "Кашфро идома диҳед"
+  },
+  "quoteNote": {
+    "en": "A route idea, not a confirmed departure. Dates, hotels, services and the final price are agreed in your written quote.",
+    "uz": "Bu tasdiqlangan safar emas, yo‘nalish g‘oyasi. Sana, mehmonxona, xizmatlar va yakuniy narx yozma taklifda kelishiladi.",
+    "ru": "Это идея маршрута. Даты, отели, услуги и итоговая стоимость согласовываются в письменном предложении.",
+    "ky": "Бул маршрут идеясы. Даталар, мейманканалар, кызматтар жана акыркы баа жазуу жүзүндө макулдашылат.",
+    "tg": "Ин ғояи масир аст. Санаҳо, меҳмонхонаҳо, хизматҳо ва нархи ниҳоӣ дар пешниҳоди хаттӣ мувофиқа мешаванд."
+  },
+  "name": {
+    "en": "Full name",
+    "uz": "Ism-familiya",
+    "ru": "Имя и фамилия",
+    "ky": "Аты-жөнү",
+    "tg": "Ному насаб"
+  },
+  "email": {
+    "en": "Email",
+    "uz": "Elektron pochta",
+    "ru": "Электронная почта",
+    "ky": "Электрондук почта",
+    "tg": "Почтаи электронӣ"
+  },
+  "phone": {
+    "en": "Phone (optional)",
+    "uz": "Telefon (ixtiyoriy)",
+    "ru": "Телефон (необязательно)",
+    "ky": "Телефон (милдеттүү эмес)",
+    "tg": "Телефон (ихтиёрӣ)"
+  },
+  "messaging": {
+    "en": "Preferred contact method",
+    "uz": "Qulay aloqa usuli",
+    "ru": "Удобный способ связи",
+    "ky": "Ыңгайлуу байланыш жолу",
+    "tg": "Роҳи қулайи тамос"
+  },
+  "date": {
+    "en": "Preferred departure date",
+    "uz": "Istalgan jo‘nash sanasi",
+    "ru": "Желаемая дата выезда",
+    "ky": "Каалаган жөнөө күнү",
+    "tg": "Санаи дилхоҳи сафар"
+  },
+  "adults": {
+    "en": "Adults",
+    "uz": "Kattalar",
+    "ru": "Взрослые",
+    "ky": "Чоңдор",
+    "tg": "Калонсолон"
+  },
+  "children": {
+    "en": "Children",
+    "uz": "Bolalar",
+    "ru": "Дети",
+    "ky": "Балдар",
+    "tg": "Кӯдакон"
+  },
+  "departure": {
+    "en": "Departure city",
+    "uz": "Jo‘nash shahri",
+    "ru": "Город отправления",
+    "ky": "Жөнөө шаары",
+    "tg": "Шаҳри сафар"
+  },
+  "language": {
+    "en": "Preferred language",
+    "uz": "Qulay til",
+    "ru": "Язык общения",
+    "ky": "Байланыш тили",
+    "tg": "Забони тамос"
+  },
+  "requirements": {
+    "en": "Anything else we should know?",
+    "uz": "Yana nimani bilishimiz kerak?",
+    "ru": "Что ещё нам нужно знать?",
+    "ky": "Дагы эмнени билишибиз керек?",
+    "tg": "Боз чиро бояд донем?"
+  },
+  "consent": {
+    "en": "I agree to the privacy notice and request a response about this trip.",
+    "uz": "Maxfiylik shartlariga roziman va bu sayohat haqida javob so‘rayman.",
+    "ru": "Я согласен с уведомлением о конфиденциальности и прошу ответить на мой запрос.",
+    "ky": "Купуялык билдирүүсүнө макулмун жана бул саякат жөнүндө жооп сурайм.",
+    "tg": "Ба огоҳии махфият розӣ ҳастам ва дар бораи ин сафар ҷавоб мехоҳам."
+  },
+  "submit": {
+    "en": "Send my inquiry",
+    "uz": "So‘rovni yuborish",
+    "ru": "Отправить запрос",
+    "ky": "Суроону жөнөтүү",
+    "tg": "Фиристодани дархост"
+  },
+  "sending": {
+    "en": "Saving your inquiry…",
+    "uz": "So‘rovingiz saqlanmoqda…",
+    "ru": "Сохраняем запрос…",
+    "ky": "Сурооңуз сакталууда…",
+    "tg": "Дархост нигоҳ дошта мешавад…"
+  },
+  "saved": {
+    "en": "Your inquiry has been saved.",
+    "uz": "So‘rovingiz saqlandi.",
+    "ru": "Ваш запрос сохранён.",
+    "ky": "Сурооңуз сакталды.",
+    "tg": "Дархости шумо нигоҳ дошта шуд."
+  },
+  "savedNote": {
+    "en": "Keep your reference below. This is an inquiry receipt, not a booking confirmation.",
+    "uz": "Quyidagi raqamni saqlang. Bu so‘rov qabul qilinganligi, bron tasdig‘i emas.",
+    "ru": "Сохраните номер ниже. Это подтверждение получения запроса, а не бронирования.",
+    "ky": "Төмөнкү номерди сактаңыз. Бул суроонун дүмүрчөгү, брондун ырастоосу эмес.",
+    "tg": "Рақами зерро нигоҳ доред. Ин расиди дархост аст, на тасдиқи фармоиш."
+  },
+  "unavailable": {
+    "en": "Your inquiry was not sent. Delivery is unavailable right now. You can download your request and try again later.",
+    "uz": "So‘rovingiz yuborilmadi. Hozir yuborish imkonsiz. So‘rovni yuklab olib, keyinroq qayta urinishingiz mumkin.",
+    "ru": "Запрос не отправлен. Сервис сейчас недоступен. Скачайте запрос и попробуйте позже.",
+    "ky": "Суроо жөнөтүлгөн жок. Кызмат азыр жеткиликсиз. Суроону жүктөп алып, кийин кайталаңыз.",
+    "tg": "Дархост фиристода нашуд. Хизмат ҳоло дастнорас аст. Дархостро боргирӣ кунед ва дертар такрор кунед."
+  },
+  "invalid": {
+    "en": "Check the highlighted fields and try again.",
+    "uz": "Belgilangan maydonlarni tekshirib, qayta urinib ko‘ring.",
+    "ru": "Проверьте выделенные поля и попробуйте снова.",
+    "ky": "Белгиленген талааларды текшерип, кайталаңыз.",
+    "tg": "Майдонҳои нишондодаро санҷед ва такрор кунед."
+  },
+  "rateLimited": {
+    "en": "Too many requests. Please wait 15 minutes before trying again.",
+    "uz": "So‘rovlar ko‘p. 15 daqiqadan so‘ng qayta urinib ko‘ring.",
+    "ru": "Слишком много запросов. Повторите через 15 минут.",
+    "ky": "Суроолор өтө көп. 15 мүнөттөн кийин кайталаңыз.",
+    "tg": "Дархостҳо зиёданд. Пас аз 15 дақиқа такрор кунед."
+  },
+  "download": {
+    "en": "Download my request",
+    "uz": "So‘rovni yuklab olish",
+    "ru": "Скачать запрос",
+    "ky": "Суроону жүктөп алуу",
+    "tg": "Боргирии дархост"
+  },
+  "noSensitive": {
+    "en": "Please don’t include passport numbers, payment details or sensitive medical information.",
+    "uz": "Pasport raqami, to‘lov yoki maxfiy tibbiy ma’lumotlarni yozmang.",
+    "ru": "Не указывайте номера паспортов, платёжные и конфиденциальные медицинские данные.",
+    "ky": "Паспорт номерин, төлөм же купуя медициналык маалыматты жазбаңыз.",
+    "tg": "Рақами шиноснома, маълумоти пардохт ё тиббии махфиро нанависед."
+  },
+  "next": {
+    "en": "Continue",
+    "uz": "Davom etish",
+    "ru": "Продолжить",
+    "ky": "Улантуу",
+    "tg": "Идома"
+  },
+  "back": {
+    "en": "Back",
+    "uz": "Orqaga",
+    "ru": "Назад",
+    "ky": "Артка",
+    "tg": "Бозгашт"
+  },
+  "interests": {
+    "en": "Your interests",
+    "uz": "Qiziqishlaringiz",
+    "ru": "Ваши интересы",
+    "ky": "Кызыкчылыктарыңыз",
+    "tg": "Шавқҳои шумо"
+  },
+  "pace": {
+    "en": "Travel pace",
+    "uz": "Sayohat sur’ati",
+    "ru": "Темп поездки",
+    "ky": "Саякат ыргагы",
+    "tg": "Суръати сафар"
+  },
+  "relaxed": {
+    "en": "Slow & easy",
+    "uz": "Sokin va erkin",
+    "ru": "Неспешный",
+    "ky": "Жай жана эркин",
+    "tg": "Ором"
+  },
+  "balanced": {
+    "en": "A little of everything",
+    "uz": "Hammasidan bir oz",
+    "ru": "Всего понемногу",
+    "ky": "Баарынан бир аз",
+    "tg": "Каме аз ҳама"
+  },
+  "active": {
+    "en": "See as much as possible",
+    "uz": "Imkon qadar ko‘proq ko‘rish",
+    "ru": "Максимум впечатлений",
+    "ky": "Көбүрөөк көрүү",
+    "tg": "Бештар дидан"
+  },
+  "boutique": {
+    "en": "Characterful boutique",
+    "uz": "O‘ziga xos butik",
+    "ru": "Атмосферный бутик-отель",
+    "ky": "Өзгөчө бутик-мейманкана",
+    "tg": "Меҳмонхонаи хоси бутик"
+  },
+  "comfort": {
+    "en": "Comfortable & practical",
+    "uz": "Qulay va amaliy",
+    "ru": "Комфортный и практичный",
+    "ky": "Ыңгайлуу жана жөнөкөй",
+    "tg": "Бароҳат ва муносиб"
+  },
+  "luxury": {
+    "en": "A little extra luxury",
+    "uz": "Qo‘shimcha hashamat",
+    "ru": "Больше роскоши",
+    "ky": "Кошумча ыңгайлуулук",
+    "tg": "Боҳашаматтар"
+  },
+  "summary": {
+    "en": "Your trip, at a glance",
+    "uz": "Sayohatingiz qisqacha",
+    "ru": "Ваша поездка в деталях",
+    "ky": "Саякатыңыз кыскача",
+    "tg": "Сафари шумо дар як нигоҳ"
+  },
+  "edit": {
+    "en": "Edit my choices",
+    "uz": "Tanlovlarni o‘zgartirish",
+    "ru": "Изменить выбор",
+    "ky": "Тандоону өзгөртүү",
+    "tg": "Тағйири интихоб"
+  },
+  "plannerIntro": {
+    "en": "Build a brief in three easy steps. Your selections become part of your inquiry; they are not an automatically generated itinerary.",
+    "uz": "Uch qadamda so‘rov tuzing. Tanlovlaringiz so‘rovga qo‘shiladi; bu avtomatik yaratilgan yo‘nalish emas.",
+    "ru": "Составьте запрос за три шага. Ваш выбор войдёт в обращение; это не автоматически созданный маршрут.",
+    "ky": "Үч кадамда суроо түзүңүз. Тандооңуз суроого кошулат; бул автоматтык маршрут эмес.",
+    "tg": "Дар се қадам дархост созед. Интихобҳои шумо ба дархост дохил мешаванд; ин масири худкор нест."
+  },
+  "uzbekistan": {
+    "en": "Uzbekistan",
+    "uz": "O‘zbekiston",
+    "ru": "Узбекистан",
+    "ky": "Өзбекстан",
+    "tg": "Ӯзбекистон"
+  },
+  "international": {
+    "en": "Around the world",
+    "uz": "Dunyo bo‘ylab",
+    "ru": "По всему миру",
+    "ky": "Дүйнө жүзү боюнча",
+    "tg": "Дар саросари ҷаҳон"
+  },
+  "groups": {
+    "en": "Group journeys",
+    "uz": "Guruh sayohatlari",
+    "ru": "Групповые поездки",
+    "ky": "Топтук саякаттар",
+    "tg": "Саёҳатҳои гурӯҳӣ"
+  },
+  "hotels": {
+    "en": "Places to stay",
+    "uz": "Turar joylar",
+    "ru": "Где остановиться",
+    "ky": "Мейманканалар",
+    "tg": "Ҷойҳои иқомат"
+  },
+  "customers": {
+    "en": "Traveler stories",
+    "uz": "Sayohatchilar hikoyalari",
+    "ru": "Истории путешественников",
+    "ky": "Саякатчылардын окуялары",
+    "tg": "Қиссаҳои сайёҳон"
+  },
+  "galleryEmpty": {
+    "en": "No photographs in this collection yet. Explore another collection.",
+    "uz": "Bu to‘plamda hali surat yo‘q. Boshqa to‘plamni ko‘ring.",
+    "ru": "В этой коллекции пока нет фотографий. Выберите другую.",
+    "ky": "Бул жыйнакта азырынча сүрөт жок. Башкасын тандаңыз.",
+    "tg": "Дар ин маҷмӯа ҳанӯз акс нест. Дигарашро интихоб кунед."
+  },
+  "previous": {
+    "en": "Previous image",
+    "uz": "Oldingi surat",
+    "ru": "Предыдущее фото",
+    "ky": "Мурунку сүрөт",
+    "tg": "Акси қаблӣ"
+  },
+  "nextImage": {
+    "en": "Next image",
+    "uz": "Keyingi surat",
+    "ru": "Следующее фото",
+    "ky": "Кийинки сүрөт",
+    "tg": "Акси баъдӣ"
+  },
+  "fullscreen": {
+    "en": "Fullscreen",
+    "uz": "To‘liq ekran",
+    "ru": "На весь экран",
+    "ky": "Толук экран",
+    "tg": "Экрани пурра"
+  },
+  "review": {
+    "en": "Business-specific terms must be confirmed in your written proposal.",
+    "uz": "Biznesga oid shartlar yozma taklifingizda tasdiqlanishi kerak.",
+    "ru": "Условия конкретной поездки подтверждаются в письменном предложении.",
+    "ky": "Саякаттын шарттары жазуу түрүндөгү сунушта ырасталат.",
+    "tg": "Шартҳои сафар бояд дар пешниҳоди хаттӣ тасдиқ шаванд."
+  },
+  "notFound": {
+    "en": "A little off the beaten path.",
+    "uz": "Yo‘ldan biroz chetga chiqdik.",
+    "ru": "Кажется, мы свернули с маршрута.",
+    "ky": "Жолдон бир аз чыгып кеттик.",
+    "tg": "Каме аз роҳ берун шудем."
+  },
+  "notFoundText": {
+    "en": "This page has moved or does not exist. Let’s find your next destination.",
+    "uz": "Bu sahifa ko‘chirilgan yoki mavjud emas. Keyingi manzilingizni topaylik.",
+    "ru": "Страница перемещена или не существует. Найдём другое направление.",
+    "ky": "Барак көчүрүлгөн же жок. Башка багытты табалы.",
+    "tg": "Саҳифа кӯчонда шудааст ё вуҷуд надорад. Самти дигарро ёбем."
+  },
+  "contactText": {
+    "en": "Tell us what you have in mind. Start with an inquiry, review a written proposal, then decide whether to book.",
+    "uz": "Istaklaringizni yozing. So‘rovdan boshlang, yozma taklifni ko‘rib chiqing va bron haqida qaror qiling.",
+    "ru": "Расскажите о своих планах. Отправьте запрос, изучите письменное предложение и решите, готовы ли бронировать.",
+    "ky": "Каалооңузду жазыңыз. Суроо жөнөтүп, жазуу түрүндөгү сунушту карап, брондоону чечиңиз.",
+    "tg": "Дар бораи нақшаатон нависед. Дархост фиристед, пешниҳоди хаттиро хонед ва дар бораи фармоиш қарор кунед."
+  },
+  "optional": {
+    "en": "Optional",
+    "uz": "Ixtiyoriy",
+    "ru": "Необязательно",
+    "ky": "Милдеттүү эмес",
+    "tg": "Ихтиёрӣ"
+  },
+  "required": {
+    "en": "Required",
+    "uz": "Majburiy",
+    "ru": "Обязательно",
+    "ky": "Милдеттүү",
+    "tg": "Ҳатмӣ"
+  },
+  "minutes": {
+    "en": "min read",
+    "uz": "daqiqalik mutolaa",
+    "ru": "мин чтения",
+    "ky": "мүнөт окуу",
+    "tg": "дақиқа мутолиа"
+  },
+  "footerText": {
+    "en": "From the Silk Road to somewhere new. Thoughtful journeys, made around you.",
+    "uz": "Ipak yo‘lidan yangi manzillargacha. Sizga mos, puxta o‘ylangan sayohatlar.",
+    "ru": "От Шёлкового пути к новым горизонтам. Продуманные путешествия вокруг ваших желаний.",
+    "ky": "Жибек жолунан жаңы багыттарга. Сизге ылайыкталган саякаттар.",
+    "tg": "Аз Роҳи Абрешим ба уфуқҳои нав. Саёҳатҳо мувофиқи хоҳишҳои шумо."
+  },
+  "technicalMode": {
+    "en": "Local preview: requests are saved on this computer and are not sent to ALTAVIA staff.",
+    "uz": "Mahalliy ko‘rinish: so‘rovlar shu kompyuterda saqlanadi, ALTAVIA xodimlariga yuborilmaydi.",
+    "ru": "Локальный просмотр: запросы сохраняются на этом компьютере и не отправляются сотрудникам ALTAVIA.",
+    "ky": "Жергиликтүү көрүү: суроолор бул компьютерде сакталат, ALTAVIA кызматкерлерине жөнөтүлбөйт.",
+    "tg": "Намоиши маҳаллӣ: дархостҳо дар ин компютер нигоҳ дошта мешаванд ва ба кормандони ALTAVIA фиристода намешаванд."
+  },
+  "fromPrice": {
+    "en": "From",
+    "uz": "Boshlang‘ich narx",
+    "ru": "От",
+    "ky": "Баштапкы баа",
+    "tg": "Аз"
+  },
+  "imageEdits": {
+    "en": "Resized, converted to WebP and cropped for page layouts. Derivatives retain the source license.",
+    "uz": "O‘lchami o‘zgartirilgan, WebP formatiga aylantirilgan va sahifa uchun qirqilgan. Hosila fayllar asl litsenziyani saqlaydi.",
+    "ru": "Размер изменён, формат преобразован в WebP; на страницах применяется кадрирование. Производные сохраняют исходную лицензию.",
+    "ky": "Өлчөмү өзгөртүлүп, WebP форматына которулган жана баракка ылайык кесилген. Түпкү лицензия сакталат.",
+    "tg": "Андоза тағйир ёфта, ба WebP табдил ва барои саҳифа бурида шудааст. Файлҳои ҳосила иҷозатномаи аслиро нигоҳ медоранд."
+  },
+  "searchTours": {
+    "en": "Search tours or places",
+    "uz": "Tur yoki joy nomini qidiring",
+    "ru": "Поиск тура или места",
+    "ky": "Тур же жер издөө",
+    "tg": "Ҷустуҷӯи сафар ё ҷой"
+  },
+  "searchPlaceholder": {
+    "en": "Try Dubai, Istanbul or Samarkand…",
+    "uz": "Dubay, Istanbul yoki Samarqand…",
+    "ru": "Дубай, Стамбул или Самарканд…",
+    "ky": "Дубай, Стамбул же Самарканд…",
+    "tg": "Дубай, Истанбул ё Самарқанд…"
+  },
+  "refineResults": {
+    "en": "More filters",
+    "uz": "Qo‘shimcha filtrlar",
+    "ru": "Дополнительные фильтры",
+    "ky": "Кошумча чыпкалар",
+    "tg": "Филтрҳои иловагӣ"
+  },
+  "attractionsTitle": {
+    "en": "Places you can visit",
+    "uz": "Ko‘rishingiz mumkin bo‘lgan joylar",
+    "ru": "Что можно посмотреть",
+    "ky": "Көрө турган жерлер",
+    "tg": "Ҷойҳое, ки метавонед бинед"
+  },
+  "attractionsIntro": {
+    "en": "Build your sightseeing plan around these stops. The final route, entrance tickets and any optional activities are agreed in your quote.",
+    "uz": "Sayohat dasturini shu manzillar asosida tuzamiz. Yakuniy yo‘nalish, kirish chiptalari va qo‘shimcha mashg‘ulotlar taklifda kelishiladi.",
+    "ru": "Эти места помогут составить программу. Итоговый маршрут, входные билеты и дополнительные занятия согласовываются в предложении.",
+    "ky": "Программаны ушул жерлердин негизинде түзөбүз. Акыркы маршрут, кирүү билеттери жана кошумча иштер сунушта макулдашылат.",
+    "tg": "Барномаро дар асоси ин ҷойҳо тартиб медиҳем. Масири ниҳоӣ, чиптаҳои вуруд ва фаъолиятҳои иловагӣ дар пешниҳод мувофиқа мешаванд."
+  },
+  "hotelsTitle": {
+    "en": "Possible hotels",
+    "uz": "Mehmonxona variantlari",
+    "ru": "Варианты отелей",
+    "ky": "Мейманкана варианттары",
+    "tg": "Вариантҳои меҳмонхона"
+  },
+  "hotelsIntro": {
+    "en": "Examples for your stay, subject to availability. We confirm the hotel, room type, meals and final price in your quote.",
+    "uz": "Mavjudlikka qarab tanlanadigan turar joy misollari. Mehmonxona, xona turi, ovqatlanish va yakuniy narxni taklifda tasdiqlaymiz.",
+    "ru": "Примеры размещения, при наличии мест. Отель, категорию номера, питание и итоговую цену подтверждаем в вашем предложении.",
+    "ky": "Бош орунга жараша тандалуучу мисалдар. Мейманкана, бөлмө, тамактануу жана акыркы бааны сунушта ырастайбыз.",
+    "tg": "Намунаҳои ҷойгиршавӣ вобаста ба ҷойҳои холӣ. Меҳмонхона, ҳуҷра, хӯрок ва нархи ниҳоиро дар пешниҳод тасдиқ мекунем."
+  },
+  "officialWebsite": {
+    "en": "Official website",
+    "uz": "Rasmiy sayt",
+    "ru": "Официальный сайт",
+    "ky": "Расмий сайт",
+    "tg": "Сомонаи расмӣ"
+  },
+  "planningNotes": {
+    "en": "Good to know before you go",
+    "uz": "Safar oldidan bilish foydali",
+    "ru": "Полезно перед поездкой",
+    "ky": "Сапар алдында билүү пайдалуу",
+    "tg": "Пеш аз сафар донистан муфид аст"
+  },
+  "optionalActivity": {
+    "en": "Optional activity",
+    "uz": "Qo‘shimcha mashg‘ulot",
+    "ru": "Дополнительно",
+    "ky": "Кошумча иш-чара",
+    "tg": "Фаъолияти иловагӣ"
+  },
+  "socials": {
+    "en": "Follow and contact us",
+    "uz": "Ijtimoiy tarmoqlar va aloqa",
+    "ru": "Социальные сети и связь",
+    "ky": "Социалдык тармактар жана байланыш",
+    "tg": "Шабакаҳои иҷтимоӣ ва тамос"
+  },
+  "estimatedFrom": {
+    "en": "Estimated from",
+    "uz": "Taxminan",
+    "ru": "Ориентировочно от",
+    "ky": "Болжол менен",
+    "tg": "Тахминан аз"
+  },
+  "perPerson": {
+    "en": "per person",
+    "uz": "bir kishi uchun",
+    "ru": "за человека",
+    "ky": "бир адамга",
+    "tg": "барои як нафар"
+  },
+  "estimateNote": {
+    "en": "Planning estimate, not a confirmed Altavia offer. Based on market comparisons checked 18 November 2026; dates, group size and inclusions differ. Flights and the hotels shown are included only if stated in your final written quote.",
+    "uz": "Rejalashtirish uchun taxminiy narx, tasdiqlangan Altavia taklifi emas. 2026-yil 18-noyabrda tekshirilgan bozor misollariga asoslangan; sana, guruh va xizmatlar farq qiladi. Aviachipta va ko‘rsatilgan mehmonxonalar faqat yakuniy yozma taklifda qayd etilsa kiradi.",
+    "ru": "Оценка бюджета, не подтверждённое предложение Altavia. Основана на рыночных примерах от 18 ноября 2026 года; даты, группы и услуги различаются. Перелёт и показанные отели включены только при указании в итоговом письменном предложении.",
+    "ky": "Пландоо үчүн болжолдуу баа, ырасталган Altavia сунушу эмес. 2026-жылдын 18-ноябрындагы базар мисалдарына негизделген; күндөр, топ жана кызматтар айырмаланат. Учуу жана көрсөтүлгөн мейманканалар акыркы жазуу жүзүндөгү сунушта көрсөтүлсө гана кирет.",
+    "tg": "Нархи тахминӣ барои банақшагирӣ, на пешниҳоди тасдиқшудаи Altavia. Аз муқоисаҳои бозории 18 ноябри 2026 гирифта шудааст; сана, гурӯҳ ва хизматҳо фарқ мекунанд. Парвоз ва меҳмонхонаҳои нишоншуда танҳо дар пешниҳоди ниҳоии хаттӣ дохил мешаванд."
+  },
+  "intentLabel": {
+    "en": "How can we help?",
+    "uz": "Sizga qanday yordam beramiz?",
+    "ru": "Чем мы можем помочь?",
+    "ky": "Кантип жардам беребиз?",
+    "tg": "Чӣ гуна кӯмак кунем?"
+  },
+  "intentInterested": {
+    "en": "I am interested in this trip",
+    "uz": "Bu sayohatga qiziqyapman",
+    "ru": "Меня интересует эта поездка",
+    "ky": "Бул саякатка кызыгам",
+    "tg": "Ба ин сафар шавқ дорам"
+  },
+  "intentPay": {
+    "en": "I want to book / discuss payment",
+    "uz": "Band qilish / to‘lovni kelishmoqchiman",
+    "ru": "Хочу забронировать / обсудить оплату",
+    "ky": "Ээлөөнү / төлөмдү талкуулагым келет",
+    "tg": "Мехоҳам фармоиш диҳам / пардохтро баррасӣ кунам"
+  },
+  "intentInfo": {
+    "en": "I need more information",
+    "uz": "Ko‘proq ma’lumot kerak",
+    "ru": "Мне нужна дополнительная информация",
+    "ky": "Көбүрөөк маалымат керек",
+    "tg": "Маълумоти бештар лозим аст"
+  },
+  "navigation": {
+    "en": "Main navigation",
+    "uz": "Asosiy menyu",
+    "ru": "Основная навигация",
+    "ky": "Негизги меню",
+    "tg": "Менюи асосӣ"
+  },
+  "chooseLanguage": {
+    "en": "Choose language",
+    "uz": "Tilni tanlash",
+    "ru": "Выбрать язык",
+    "ky": "Тилди тандоо",
+    "tg": "Интихоби забон"
+  },
+  "backToTop": {
+    "en": "Back to top",
+    "uz": "Sahifa boshiga qaytish",
+    "ru": "Наверх",
+    "ky": "Барактын башына кайтуу",
+    "tg": "Ба аввали саҳифа"
+  },
+  "daysOne": {
+    "en": "day",
+    "uz": "kun",
+    "ru": "день",
+    "ky": "күн",
+    "tg": "рӯз"
+  },
+  "daysFew": {
+    "en": "days",
+    "uz": "kun",
+    "ru": "дня",
+    "ky": "күн",
+    "tg": "рӯз"
+  }
+}

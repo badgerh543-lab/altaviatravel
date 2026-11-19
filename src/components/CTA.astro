@@ -1,0 +1,5 @@
+---
+import {t,type Lang} from '../data/i18n';import Icon from './Icon.astro';
+const {lang}=Astro.props as {lang:Lang};
+---
+<section class="cta-band wrap"><div class="cta-sun" aria-hidden="true"><Icon name="sun" size={110}/></div><div><h2>{t(lang,'ctaTitle')}</h2><p>{t(lang,'ctaText')}</p></div><a class="button button-white" href={`/${lang}/custom/`}>{t(lang,'plan')} <Icon name="diagonal"/></a></section>

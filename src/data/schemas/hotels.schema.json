@@ -1,0 +1,96 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "area",
+      "description",
+      "url",
+      "checkedOn"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "area": {
+        "type": "object",
+        "required": [
+          "uz",
+          "en",
+          "ru",
+          "ky",
+          "tg"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "uz": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ky": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tg": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "description": {
+        "type": "object",
+        "required": [
+          "uz",
+          "en",
+          "ru",
+          "ky",
+          "tg"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "uz": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ky": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tg": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "url": {
+        "type": "string"
+      },
+      "checkedOn": {
+        "type": "string"
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ALTAVIA hotels"
+}

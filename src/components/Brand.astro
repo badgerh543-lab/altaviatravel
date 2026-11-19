@@ -1,0 +1,8 @@
+---
+import type {Lang} from '../data/i18n';
+const {lang}=Astro.props as {lang:Lang};
+---
+<a class="brand" href={`/${lang}/`} aria-label="Altavia travel">
+  <img class="brand-mark" src="/images/brand/altavia-mark.svg" width="88" height="31" alt="" aria-hidden="true" decoding="async"/>
+  <span class="brand-wordmark">altavia<span class="brand-dot">.</span></span>
+</a>

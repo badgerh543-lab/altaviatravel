@@ -1,0 +1,11 @@
+{
+  "format": "observed-run-summary",
+  "runner": "Playwright / Microsoft Edge",
+  "date": "2026-11-18",
+  "passed": 33,
+  "failed": 0,
+  "includesRealLocalPublish": true,
+  "evidence": "Observed terminal completion: 33 passed (2.7m). The raw default JSON report was subsequently overwritten by the additional focused form run.",
+  "additionalFormReport": "admin-form-results.json",
+  "additionalFormChecksPassed": 1
+}

@@ -1,0 +1,463 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "slug",
+      "title",
+      "destinations",
+      "countryId",
+      "type",
+      "style",
+      "days",
+      "seasons",
+      "image",
+      "price",
+      "currency",
+      "priceStatus",
+      "summary",
+      "itinerary",
+      "attractions",
+      "hotels",
+      "searchAliases",
+      "travelNotes"
+    ],
+    "properties": {
+      "slug": {
+        "type": "string"
+      },
+      "title": {
+        "type": "object",
+        "required": [
+          "uz",
+          "en",
+          "ru",
+          "ky",
+          "tg"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "uz": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ky": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tg": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "destinations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "countryId": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "style": {
+        "type": "string"
+      },
+      "days": {
+        "type": "number"
+      },
+      "seasons": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "image": {
+        "type": "string"
+      },
+      "price": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "currency": {
+        "type": "string"
+      },
+      "priceStatus": {
+        "enum": [
+          "on-request",
+          "market-estimate",
+          "verified-from"
+        ]
+      },
+      "summary": {
+        "type": "object",
+        "required": [
+          "uz",
+          "en",
+          "ru",
+          "ky",
+          "tg"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "uz": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ru": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ky": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tg": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "itinerary": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "day",
+            "destination",
+            "title",
+            "description"
+          ],
+          "properties": {
+            "day": {
+              "type": "number"
+            },
+            "destination": {
+              "type": "string"
+            },
+            "title": {
+              "type": "object",
+              "required": [
+                "uz",
+                "en",
+                "ru",
+                "ky",
+                "tg"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "uz": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "ru": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "ky": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "tg": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "description": {
+              "type": "object",
+              "required": [
+                "uz",
+                "en",
+                "ru",
+                "ky",
+                "tg"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "uz": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "ru": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "ky": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "tg": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "attractions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "hotels": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "searchAliases": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "travelNotes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "uz",
+            "en",
+            "ru",
+            "ky",
+            "tg"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "uz": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "ru": {
+              "type": "string",
+              "minLength": 1
+            },
+            "ky": {
+              "type": "string",
+              "minLength": 1
+            },
+            "tg": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      },
+      "visible": {
+        "type": "boolean"
+      },
+      "priceSource": {
+        "type": "string"
+      },
+      "priceBasis": {
+        "type": "string"
+      },
+      "priceCheckedOn": {
+        "type": "string"
+      },
+      "details": {
+        "type": "object",
+        "required": [
+          "highlights",
+          "included",
+          "excluded",
+          "accommodation",
+          "transport",
+          "suitable",
+          "practical",
+          "hotels",
+          "attractions",
+          "faqs"
+        ],
+        "properties": {
+          "highlights": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/localized"
+            }
+          },
+          "included": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/localized"
+            }
+          },
+          "excluded": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/localized"
+            }
+          },
+          "accommodation": {
+            "$ref": "#/$defs/localized"
+          },
+          "transport": {
+            "$ref": "#/$defs/localized"
+          },
+          "suitable": {
+            "$ref": "#/$defs/localized"
+          },
+          "practical": {
+            "$ref": "#/$defs/localized"
+          },
+          "hotels": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "area",
+                "description",
+                "url"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "area": {
+                  "$ref": "#/$defs/localized"
+                },
+                "description": {
+                  "$ref": "#/$defs/localized"
+                },
+                "url": {
+                  "type": "string",
+                  "pattern": "^https://"
+                }
+              }
+            }
+          },
+          "attractions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "description",
+                "sourceUrl",
+                "optional"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "$ref": "#/$defs/localized"
+                },
+                "description": {
+                  "$ref": "#/$defs/localized"
+                },
+                "sourceUrl": {
+                  "type": "string",
+                  "pattern": "^https://"
+                },
+                "optional": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "faqs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "q",
+                "a"
+              ],
+              "properties": {
+                "q": {
+                  "$ref": "#/$defs/localized"
+                },
+                "a": {
+                  "$ref": "#/$defs/localized"
+                }
+              }
+            }
+          }
+        },
+        "description": "Complete per-tour public page content. Legacy tours without this object use destination and shared defaults."
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ALTAVIA tours",
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+---
+import {t,type Lang} from '../data/i18n';
+import {getTourDetails,type Tour} from '../data/travel';
+import Icon from './Icon.astro';
+const {tour,lang}=Astro.props as {tour:Tour;lang:Lang};
+const items=getTourDetails(tour).attractions;
+---
+<section id="attractions" class="detail-section">
+  <span class="eyebrow orange"><Icon name="pin" size={16}/>{t(lang,'destination')}</span>
+  <h2>{t(lang,'attractionsTitle')}</h2>
+  <p class="field-help">{t(lang,'attractionsIntro')}</p>
+  <div class="attraction-list">{items.map((place,index)=><article class="attraction-item"><span class="attraction-number">{String(index+1).padStart(2,'0')}</span><div><h3>{place.name[lang]}</h3>{place.optional&&<span class="optional-label">{t(lang,'optionalActivity')}</span>}<p>{place.description[lang]}</p></div></article>)}</div>
+</section>

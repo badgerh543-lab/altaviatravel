@@ -1,0 +1,94 @@
+[
+  [
+    "ӨЗБЕКСТАН. ДҮЙНӨ. СИЗДИН ЖОЛ.",
+    "ӨЗБЕКСТАН. ДҮЙНӨ. СИЗДИН ЖОЛУҢУЗ."
+  ],
+  [
+    "Сиздин саякат. Сиздин ыргак.",
+    "Сиздин саякатыңыз. Сиздин ыргагыңыз."
+  ],
+  [
+    "Жатаканалар",
+    "Мейманканалар"
+  ],
+  [
+    "journeys found",
+    "Journeys found"
+  ],
+  [
+    "sayohat topildi",
+    "Topilgan sayohatlar"
+  ],
+  [
+    "маршрутов найдено",
+    "Найдено маршрутов"
+  ],
+  [
+    "саякат табылды",
+    "Табылган саякаттар"
+  ],
+  [
+    "саёҳат ёфт шуд",
+    "Саёҳатҳои ёфтшуда"
+  ],
+  [
+    "Why are prices available on request?",
+    "Why do I need a quote if a price is shown?"
+  ],
+  [
+    "Nega narx so‘rov asosida?",
+    "Narx ko‘rsatilgan bo‘lsa ham, nega alohida taklif kerak?"
+  ],
+  [
+    "Почему стоимость по запросу?",
+    "Зачем запрашивать стоимость, если цена уже указана?"
+  ],
+  [
+    "Эмне үчүн баа суроо боюнча?",
+    "Баа көрсөтүлсө да, эмне үчүн өзүнчө сунуш керек?"
+  ],
+  [
+    "Чаро нарх бо дархост аст?",
+    "Агар нарх нишон дода шуда бошад, чаро пешниҳоди алоҳида лозим аст?"
+  ],
+  [
+    "Dates, room choices, group size and transport change the total. A written quote lets you see the exact services and conditions before deciding. No unverified starting prices are advertised.",
+    "The displayed price is a planning estimate unless explicitly marked otherwise. Dates, room choices, group size, flights and included services can change the total. Your written quote confirms the exact price and services before you decide to book."
+  ],
+  [
+    "Sana, xona, guruh hajmi va transport narxga ta’sir qiladi. Yozma taklif qarordan oldin aniq xizmat va shartlarni ko‘rsatadi. Tasdiqlanmagan narxlar e’lon qilinmaydi.",
+    "Alohida qayd etilmagan bo‘lsa, ko‘rsatilgan narx rejalashtirish uchun taxminiy hisobdir. Sana, xona turi, guruh hajmi, aviachipta va xizmatlar yakuniy summaga ta’sir qiladi. Bron qilishdan oldin aniq narx va xizmatlar yozma taklifda tasdiqlanadi."
+  ],
+  [
+    "Даты, номера, размер группы и транспорт влияют на итог. Письменное предложение показывает конкретные услуги и условия до решения. Непроверенные цены не публикуются.",
+    "Если не указано иное, показанная цена — ориентир для планирования. Даты, категория номера, размер группы, перелёт и состав услуг влияют на итоговую сумму. Точная цена и услуги подтверждаются в письменном предложении до бронирования."
+  ],
+  [
+    "Даталар, бөлмөлөр, топтун көлөмү жана унаа баага таасир этет. Жазуу түрүндөгү сунуш чечимден мурун так шарттарды көрсөтөт. Такталбаган баалар жарыяланбайт.",
+    "Башкача белгиленбесе, көрсөтүлгөн баа — пландоо үчүн болжолдуу сумма. Даталар, бөлмө түрү, топтун көлөмү, учуу жана кызматтар акыркы баага таасир этет. Так баа жана кызматтар брондоого чейин жазуу жүзүндөгү сунушта ырасталат."
+  ],
+  [
+    "Санаҳо, ҳуҷраҳо, шумораи гурӯҳ ва нақлиёт ба нарх таъсир доранд. Пешниҳоди хаттӣ хизмату шартҳои аниқро нишон медиҳад. Нархҳои тасдиқнашуда нашр намешаванд.",
+    "Агар тартиби дигар зикр нашуда бошад, нархи нишоншуда барои банақшагирӣ тахминӣ аст. Сана, навъи ҳуҷра, шумораи гурӯҳ, парвоз ва хизматҳо ба маблағи ниҳоӣ таъсир мерасонанд. Нарх ва хизматҳои дақиқ пеш аз фармоиш дар пешниҳоди хаттӣ тасдиқ мешаванд."
+  ],
+  [
+    "Submitted inquiries are encrypted before database storage and used to respond to your travel request. The application marks inquiries for removal after 90 days. Server-side rate limiting uses a keyed hash of the network address rather than storing the address itself. No payment information is collected. In local preview, the database is on this computer and no staff notification is sent.",
+    "Submitted inquiries are encrypted before database storage and used to respond to your travel request. Customer inquiry and booking records expire after 90 days. Server-side rate limiting stores a keyed hash of the network address, not the raw address. The public form does not collect card details. Authorized staff may record booking status, agreed totals and offline payment references. In local preview, records stay on this computer and no staff notification is sent."
+  ],
+  [
+    "Yuborilgan so‘rovlar bazaga saqlashdan oldin shifrlanadi va sayohat so‘roviga javob uchun ishlatiladi. Dastur ularni 90 kundan keyin o‘chirish uchun belgilaydi. So‘rov cheklovi tarmoq manzili o‘rniga kalitli xeshdan foydalanadi. To‘lov ma’lumotlari yig‘ilmaydi. Mahalliy ko‘rinishda baza shu kompyuterda va xodimlarga xabar yuborilmaydi.",
+    "So‘rovlar bazaga yozilishidan oldin shifrlanadi va sayohatingiz haqidagi murojaatga javob berish uchun ishlatiladi. Mijoz so‘rovlari va bron yozuvlari 90 kundan keyin eskiradi. So‘rovlarni cheklashda tarmoq manzilining o‘zi emas, kalitli xeshi saqlanadi. Ommaviy shakl karta ma’lumotlarini yig‘maydi. Vakolatli xodimlar bron holati, kelishilgan summa va tashqi to‘lov ma’lumotnomasini qayd etishi mumkin. Mahalliy ko‘rinishda yozuvlar shu kompyuterda qoladi va xodimlarga xabar yuborilmaydi."
+  ],
+  [
+    "Запросы шифруются перед записью в базу и используются для ответа о поездке. Приложение помечает их для удаления через 90 дней. Ограничение запросов использует ключевой хеш сетевого адреса, а не сам адрес. Платёжные данные не собираются. Локальная база находится на этом компьютере, уведомления сотрудникам не отправляются.",
+    "Запросы шифруются перед записью в базу и используются для ответа о поездке. Срок хранения обращений и бронирований — 90 дней. Для ограничения запросов хранится ключевой хеш сетевого адреса, а не сам адрес. Публичная форма не собирает данные карт. Уполномоченные сотрудники могут записывать статус бронирования, согласованную сумму и реквизиты подтверждения внешнего платежа. В локальном режиме записи остаются на этом компьютере, уведомления сотрудникам не отправляются."
+  ],
+  [
+    "Суроолор базага жазылардан мурда шифрленет жана саякат жөнүндө жооп үчүн колдонулат. Колдонмо 90 күндөн кийин өчүрүүнү белгилейт. Чектөө тармак дарегинин өзүн эмес, ачкычтуу хэшин колдонот. Төлөм маалыматы чогултулбайт. Жергиликтүү база бул компьютерде, кызматкерлерге билдирүү жөнөтүлбөйт.",
+    "Суроолор базага жазылардан мурда шифрленип, саякат боюнча жооп берүү үчүн колдонулат. Кардардын суроолору жана брондоо жазуулары 90 күндөн кийин эскирет. Чектөө үчүн тармак дарегинин өзү эмес, ачкычтуу хэши сакталат. Коомдук форма карта маалыматтарын чогултпайт. Ыйгарым укуктуу кызматкерлер брондун абалын, макулдашылган сумманы жана тышкы төлөмдүн ырастоо маалыматын каттай алышат. Жергиликтүү режимде жазуулар ушул компьютерде калат, кызматкерлерге билдирүү жөнөтүлбөйт."
+  ],
+  [
+    "Дархостҳо пеш аз сабт рамзгузорӣ шуда, барои ҷавоби сафар истифода мешаванд. Барнома онҳоро пас аз 90 рӯз барои ҳазф нишона мегузорад. Маҳдудият хэши калиддори суроғаро истифода мебарад, на худи суроғаро. Маълумоти пардохт ҷамъ намешавад. Пойгоҳи маҳаллӣ дар ин компютер аст ва ба кормандон хабар намеравад.",
+    "Дархостҳо пеш аз сабт рамзгузорӣ шуда, барои ҷавоб ба дархости сафар истифода мешаванд. Муҳлати сабтҳои дархост ва фармоиш 90 рӯз аст. Барои маҳдуд кардани дархостҳо хэши калиддори суроға нигоҳ дошта мешавад, на худи суроға. Шакли умумӣ маълумоти кортро ҷамъ намекунад. Кормандони ваколатдор метавонанд ҳолати фармоиш, маблағи мувофиқашуда ва маълумоти тасдиқи пардохти беруниро сабт кунанд. Дар ҳолати маҳаллӣ сабтҳо дар ҳамин компютер мемонанд ва ба кормандон хабар фиристода намешавад."
+  ]
+]

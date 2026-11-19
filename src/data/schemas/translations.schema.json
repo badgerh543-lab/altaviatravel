@@ -1,0 +1,5483 @@
+{
+  "type": "object",
+  "required": [
+    "home",
+    "destinations",
+    "tours",
+    "inbound",
+    "outbound",
+    "domestic",
+    "custom",
+    "gallery",
+    "about",
+    "contact",
+    "journal",
+    "faq",
+    "privacy",
+    "terms",
+    "bookingConditions",
+    "credits",
+    "plan",
+    "skip",
+    "menu",
+    "close",
+    "tagline",
+    "heroKicker",
+    "heroLine1",
+    "heroLine2",
+    "heroText",
+    "explore",
+    "where",
+    "anywhere",
+    "travelType",
+    "allTrips",
+    "search",
+    "discovery",
+    "discoveryText",
+    "viewAll",
+    "collection",
+    "featured",
+    "featuredText",
+    "quote",
+    "days",
+    "suggested",
+    "details",
+    "silkEyebrow",
+    "silkTitle",
+    "silkText",
+    "customTitle",
+    "customText",
+    "step1",
+    "step2",
+    "step3",
+    "whyTitle",
+    "why1",
+    "why2",
+    "why3",
+    "whyText",
+    "galleryTitle",
+    "galleryText",
+    "journalTitle",
+    "read",
+    "ctaTitle",
+    "ctaText",
+    "all",
+    "country",
+    "destination",
+    "duration",
+    "budget",
+    "price",
+    "style",
+    "season",
+    "spring",
+    "summer",
+    "autumn",
+    "winter",
+    "culture",
+    "beach",
+    "adventure",
+    "city",
+    "sort",
+    "recommended",
+    "shortest",
+    "longest",
+    "reset",
+    "empty",
+    "results",
+    "loadMore",
+    "budgetHint",
+    "overview",
+    "highlights",
+    "itinerary",
+    "day",
+    "included",
+    "excluded",
+    "accommodation",
+    "transport",
+    "suitable",
+    "practical",
+    "related",
+    "quoteNote",
+    "name",
+    "email",
+    "phone",
+    "messaging",
+    "date",
+    "adults",
+    "children",
+    "departure",
+    "language",
+    "requirements",
+    "consent",
+    "submit",
+    "sending",
+    "saved",
+    "savedNote",
+    "unavailable",
+    "invalid",
+    "rateLimited",
+    "download",
+    "noSensitive",
+    "next",
+    "back",
+    "interests",
+    "pace",
+    "relaxed",
+    "balanced",
+    "active",
+    "boutique",
+    "comfort",
+    "luxury",
+    "summary",
+    "edit",
+    "plannerIntro",
+    "uzbekistan",
+    "international",
+    "groups",
+    "hotels",
+    "customers",
+    "galleryEmpty",
+    "previous",
+    "nextImage",
+    "fullscreen",
+    "review",
+    "notFound",
+    "notFoundText",
+    "contactText",
+    "optional",
+    "required",
+    "minutes",
+    "footerText",
+    "technicalMode",
+    "fromPrice",
+    "imageEdits",
+    "searchTours",
+    "searchPlaceholder",
+    "refineResults",
+    "attractionsTitle",
+    "attractionsIntro",
+    "hotelsTitle",
+    "hotelsIntro",
+    "officialWebsite",
+    "planningNotes",
+    "optionalActivity",
+    "socials"
+  ],
+  "properties": {
+    "home": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "destinations": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "tours": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "inbound": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "outbound": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "domestic": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "custom": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "gallery": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "about": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "journal": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "faq": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "terms": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "bookingConditions": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "credits": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "plan": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "skip": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "menu": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "close": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "tagline": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "heroKicker": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "heroLine1": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "heroLine2": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "heroText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "explore": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "where": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "anywhere": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "travelType": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "allTrips": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "search": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "discovery": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "discoveryText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "viewAll": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "collection": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "featured": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "featuredText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "quote": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "days": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "suggested": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "details": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "silkEyebrow": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "silkTitle": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "silkText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "customTitle": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "customText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "step1": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "step2": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "step3": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "whyTitle": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "why1": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "why2": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "why3": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "whyText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "galleryTitle": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "galleryText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "journalTitle": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "read": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "ctaTitle": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "ctaText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "all": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "country": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "destination": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "duration": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "budget": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "price": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "season": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "spring": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "summer": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "autumn": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "winter": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "culture": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "beach": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "adventure": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "city": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "sort": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "recommended": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "shortest": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "longest": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "reset": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "empty": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "results": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "loadMore": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "budgetHint": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "overview": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "highlights": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "itinerary": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "day": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "included": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "excluded": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "accommodation": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "transport": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "suitable": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "practical": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "related": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "quoteNote": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "name": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "email": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "phone": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "messaging": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "date": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "adults": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "children": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "departure": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "language": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "requirements": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "consent": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "submit": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "sending": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "saved": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "savedNote": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "unavailable": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "invalid": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "rateLimited": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "download": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "noSensitive": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "next": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "back": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "interests": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "pace": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "relaxed": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "balanced": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "active": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "boutique": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "comfort": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "luxury": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "edit": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "plannerIntro": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "uzbekistan": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "international": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "groups": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "hotels": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "customers": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "galleryEmpty": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "previous": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "nextImage": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "fullscreen": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "notFound": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "notFoundText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "contactText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "optional": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "required": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "minutes": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "footerText": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "technicalMode": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "fromPrice": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "imageEdits": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "searchTours": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "searchPlaceholder": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "refineResults": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "attractionsTitle": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "attractionsIntro": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "hotelsTitle": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "hotelsIntro": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "officialWebsite": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "planningNotes": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "optionalActivity": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "socials": {
+      "type": "object",
+      "required": [
+        "uz",
+        "en",
+        "ru",
+        "ky",
+        "tg"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "uz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ky": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tg": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ALTAVIA translations"
+}

@@ -1,0 +1,15 @@
+---
+import company from '../data/company.json';
+import Icon from './Icon.astro';
+import {t,type Lang} from '../data/i18n';
+const {lang}=Astro.props as {lang:Lang};
+---
+<div class="company-contacts">
+  <p class="company-identity">{company.brandLine}</p>
+  <a class="company-phone" href={`tel:${company.phone}`}><Icon name="phone" size={18}/>{company.phoneDisplay}</a>
+  <address><Icon name="pin" size={18}/><span>{company.address}</span></address>
+  <nav class="company-socials" aria-label={t(lang,'socials')}>
+    <a href={company.instagram} target="_blank" rel="noopener noreferrer"><Icon name="instagram" size={19}/>Instagram<Icon name="diagonal" size={14}/></a>
+    <a href={company.telegram} target="_blank" rel="noopener noreferrer"><Icon name="telegram" size={19}/>Telegram<Icon name="diagonal" size={14}/></a>
+  </nav>
+</div>

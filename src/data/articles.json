@@ -1,0 +1,278 @@
+[
+  {
+    "slug": "first-silk-road-journey",
+    "title": {
+      "en": "Your first Silk Road journey: leave room for wonder",
+      "uz": "Ipak yo‘lidagi ilk sayohat: kashfiyotga vaqt ajrating",
+      "ru": "Первое путешествие по Шёлковому пути: оставьте место удивлению",
+      "ky": "Жибек жолундагы биринчи саякат: кереметке орун калтырыңыз",
+      "tg": "Сафари аввал дар Роҳи Абрешим: ба ҳайрат ҷой диҳед"
+    },
+    "intro": {
+      "en": "A good route is more than a list of landmarks. Here is how to give Uzbekistan’s cities the time they deserve.",
+      "uz": "Yaxshi yo‘nalish obidalar ro‘yxatidan ko‘ra ko‘proq. O‘zbekiston shaharlariga munosib vaqt ajrating.",
+      "ru": "Хороший маршрут — больше, чем список памятников. Дайте городам Узбекистана время раскрыться.",
+      "ky": "Жакшы маршрут эстеликтердин тизмеси эле эмес. Өзбекстандын шаарларын таанууга убакыт бериңиз.",
+      "tg": "Масири хуб танҳо рӯйхати ёдгориҳо нест. Барои шинохти шаҳрҳои Ӯзбекистон вақт диҳед."
+    },
+    "image": "samarkand",
+    "minutes": 4,
+    "sections": [
+      {
+        "title": {
+          "en": "Choose a rhythm before a route",
+          "uz": "Avval sur’atni tanlang",
+          "ru": "Сначала ритм, потом маршрут",
+          "ky": "Алгач ыргакты тандаңыз",
+          "tg": "Аввал суръатро интихоб кунед"
+        },
+        "body": {
+          "en": "It is tempting to fit Tashkent, Samarkand, Bukhara and Khiva into the shortest possible trip. A better starting question is how you want your days to feel. If you enjoy long lunches and photography, allow more than a quick stop in each city. A shorter route can leave stronger memories than a longer checklist.",
+          "uz": "Toshkent, Samarqand, Buxoro va Xivani qisqa safarga sig‘dirish jozibali tuyuladi. Ammo avval kunlaringiz qanday o‘tishini xohlashingizni o‘ylang. Shoshilmasdan tushlik va suratga olishni yoqtirsangiz, har bir shaharga ko‘proq vaqt ajrating. Qisqaroq yo‘nalish ham chuqur xotiralar qoldirishi mumkin.",
+          "ru": "Хочется вместить Ташкент, Самарканд, Бухару и Хиву в короткую поездку. Но сначала подумайте о ритме дня. Если любите долгие обеды и фотографию, оставьте каждому городу больше времени. Короткий маршрут иногда запоминается лучше длинного списка.",
+          "ky": "Ташкент, Самарканд, Бухара жана Хиваны кыска сапарга батыруу кызыктырат. Бирок алгач күндөр кандай өтүшүн кааларыңызды ойлонуңуз. Шашпай тамактанууну жана сүрөт тартууну сүйсөңүз, ар шаарга көбүрөөк убакыт бериңиз. Кыска маршрут тереңирээк эсте калышы мүмкүн.",
+          "tg": "Хоҳиши дидани Тошканд, Самарқанд, Бухоро ва Хева дар сафари кӯтоҳ табиӣ аст. Аммо аввал дар бораи суръати рӯз фикр кунед. Агар хӯроки ором ва аксбардориро дӯст доред, ба ҳар шаҳр вақт диҳед. Масири кӯтоҳтар гоҳе хотирмонтар аст."
+        }
+      },
+      {
+        "title": {
+          "en": "Treat travel days as part of the trip",
+          "uz": "Yo‘l kunlari ham sayohatning bir qismi",
+          "ru": "Дорога — тоже часть путешествия",
+          "ky": "Жол күндөрү да саякаттын бөлүгү",
+          "tg": "Рӯзҳои роҳ ҳам бахше аз саёҳатанд"
+        },
+        "body": {
+          "en": "Station transfers, check-in and luggage take time even when the journey itself is comfortable. Avoid placing your most important visit immediately after a long transfer. Ask for realistic door-to-door timings in the written itinerary, and keep some space around arrival and departure.",
+          "uz": "Vokzalga borish, joylashish va yuklar vaqt oladi. Uzoq yo‘ldan keyin darhol eng muhim tashrifni rejalashtirmang. Yozma dasturda to‘liq yo‘l vaqtlarini so‘rang va kelish-ketish atrofida bo‘sh vaqt qoldiring.",
+          "ru": "Трансферы на вокзал, заселение и багаж занимают время. Не ставьте главное посещение сразу после долгого переезда. Просите реалистичный расчёт времени от двери до двери и оставляйте запас на приезд и отъезд.",
+          "ky": "Вокзалга жетүү, жайгашуу жана жүк убакыт алат. Узак жолдон кийин дароо негизги жерге барууну пландабаңыз. Толук жол убактысын сурап, келүү менен кетүүгө запас калтырыңыз.",
+          "tg": "Расидан ба истгоҳ, ҷойгиршавӣ ва бағоҷ вақт мегиранд. Пас аз роҳи дароз боздиди асосиро фавран нақша накунед. Вақти пурраи роҳро пурсед ва барои омадану рафтан фурсат гузоред."
+        }
+      },
+      {
+        "title": {
+          "en": "Look beyond the main square",
+          "uz": "Asosiy maydondan nariga qarang",
+          "ru": "За пределами главной площади",
+          "ky": "Башкы аянттан ары караңыз",
+          "tg": "Берун аз майдони асосӣ"
+        },
+        "body": {
+          "en": "The great monuments deserve your attention, but so do the smaller moments. Make time for a workshop, a neighbourhood walk or a market visit. Ask before photographing people, follow guidance at religious sites and let local routines set the pace when possible.",
+          "uz": "Buyuk obidalar e’tiborga loyiq, lekin kichik lahzalar ham shunday. Ustaxona, mahalla sayri yoki bozor uchun vaqt ajrating. Odamlarni suratga olishdan oldin ruxsat so‘rang, diniy maskanlarda ko‘rsatmalarga amal qiling.",
+          "ru": "Великие памятники заслуживают внимания, как и небольшие моменты. Найдите время для мастерской, квартала или базара. Спрашивайте разрешение на портреты и соблюдайте правила религиозных мест.",
+          "ky": "Чоң эстеликтер да, кичинекей учурлар да маанилүү. Устаканага, конушка же базарга убакыт бөлүңүз. Адамдарды сүрөткө тартуудан мурун уруксат сурап, диний жайлардын эрежесин сактаңыз.",
+          "tg": "Ёдгориҳои бузург ва лаҳзаҳои хурд ҳар ду арзиш доранд. Ба устохона, маҳалла ё бозор вақт диҳед. Пеш аз акси одамон иҷозат пурсед ва қоидаҳои ҷойҳои диниро риоя кунед."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "choose-your-travel-style",
+    "title": {
+      "en": "Find your holiday rhythm",
+      "uz": "Dam olish sur’atingizni toping",
+      "ru": "Найдите свой ритм отдыха",
+      "ky": "Эс алуу ыргагыңызды табыңыз",
+      "tg": "Суръати истироҳататонро ёбед"
+    },
+    "intro": {
+      "en": "The best itinerary starts with how you like to spend a day, not how much you can fit into it.",
+      "uz": "Eng yaxshi yo‘nalish kunni qanday o‘tkazishni yoqtirishingizdan boshlanadi.",
+      "ru": "Лучший маршрут начинается с того, как вы любите проводить день.",
+      "ky": "Эң жакшы маршрут күндү кандай өткөрүүнү сүйгөнүңүздөн башталат.",
+      "tg": "Беҳтарин масир аз он оғоз мешавад, ки рӯзро чӣ гуна дӯст медоред."
+    },
+    "image": "thailand",
+    "minutes": 3,
+    "sections": [
+      {
+        "title": {
+          "en": "Choose your non-negotiables",
+          "uz": "Eng muhim istaklarni tanlang",
+          "ru": "Определите самое важное",
+          "ky": "Эң маанилүүсүн тандаңыз",
+          "tg": "Муҳимтаринро интихоб кунед"
+        },
+        "body": {
+          "en": "Write down three things you want to remember about the trip. They might be a historic city, time beside the sea or meals shared with friends. Use those priorities to choose the route, rather than filling every hour with an activity.",
+          "uz": "Sayohatdan eslab qolishni istagan uch narsani yozing: tarixiy shahar, dengizdagi dam yoki do‘stlar bilan taom. Har soatni to‘ldirish o‘rniga yo‘nalishni shu ustuvorliklar asosida tanlang.",
+          "ru": "Запишите три вещи, которые хотите запомнить: исторический город, море или ужины с друзьями. Стройте маршрут вокруг этих приоритетов, а не заполняйте каждый час.",
+          "ky": "Эстеп калгыңыз келген үч нерсени жазыңыз: тарыхый шаар, деңиз же достор менен тамак. Ар саатты толтурбай, ушул артыкчылыктарга таяныңыз.",
+          "tg": "Се чизеро нависед, ки мехоҳед ба ёд монанд: шаҳри таърихӣ, баҳр ё хӯрок бо дӯстон. Масирро аз рӯи инҳо созед, на барои пур кардани ҳар соат."
+        }
+      },
+      {
+        "title": {
+          "en": "Make room for different travelers",
+          "uz": "Har bir sayohatchini hisobga oling",
+          "ru": "Учтите интересы всей группы",
+          "ky": "Ар бир саякатчыны эске алыңыз",
+          "tg": "Ҳамаи ҳамсафаронро ба назар гиред"
+        },
+        "body": {
+          "en": "A shared trip can include different energy levels. Keep a few optional blocks so one person can explore a museum while another rests. Tell your planner about walking distances, stairs, children’s routines and hotel preferences early.",
+          "uz": "Birgalikdagi sayohatda kuch va qiziqishlar farq qilishi mumkin. Bir kishi muzey ko‘rsa, boshqasi dam olishi uchun erkin vaqt qoldiring. Yurish masofasi, zinapoya, bolalar tartibi va mehmonxona istaklarini oldindan ayting.",
+          "ru": "У участников разный запас сил. Оставьте свободные блоки: кто-то идёт в музей, кто-то отдыхает. Заранее расскажите о пеших расстояниях, лестницах, режиме детей и пожеланиях к отелю.",
+          "ky": "Адамдардын күчү ар башка. Бирөө музейге барганда экинчиси эс алышы үчүн эркин убакыт калтырыңыз. Жөө аралык, тепкич, балдардын тартиби жана мейманкана каалоосун эрте айтыңыз.",
+          "tg": "Тавоноии ҳамсафарон гуногун аст. Барои осорхона ё истироҳат вақти озод гузоред. Дар бораи масофаи пиёда, зинапоя, реҷаи кӯдакон ва меҳмонхона барвақт бигӯед."
+        }
+      },
+      {
+        "title": {
+          "en": "A free afternoon is a plan too",
+          "uz": "Erkin kun ham rejaning bir qismi",
+          "ru": "Свободный день — тоже план",
+          "ky": "Эркин күн да пландын бөлүгү",
+          "tg": "Рӯзи озод ҳам нақша аст"
+        },
+        "body": {
+          "en": "Leave an unscheduled afternoon between busy days. It gives the trip room to breathe and makes delays easier to absorb. A thoughtful itinerary should feel like an invitation, not a timetable you are racing to complete.",
+          "uz": "Band kunlar orasida rejasiz vaqt qoldiring. Bu safarni yengillashtiradi va kechikishlarni qoplashga yordam beradi. Yaxshi yo‘nalish shoshilinch jadval emas, kashfiyotga taklif kabi tuyulishi kerak.",
+          "ru": "Оставьте свободный день между насыщенными. Он даёт поездке воздух и помогает пережить задержки. Продуманный маршрут — приглашение к открытиям, а не гонка по расписанию.",
+          "ky": "Тығыз күндөрдүн арасына эркин убакыт калтырыңыз. Бул эс алууга жана кечигүүлөрдү жеңилдетүүгө жардам берет. Жакшы маршрут жадыбал жарышы эмес, ачылышка чакыруу.",
+          "tg": "Байни рӯзҳои серкор вақти озод гузоред. Он ба истироҳат ва ҷуброни таъхир кӯмак мекунад. Масири хуб даъват ба кашфиёт аст, на мусобиқа бо ҷадвал."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "photographing-uzbekistan",
+    "title": {
+      "en": "Look closer: photographing Uzbekistan",
+      "uz": "Yaqinroq qarang: O‘zbekiston suratlarda",
+      "ru": "Посмотрите внимательнее: фотографируя Узбекистан",
+      "ky": "Жакындан караңыз: Өзбекстанды сүрөткө тартуу",
+      "tg": "Наздиктар бинед: аксбардории Ӯзбекистон"
+    },
+    "intro": {
+      "en": "Notice the tile, the shadow, the quiet corner. A few simple habits make a more thoughtful photo journey.",
+      "uz": "Koshin, soya, sokin burchakni payqang. Oddiy odatlar surat sayohatini mazmunli qiladi.",
+      "ru": "Замечайте плитку, тень и тихий уголок. Простые привычки делают фотопутешествие интереснее.",
+      "ky": "Кошикти, көлөкөнү, тынч бурчту байкаңыз. Жөнөкөй адаттар сүрөт сапарын кызыктуу кылат.",
+      "tg": "Кошӣ, соя ва гӯшаи оромро бинед. Одатҳои одӣ сафари аксбардориро пурмазмун мекунанд."
+    },
+    "image": "fergana",
+    "minutes": 3,
+    "sections": [
+      {
+        "title": {
+          "en": "Return to the same place",
+          "uz": "Bir joyga qayta boring",
+          "ru": "Вернитесь в то же место",
+          "ky": "Ошол эле жерге кайтыңыз",
+          "tg": "Ба ҳамон ҷой баргардед"
+        },
+        "body": {
+          "en": "If your schedule allows, see a favourite square at two different times of day. Changing light reveals different colours and textures. Keep your plans flexible: weather and local access matter more than chasing a perfect image.",
+          "uz": "Imkon bo‘lsa, yoqqan maydoningizni kunning ikki paytida ko‘ring. Yorug‘lik rang va tuzilishni o‘zgartiradi. Ob-havo va kirish sharoiti mukammal suratdan muhimroq.",
+          "ru": "Если возможно, придите на любимую площадь дважды. Свет меняет цвета и фактуру. Оставляйте гибкость: погода и доступ важнее идеального кадра.",
+          "ky": "Мүмкүн болсо, жаккан аянтка эки башка убакта барыңыз. Жарык түстөрдү өзгөртөт. Аба ырайы жана кирүү шарттары мыкты кадрдан маанилүү.",
+          "tg": "Агар имкон бошад, майдони дӯстдоштаро дар ду вақти рӯз бинед. Равшанӣ рангҳоро тағйир медиҳад. Ҳаво ва дастрасӣ аз акси комил муҳимтаранд."
+        }
+      },
+      {
+        "title": {
+          "en": "Photograph details, respectfully",
+          "uz": "Tafsilotlarni hurmat bilan suratga oling",
+          "ru": "Снимайте детали с уважением",
+          "ky": "Деталдарды урмат менен тартыңыз",
+          "tg": "Ҷузъиётро бо эҳтиром акс гиред"
+        },
+        "body": {
+          "en": "A carved door, a tiled panel or a market display can tell as much as a skyline. Ask permission before photographing people or inside a workshop. Follow posted restrictions and never block entrances or worshippers for a picture.",
+          "uz": "O‘ymakor eshik, koshin yoki bozor rastasi shahar manzarasidek hikoya qiladi. Odamlar va ustaxona ichini suratga olishdan oldin ruxsat so‘rang. Cheklovlarga amal qiling va yo‘lni to‘smang.",
+          "ru": "Резная дверь или прилавок рассказывают не меньше панорамы. Просите разрешение на портреты и съёмку в мастерских. Соблюдайте запреты и не перекрывайте проходы.",
+          "ky": "Оюлган эшик же базар текчеси да окуя айтат. Адамдарды жана устаканаларды тартууга уруксат сураңыз. Тыюуларды сактап, кире беришти тоспоңуз.",
+          "tg": "Дари кандакорӣ ё растаи бозор ҳам қисса мегӯяд. Барои акси одамон ва дохили устохона иҷозат пурсед. Маҳдудиятҳоро риоя карда, роҳро набандед."
+        }
+      },
+      {
+        "title": {
+          "en": "Leave a little time without the camera",
+          "uz": "Kamerasiz vaqt ham qoldiring",
+          "ru": "Побудьте без камеры",
+          "ky": "Камерасыз да убакыт өткөрүңүз",
+          "tg": "Каме бе камера бошед"
+        },
+        "body": {
+          "en": "Put the camera away for part of every visit. Listen, look and let the place become more than a photograph. The strongest memories are often the moments you never captured.",
+          "uz": "Har tashrifning bir qismida kamerani chetga qo‘ying. Tinglang, kuzating, manzilni suratdan kengroq his eting. Eng kuchli xotiralar ko‘pincha suratga tushmagan lahzalardir.",
+          "ru": "Убирайте камеру на часть прогулки. Слушайте и смотрите, чтобы место стало больше фотографии. Самые сильные воспоминания часто остаются за кадром.",
+          "ky": "Ар бир сапардын бир бөлүгүндө камераны коюңуз. Угуп, карап, жерди сүрөттөн кеңири сезиңиз. Эң күчтүү эскерүүлөр кадрга түшпөй калат.",
+          "tg": "Дар як қисми ҳар боздид камераро канор гузоред. Гӯш кунед ва бубинед. Хотираҳои қавитар аксар вақт дар акс намеғунҷанд."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "before-you-request-a-quote",
+    "title": {
+      "en": "Five details that make a better trip request",
+      "uz": "Yaxshi sayohat so‘rovi uchun besh tafsilot",
+      "ru": "Пять деталей для хорошего запроса",
+      "ky": "Жакшы суроо үчүн беш маалымат",
+      "tg": "Панҷ ҷузъиёти дархости хуб"
+    },
+    "intro": {
+      "en": "A little preparation helps turn a broad idea into a useful, comparable proposal.",
+      "uz": "Bir oz tayyorgarlik g‘oyani aniq, solishtirish mumkin bo‘lgan taklifga aylantiradi.",
+      "ru": "Небольшая подготовка превращает общую идею в понятное предложение.",
+      "ky": "Бир аз даярдык жалпы идеяны түшүнүктүү сунушка айлантат.",
+      "tg": "Каме омодагӣ ғояро ба пешниҳоди равшан табдил медиҳад."
+    },
+    "image": "istanbul",
+    "minutes": 3,
+    "sections": [
+      {
+        "title": {
+          "en": "Dates, people and starting point",
+          "uz": "Sanalar, odamlar va boshlanish joyi",
+          "ru": "Даты, участники и точка старта",
+          "ky": "Даталар, адамдар жана баштоо жери",
+          "tg": "Санаҳо, ҳамсафарон ва нуқтаи оғоз"
+        },
+        "body": {
+          "en": "Give your preferred dates and say how flexible they are. Include the number of adults, children’s ages and your departure city. These details influence room choices, transport and the realistic shape of the itinerary.",
+          "uz": "Istalgan sanalarni va qanchalik moslashuvchan ekaningizni yozing. Kattalar soni, bolalar yoshi va jo‘nash shahrini kiriting. Bular xona, transport va yo‘nalishga ta’sir qiladi.",
+          "ru": "Укажите даты и степень гибкости. Добавьте число взрослых, возраст детей и город отправления. Это влияет на номера, транспорт и маршрут.",
+          "ky": "Каалаган даталарды жана өзгөртүү мүмкүнчүлүгүн айтыңыз. Чоңдордун санын, балдардын жашын жана жөнөө шаарын жазыңыз. Булар бөлмөгө, унаага жана маршрутка таасир берет.",
+          "tg": "Санаҳо ва имкони тағйири онҳоро бигӯед. Шумораи калонсолон, синни кӯдакон ва шаҳри оғозро нависед. Инҳо ба ҳуҷра, нақлиёт ва масир таъсир доранд."
+        }
+      },
+      {
+        "title": {
+          "en": "Budget and priorities",
+          "uz": "Byudjet va ustuvorliklar",
+          "ru": "Бюджет и приоритеты",
+          "ky": "Бюджет жана артыкчылыктар",
+          "tg": "Буҷет ва афзалиятҳо"
+        },
+        "body": {
+          "en": "A target budget is a planning tool, not a commitment. Say whether it should cover flights and explain where comfort matters most. You may prefer a simple hotel with a private guide, or a special stay with more independent time.",
+          "uz": "Byudjet rejalash vositasi, majburiyat emas. Parvozlar unga kirishi kerakligini ayting va qulaylik qayerda muhimligini tushuntiring. Oddiy mehmonxona va shaxsiy gid yoki o‘zgacha turar joy va erkin vaqtni tanlashingiz mumkin.",
+          "ru": "Бюджет — ориентир, не обязательство. Уточните, включает ли он перелёты и где особенно важен комфорт. Возможно, вам нужен простой отель с личным гидом или необычное проживание с самостоятельными прогулками.",
+          "ky": "Бюджет — багыт, милдеттенме эмес. Учуулар кирерин жана кайсы ыңгайлуулук маанилүү экенин айтыңыз. Жөнөкөй мейманкана менен жеке гидди же өзгөчө жатакана менен эркин убакытты тандай аласыз.",
+          "tg": "Буҷет роҳнамо аст, на уҳдадорӣ. Бигӯед, ки парвозро дар бар мегирад ё не ва бароҳатӣ дар куҷо муҳим аст. Меҳмонхонаи одӣ бо роҳбалад ё иқомати махсус бо вақти озодро интихоб кунед."
+        }
+      },
+      {
+        "title": {
+          "en": "Compare the written details",
+          "uz": "Yozma tafsilotlarni solishtiring",
+          "ru": "Сравнивайте письменные условия",
+          "ky": "Жазылган шарттарды салыштырыңыз",
+          "tg": "Ҷузъиёти хаттиро муқоиса кунед"
+        },
+        "body": {
+          "en": "Before accepting a proposal, check the named services, room category, transfer arrangements and cancellation conditions. Ask questions about anything unclear. A saved inquiry or a conversation is not a confirmed booking.",
+          "uz": "Taklifni qabul qilishdan oldin xizmatlar, xona toifasi, transfer va bekor qilish shartlarini tekshiring. Noaniq joylarini so‘rang. Saqlangan so‘rov yoki suhbat tasdiqlangan bron emas.",
+          "ru": "До согласия проверьте услуги, категорию номера, трансферы и отмену. Спрашивайте обо всём неясном. Сохранённый запрос или разговор не равен бронированию.",
+          "ky": "Макулдуктан мурда кызматтарды, бөлмө түрүн, трансферди жана жокко чыгарууну текшериңиз. Түшүнүксүздү сураңыз. Сакталган суроо же маек ырасталган брон эмес.",
+          "tg": "Пеш аз қабул хизматҳо, навъи ҳуҷра, интиқол ва бекоркуниро санҷед. Норӯшаниро пурсед. Дархости сабтшуда ё суҳбат фармоиши тасдиқшуда нест."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "privacy": [
+    {
+      "title": {
+        "en": "What you share",
+        "uz": "Siz yuboradigan ma’lumot",
+        "ru": "Что вы передаёте",
+        "ky": "Сиз берген маалымат",
+        "tg": "Маълумоти фиристодаи шумо"
+      },
+      "body": {
+        "en": "The inquiry form asks for your name, email and trip preferences. Phone and messaging details are optional unless you choose them as your contact method. Do not send passport, payment or sensitive medical data. Your selections stay in the page until you submit or download them; they are not stored in browser localStorage.",
+        "uz": "So‘rov shakli ism, elektron pochta va sayohat istaklarini so‘raydi. Telefon va messenjer ma’lumotlari shu aloqa usuli tanlansa zarur. Pasport, to‘lov yoki maxfiy tibbiy ma’lumot yubormang. Tanlovlar yuborilguncha yoki yuklab olinguncha sahifada qoladi; brauzer xotirasida saqlanmaydi.",
+        "ru": "Форма запрашивает имя, email и пожелания к поездке. Телефон и мессенджер нужны, если выбран такой способ связи. Не отправляйте паспортные, платёжные и медицинские данные. До отправки или скачивания сведения остаются на странице и не сохраняются в localStorage.",
+        "ky": "Форма аты-жөнүңүздү, email жана саякат каалоосун сурайт. Телефон же мессенжер ошол байланыш жолу тандалганда керек. Паспорт, төлөм же медициналык маалымат жөнөтпөңүз. Маалымат жөнөтүүгө же жүктөөгө чейин баракта болот, localStorage ичинде сакталбайт.",
+        "tg": "Шакл ном, email ва хоҳиши сафарро мепурсад. Телефон ё паёмрасон ҳангоми интихоби он роҳи тамос лозим аст. Маълумоти шиноснома, пардохт ё тиббиро нафиристед. Маълумот то фиристодан ё боргирӣ дар саҳифа мемонад, дар localStorage сабт намешавад."
+      }
+    },
+    {
+      "title": {
+        "en": "How inquiries are handled",
+        "uz": "So‘rovlar qanday ishlanadi",
+        "ru": "Как обрабатываются запросы",
+        "ky": "Суроолор кандай иштетилет",
+        "tg": "Дархостҳо чӣ гуна коркард мешаванд"
+      },
+      "body": {
+        "en": "Submitted inquiries are encrypted before database storage and used to respond to your travel request. Customer inquiry and booking records expire after 90 days. Server-side rate limiting stores a keyed hash of the network address, not the raw address. The public form does not collect card details. Authorized staff may record booking status, agreed totals and offline payment references. In local preview, records stay on this computer and no staff notification is sent.",
+        "uz": "So‘rovlar bazaga yozilishidan oldin shifrlanadi va sayohatingiz haqidagi murojaatga javob berish uchun ishlatiladi. Mijoz so‘rovlari va bron yozuvlari 90 kundan keyin eskiradi. So‘rovlarni cheklashda tarmoq manzilining o‘zi emas, kalitli xeshi saqlanadi. Ommaviy shakl karta ma’lumotlarini yig‘maydi. Vakolatli xodimlar bron holati, kelishilgan summa va tashqi to‘lov ma’lumotnomasini qayd etishi mumkin. Mahalliy ko‘rinishda yozuvlar shu kompyuterda qoladi va xodimlarga xabar yuborilmaydi.",
+        "ru": "Запросы шифруются перед записью в базу и используются для ответа о поездке. Срок хранения обращений и бронирований — 90 дней. Для ограничения запросов хранится ключевой хеш сетевого адреса, а не сам адрес. Публичная форма не собирает данные карт. Уполномоченные сотрудники могут записывать статус бронирования, согласованную сумму и реквизиты подтверждения внешнего платежа. В локальном режиме записи остаются на этом компьютере, уведомления сотрудникам не отправляются.",
+        "ky": "Суроолор базага жазылардан мурда шифрленип, саякат боюнча жооп берүү үчүн колдонулат. Кардардын суроолору жана брондоо жазуулары 90 күндөн кийин эскирет. Чектөө үчүн тармак дарегинин өзү эмес, ачкычтуу хэши сакталат. Коомдук форма карта маалыматтарын чогултпайт. Ыйгарым укуктуу кызматкерлер брондун абалын, макулдашылган сумманы жана тышкы төлөмдүн ырастоо маалыматын каттай алышат. Жергиликтүү режимде жазуулар ушул компьютерде калат, кызматкерлерге билдирүү жөнөтүлбөйт.",
+        "tg": "Дархостҳо пеш аз сабт рамзгузорӣ шуда, барои ҷавоб ба дархости сафар истифода мешаванд. Муҳлати сабтҳои дархост ва фармоиш 90 рӯз аст. Барои маҳдуд кардани дархостҳо хэши калиддори суроға нигоҳ дошта мешавад, на худи суроға. Шакли умумӣ маълумоти кортро ҷамъ намекунад. Кормандони ваколатдор метавонанд ҳолати фармоиш, маблағи мувофиқашуда ва маълумоти тасдиқи пардохти беруниро сабт кунанд. Дар ҳолати маҳаллӣ сабтҳо дар ҳамин компютер мемонанд ва ба кормандон хабар фиристода намешавад."
+      }
+    },
+    {
+      "title": {
+        "en": "Services and privacy contact",
+        "uz": "Xizmatlar va maxfiylik aloqasi",
+        "ru": "Сервисы и контакт по вопросам данных",
+        "ky": "Кызматтар жана купуялык байланышы",
+        "tg": "Хизматҳо ва тамоси махфият"
+      },
+      "body": {
+        "en": "Fonts and photographs are served from this website. No advertising analytics are installed. On a configured public site, Cloudflare Turnstile processes a verification challenge on inquiry pages. Hosting may keep operational logs under its own settings. The business owner must publish the data controller’s identity, privacy contact and approved retention process before enabling public inquiries.",
+        "uz": "Shrift va suratlar shu saytdan yuklanadi. Reklama tahlili o‘rnatilmagan. Sozlangan ommaviy saytda Cloudflare Turnstile so‘rov sahifasida tekshiruvni bajaradi. Hosting o‘z sozlamalari bo‘yicha jurnallar saqlashi mumkin. Ommaviy so‘rovlardan oldin egasi ma’lumot boshqaruvchisi, maxfiylik aloqasi va saqlash tartibini e’lon qilishi kerak.",
+        "ru": "Шрифты и фотографии загружаются с сайта. Рекламная аналитика не установлена. На настроенном публичном сайте Cloudflare Turnstile проверяет обращения. Хостинг может вести технические журналы. До включения публичных запросов владелец должен указать оператора данных, контакт и утверждённый порядок хранения.",
+        "ky": "Ариптер жана сүрөттөр сайттан жүктөлөт. Жарнамалык аналитика жок. Туураланган коомдук сайтта Cloudflare Turnstile текшерүү жүргүзөт. Хостинг техникалык журнал жүргүзүшү мүмкүн. Коомдук суроолордон мурда ээси маалымат башкаруучусун, байланышын жана сактоо тартибин жарыялашы керек.",
+        "tg": "Ҳуруф ва аксҳо аз сомона бор мешаванд. Таҳлили таблиғотӣ нест. Дар сомонаи омодашуда Cloudflare Turnstile санҷиш мекунад. Хостинг метавонад сабти техникӣ дошта бошад. Пеш аз дархостҳои умумӣ соҳиб бояд масъули маълумот, тамос ва тартиби нигоҳдориро нашр кунад."
+      }
+    },
+    {
+      "title": {
+        "en": "Necessary staff cookies",
+        "uz": "Xodimlar uchun zarur cookie fayllari",
+        "ru": "Необходимые файлы cookie для сотрудников",
+        "ky": "Кызматкерлер үчүн зарыл cookie файлдары",
+        "tg": "Кукиҳои зарурӣ барои кормандон"
+      },
+      "body": {
+        "en": "The private staff workspace uses an essential HttpOnly session cookie to keep authorized staff signed in. Local sessions last up to seven days; production sessions expire after eight hours or 30 minutes of inactivity. Signing out removes the session. Public browsing does not use advertising or analytics cookies.",
+        "uz": "Yopiq boshqaruv paneli vakolatli xodimni tizimda saqlash uchun zarur HttpOnly seans cookie faylidan foydalanadi. Mahalliy seans yetti kungacha, ommaviy saytdagi seans esa sakkiz soat yoki 30 daqiqa harakatsizlikkacha davom etadi. Tizimdan chiqish seansni tugatadi. Oddiy ko‘rishda reklama yoki tahlil cookie fayllari ishlatilmaydi.",
+        "ru": "Закрытая панель использует необходимый сеансовый файл cookie HttpOnly для входа сотрудников. Локальный сеанс действует до семи дней; на публичном сайте — до восьми часов или 30 минут бездействия. Выход завершает сеанс. При обычном просмотре рекламные и аналитические cookie не используются.",
+        "ky": "Жабык башкаруу панели кызматкерди тутумда кармоо үчүн зарыл HttpOnly сеанс cookie файлын колдонот. Жергиликтүү сеанс жети күнгө чейин, коомдук сайтта сегиз саатка же 30 мүнөт аракетсиздикке чейин созулат. Тутумдан чыгуу сеансты бүтүрөт. Кадимки көрүүдө жарнама же аналитика cookie файлдары колдонулбайт.",
+        "tg": "Панели пӯшида барои даромади кормандон кукии зарурии сеанси HttpOnly-ро истифода мебарад. Сеанси маҳаллӣ то ҳафт рӯз, дар сомонаи умумӣ то ҳашт соат ё 30 дақиқаи бефаъолиятӣ давом мекунад. Баромадан сеансро анҷом медиҳад. Ҳангоми дидани одӣ кукиҳои таблиғотӣ ё таҳлилӣ истифода намешаванд."
+      }
+    }
+  ],
+  "terms": [
+    {
+      "title": {
+        "en": "Using this website",
+        "uz": "Saytdan foydalanish",
+        "ru": "Использование сайта",
+        "ky": "Сайтты колдонуу",
+        "tg": "Истифодаи сомона"
+      },
+      "body": {
+        "en": "This website provides travel inspiration and an inquiry service. Suggested itineraries are proposals for discussion, not guaranteed departures or live inventory. No booking or payment is completed on this website.",
+        "uz": "Sayt sayohat g‘oyalari va so‘rov xizmatini taqdim etadi. Tavsiya yo‘nalishlar muhokama uchun, kafolatlangan jo‘nash yoki jonli mavjudlik emas. Saytda bron yoki to‘lov yakunlanmaydi.",
+        "ru": "Сайт предлагает идеи путешествий и отправку запросов. Маршруты предназначены для обсуждения, не являются гарантированными выездами или актуальным наличием мест. Бронирование и оплата на сайте не выполняются.",
+        "ky": "Сайт саякат идеяларын жана суроо кызматын сунуштайт. Маршруттар талкуу үчүн, кепилденген жөнөө же бош орун эмес. Сайтта брондоо же төлөм бүтпөйт.",
+        "tg": "Сомона ғояҳои сафар ва хизмати дархост медиҳад. Масирҳо барои баррасӣ мебошанд, на сафари кафолатнок ё мавҷудияти ҷой. Фармоиш ва пардохт дар сомона анҷом намешавад."
+      }
+    },
+    {
+      "title": {
+        "en": "Content and photography",
+        "uz": "Mazmun va suratlar",
+        "ru": "Материалы и фотографии",
+        "ky": "Материалдар жана сүрөттөр",
+        "tg": "Муҳтаво ва аксҳо"
+      },
+      "body": {
+        "en": "Photographs illustrate destinations and are credited on the photo credits page. They do not imply endorsement by photographers or show ALTAVIA customers. Each photo remains subject to its listed license. Route descriptions are editorial suggestions; practical arrangements require confirmation.",
+        "uz": "Suratlar manzillarni ko‘rsatadi va mualliflar sahifasida qayd etilgan. Ular fotograflar tavsiyasini anglatmaydi yoki ALTAVIA mijozlarini ko‘rsatmaydi. Har surat o‘z litsenziyasiga ega. Yo‘nalishlar tavsiyaviy, amaliy shartlar tasdiqlanishi kerak.",
+        "ru": "Фотографии иллюстрируют направления; авторы указаны на странице источников. Они не означают поддержку фотографами и не показывают клиентов ALTAVIA. Для каждого снимка действует указанная лицензия. Описания маршрутов рекомендательные, детали требуют подтверждения.",
+        "ky": "Сүрөттөр багыттарды көрсөтөт, авторлор булактар барагында жазылган. Алар авторлордун колдоосун билдирбейт жана ALTAVIA кардарларын көрсөтпөйт. Ар бир сүрөт өз лицензиясына баш иет. Маршруттар сунуш, шарттар ырасталышы керек.",
+        "tg": "Аксҳо самтҳоро нишон медиҳанд ва муаллифон дар саҳифаи манбаъҳо ҳастанд. Онҳо дастгирии аксбардоронро намефаҳмонанд ва муштариёни ALTAVIA нестанд. Ҳар акс иҷозатномаи худро дорад. Масирҳо тавсияанд, шартҳо бояд тасдиқ шаванд."
+      }
+    }
+  ],
+  "booking-conditions": [
+    {
+      "title": {
+        "en": "Before you accept",
+        "uz": "Qabul qilishdan oldin",
+        "ru": "Перед подтверждением",
+        "ky": "Кабыл алуудан мурда",
+        "tg": "Пеш аз қабул"
+      },
+      "body": {
+        "en": "Request a written proposal stating your dates, traveler details, accommodation, transport, included services, exclusions, currency and final price. Review it carefully and ask for changes before accepting. A website receipt confirms only that an inquiry was saved.",
+        "uz": "Sana, sayohatchilar, turar joy, transport, xizmatlar, istisnolar, valyuta va yakuniy narx ko‘rsatilgan yozma taklif so‘rang. Uni tekshiring va qabul qilishdan oldin o‘zgartirishlarni so‘rang. Sayt kvitansiyasi faqat so‘rov saqlanganini bildiradi.",
+        "ru": "Запросите письменное предложение с датами, участниками, проживанием, транспортом, услугами, исключениями, валютой и итоговой ценой. Проверьте его до согласия. Квитанция сайта подтверждает только сохранение запроса.",
+        "ky": "Дата, адамдар, жатакана, унаа, кызматтар, кирбеген нерселер, валюта жана акыркы баа жазылган сунушту сураңыз. Макул болгонго чейин текшериңиз. Сайттын дүмүрчөгү суроо сакталганын гана ырастайт.",
+        "tg": "Пешниҳоди хаттӣ бо сана, сайёҳон, иқомат, нақлиёт, хизматҳо, истисноҳо, асъор ва нархи ниҳоиро дархост кунед. Пеш аз қабул онро санҷед. Расиди сомона танҳо сабти дархостро тасдиқ мекунад."
+      }
+    },
+    {
+      "title": {
+        "en": "Payment, changes and cancellation",
+        "uz": "To‘lov, o‘zgartirish va bekor qilish",
+        "ru": "Оплата, изменения и отмена",
+        "ky": "Төлөм, өзгөртүү жана жокко чыгаруу",
+        "tg": "Пардохт, тағйир ва бекоркунӣ"
+      },
+      "body": {
+        "en": "Payment schedules, accepted methods, change fees, cancellation conditions and refund rules must be provided for your specific booking before you commit. No universal fees or refund promises are stated here. Supplier terms may differ between services and travel dates.",
+        "uz": "To‘lov jadvali, usullar, o‘zgartirish haqi, bekor qilish va qaytarish qoidalari sizning broningiz uchun oldindan berilishi kerak. Bu yerda umumiy haq yoki qaytarish va’dasi yo‘q. Xizmat va sanaga qarab yetkazib beruvchi shartlari farq qilishi mumkin.",
+        "ru": "График и способы оплаты, сборы за изменения, отмена и возвраты должны быть указаны для вашей поездки до принятия обязательств. Универсальные сборы и обещания возврата здесь не устанавливаются. Условия поставщиков могут различаться.",
+        "ky": "Төлөм жадыбалы, ыкмалар, өзгөртүү акысы, жокко чыгаруу жана кайтаруу шарттары сиздин бронуңуз үчүн алдын ала берилет. Бул жерде жалпы акы же кайтаруу убадасы жок. Кызматтардын шарттары айырмаланышы мүмкүн.",
+        "tg": "Ҷадвалу тарзи пардохт, ҳаққи тағйир, шартҳои бекоркунӣ ва бозгардонӣ бояд барои сафари шумо пешакӣ пешниҳод шаванд. Ин ҷо ҳаққи умумӣ ё ваъдаи бозгардонӣ нест. Шартҳои таъминкунандагон метавонанд фарқ кунанд."
+      }
+    }
+  ]
+}

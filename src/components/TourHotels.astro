@@ -1,0 +1,13 @@
+---
+import {t,type Lang} from '../data/i18n';
+import {getTourDetails,type Tour} from '../data/travel';
+import Icon from './Icon.astro';
+const {tour,lang}=Astro.props as {tour:Tour;lang:Lang};
+const items=getTourDetails(tour).hotels;
+---
+<section id="hotels" class="detail-section">
+  <span class="eyebrow orange"><Icon name="bed" size={18}/>{t(lang,'accommodation')}</span>
+  <h2>{t(lang,'hotelsTitle')}</h2><p class="field-help">{t(lang,'hotelsIntro')}</p>
+  <div class="hotel-options">{items.map(hotel=><article class="hotel-option"><span class="hotel-symbol"><Icon name="bed" size={25}/></span><div><p class="hotel-area">{hotel.area[lang]}</p><h3>{hotel.name}</h3><p>{hotel.description[lang]}</p><a href={hotel.url} target="_blank" rel="noopener noreferrer">{t(lang,'officialWebsite')}<span class="sr-only"> — {hotel.name}</span><Icon name="diagonal" size={16}/></a></div></article>)}</div>
+</section>
+<section class="detail-section travel-notes"><h2>{t(lang,'planningNotes')}</h2><ul>{tour.travelNotes.map(note=><li><Icon name="check" size={18}/><span>{note[lang]}</span></li>)}</ul></section>

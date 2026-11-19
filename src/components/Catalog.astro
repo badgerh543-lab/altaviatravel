@@ -1,0 +1,26 @@
+---
+import {t,duration,type Lang} from '../data/i18n';import {destinations,tours} from '../data/travel';import TourCard from './TourCard.astro';import Icon from './Icon.astro';
+const {lang,type='',destination=''}=Astro.props as {lang:Lang;type?:string;destination?:string};
+const countries=[...new Map(destinations.map(d=>[d.countryId,d.country])).entries()];
+const items=tours.filter(x=>(!type||x.type===type)&&(!destination||x.destinations.includes(destination)));
+---
+<div class="catalog" data-catalog>
+  <form id="filter-form" class="catalog-search">
+    <div class="tour-search-row"><label for="tour-query"><Icon name="search"/><span class="sr-only">{t(lang,'searchTours')}</span><input id="tour-query" name="q" type="search" maxlength="100" placeholder={t(lang,'searchPlaceholder')}/></label><button class="button" type="submit">{t(lang,'search')}<Icon name="arrow"/></button><button type="reset" class="link-button">{t(lang,'reset')}</button></div>
+    <details class="catalog-refinements" data-refinements><summary>{t(lang,'refineResults')}<Icon name="chevron" size={16}/></summary><div class="refinement-fields">
+      <label>{t(lang,'destination')}<select name="destination"><option value="">{t(lang,'all')}</option>{destinations.map(d=><option value={d.slug}>{d.name[lang]}</option>)}</select></label>
+      <label>{t(lang,'country')}<select name="country"><option value="">{t(lang,'all')}</option>{countries.map(([id,name])=><option value={id}>{name[lang]}</option>)}</select></label>
+      <label>{t(lang,'travelType')}<select name="type"><option value="">{t(lang,'all')}</option>{['inbound','outbound','domestic'].map(k=><option value={k}>{t(lang,k)}</option>)}</select></label>
+      <label>{t(lang,'duration')}<select name="duration"><option value="">{t(lang,'all')}</option><option value="short">1–{duration(lang,3)}</option><option value="medium">4–{duration(lang,6)}</option><option value="long">7+ {t(lang,'days')}</option></select></label>
+      <label>{t(lang,'style')}<select name="style"><option value="">{t(lang,'all')}</option>{['culture','beach','adventure','city'].map(k=><option value={k}>{t(lang,k)}</option>)}</select></label>
+      <label>{t(lang,'season')}<select name="season"><option value="">{t(lang,'all')}</option>{['spring','summer','autumn','winter'].map(k=><option value={k}>{t(lang,k)}</option>)}</select></label>
+      <label>{t(lang,'budget')}<select name="budget"><option value="">{t(lang,'all')}</option><option value="1000">≤ 1,000 USD</option><option value="2500">≤ 2,500 USD</option><option value="5000">≤ 5,000 USD</option></select></label>
+      <p class="field-help">{t(lang,'budgetHint')}</p>
+    </div></details>
+  </form>
+  <div class="results-bar"><p role="status" aria-live="polite">{t(lang,'results')}: <strong id="result-count">{items.length}</strong></p><label>{t(lang,'sort')}<select id="sort" name="sort" form="filter-form"><option value="recommended">{t(lang,'recommended')}</option><option value="shortest">{t(lang,'shortest')}</option><option value="longest">{t(lang,'longest')}</option></select></label></div>
+  <noscript><p class="notice">{t(lang,'allTrips')}. {t(lang,'contactText')}</p></noscript>
+  <div class="tour-grid catalog-grid">{items.map(tour=><TourCard lang={lang} tour={tour} filterable/>)}</div>
+  <div class="empty-state" id="catalog-empty" hidden><Icon name="search" size={38}/><h3>{t(lang,'empty')}</h3><a class="button" href={`/${lang}/custom/`}>{t(lang,'custom')}<Icon name="arrow"/></a></div>
+</div>
+<script>import '../scripts/catalog';</script>

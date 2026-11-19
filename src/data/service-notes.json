@@ -1,0 +1,62 @@
+{
+  "included": [
+    {
+      "en": "Accommodation options matched to your preferences",
+      "uz": "Istagingizga mos turar joy variantlari",
+      "ru": "Варианты проживания по вашим пожеланиям",
+      "ky": "Каалооңузга ылайык жатакана",
+      "tg": "Ҷойи иқомат мувофиқи хоҳишҳо"
+    },
+    {
+      "en": "Guide, entrance tickets and transfers as itemised in your quote",
+      "uz": "Taklifda ko‘rsatilgan gid, kirish chiptalari va transferlar",
+      "ru": "Гид, входные билеты и трансферы по перечню в предложении",
+      "ky": "Сунушта көрсөтүлгөн гид, билеттер жана трансферлер",
+      "tg": "Роҳбалад, чиптаҳо ва интиқол тибқи пешниҳод"
+    }
+  ],
+  "excluded": [
+    {
+      "en": "International flights unless explicitly listed",
+      "uz": "Alohida ko‘rsatilmagan xalqaro parvozlar",
+      "ru": "Международные перелёты, если не указаны отдельно",
+      "ky": "Өзүнчө көрсөтүлбөгөн эл аралык учуулар",
+      "tg": "Парвозҳои байналмилалӣ, агар алоҳида зикр нашуда бошанд"
+    },
+    {
+      "en": "Insurance, personal purchases and optional activities",
+      "uz": "Sug‘urta, shaxsiy xaridlar va ixtiyoriy tadbirlar",
+      "ru": "Страхование, личные покупки и дополнительные занятия",
+      "ky": "Камсыздандыруу, жеке сатып алуулар жана кошумча иштер",
+      "tg": "Суғурта, харидҳои шахсӣ ва фаъолиятҳои иловагӣ"
+    }
+  ],
+  "accommodation": {
+    "en": "Small hotels, boutique stays or larger properties can be discussed. No hotel or room category is reserved until confirmed in writing.",
+    "uz": "Kichik mehmonxona, butik yoki yirik mehmonxona tanlash mumkin. Yozma tasdiqqacha xona bron qilinmaydi.",
+    "ru": "Обсудим небольшие отели, бутик-отели или крупные гостиницы. Отель и категория номера фиксируются письменно.",
+    "ky": "Чакан, бутик же чоң мейманканалар каралат. Бөлмө жазуу жүзүндө ырасталмайынча брондолбойт.",
+    "tg": "Меҳмонхонаи хурд, бутик ё калонро баррасӣ мекунем. То тасдиқи хаттӣ ҳуҷра фармоиш намешавад."
+  },
+  "transport": {
+    "en": "Rail and road options depend on the route and ticket availability. Transfers and timings are confirmed with the final itinerary.",
+    "uz": "Temir yo‘l va avtomobil variantlari yo‘nalish va chipta mavjudligiga bog‘liq. Transfer va vaqtlar yakuniy dasturda tasdiqlanadi.",
+    "ru": "Поезда и автомобильные переезды зависят от маршрута и наличия билетов. Время и трансферы уточняются в окончательной программе.",
+    "ky": "Поезд жана унаа варианттары маршрутка жана билеттерге жараша болот. Убакыттар акыркы программада ырасталат.",
+    "tg": "Роҳи оҳан ва мошин аз масир ва мавҷудияти чипта вобастаанд. Вақту интиқол дар барномаи ниҳоӣ тасдиқ мешаванд."
+  },
+  "suitable": {
+    "en": "Couples, friends and families who enjoy flexible discovery. Tell us about mobility needs, children’s ages and preferred walking pace before a proposal is prepared.",
+    "uz": "Erkin kashfiyotni yoqtiradigan juftliklar, do‘stlar va oilalar uchun. Taklifdan oldin harakatlanish ehtiyojlari, bolalar yoshi va yurish sur’atini ayting.",
+    "ru": "Для пар, друзей и семей, любящих гибкие маршруты. До подготовки предложения сообщите о потребностях в доступности, возрасте детей и темпе ходьбы.",
+    "ky": "Ийкемдүү саякатты сүйгөн жуптар, достор жана үй-бүлөлөр үчүн. Сунуш даярдалганга чейин жеткиликтүүлүк муктаждыгын, балдардын жашын жана басуу ыргагын айтыңыз.",
+    "tg": "Барои ҷуфтҳо, дӯстон ва оилаҳое, ки сафари озодро дӯст медоранд. Пеш аз пешниҳод эҳтиёҷи дастрасӣ, синни кӯдакон ва суръати роҳравиро бигӯед."
+  },
+  "practical": {
+    "en": "Check current entry requirements with the relevant official authorities before committing to travel. Carry comfortable footwear, allow breaks and confirm any dietary or accessibility needs in advance.",
+    "uz": "Safardan oldin tegishli rasmiy idoralardan amaldagi kirish talablarini tekshiring. Qulay oyoq kiyim oling, damlarni rejalang, ovqatlanish va harakatlanish ehtiyojlarini oldindan kelishing.",
+    "ru": "Проверьте актуальные правила въезда у официальных ведомств до бронирования. Возьмите удобную обувь, предусмотрите перерывы и заранее обсудите питание и доступность.",
+    "ky": "Сапарга чейин кирүү талаптарын расмий органдардан текшериңиз. Ыңгайлуу бут кийим алып, тыныгууларды жана тамактануу же жеткиликтүүлүк муктаждыгын алдын ала тактаңыз.",
+    "tg": "Пеш аз фармоиш талаботи вурудро аз мақомоти расмӣ санҷед. Пойафзоли қулай гиред, танаффус ва эҳтиёҷи ғизо ё дастрасиро пешакӣ мувофиқа кунед."
+  }
+}

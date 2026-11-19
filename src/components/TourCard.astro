@@ -1,0 +1,11 @@
+---
+import {t,duration,type Lang} from '../data/i18n';
+import {getDestination,type Tour} from '../data/travel';
+import Photo from './Photo.astro';import Icon from './Icon.astro';import places from '../data/places.json';
+interface Props {tour:Tour;lang:Lang;filterable?:boolean;}
+const {tour,lang,filterable=false}=Astro.props;
+---
+<article class="tour-card" data-tour-card={filterable?'':undefined} data-search={filterable?[...Object.values(tour.title),...tour.searchAliases,...tour.destinations.flatMap(id=>[...Object.values(getDestination(id).name),...Object.values(getDestination(id).country)]),...tour.attractions.flatMap(id=>Object.values(places.find(p=>p.id===id)!.name)),...(tour.details?.attractions||[]).flatMap(p=>Object.values(p.name))].join(' '):undefined} data-destinations={filterable?tour.destinations.join(','):undefined} data-price={filterable?tour.price??undefined:undefined} data-country={filterable?tour.countryId:undefined} data-type={filterable?tour.type:undefined} data-style={filterable?tour.style:undefined} data-days={filterable?tour.days:undefined} data-seasons={filterable?tour.seasons.join(','):undefined}>
+<a href={`/${lang}/tours/${tour.slug}/`} class="card-picture" tabindex="-1" aria-hidden="true"><Photo id={tour.image} alt="" sizes="(max-width: 650px) 90vw, (max-width: 1000px) 45vw, 30vw"/><span class="card-badge">{t(lang,tour.style)}</span><span class="round-link"><Icon name="diagonal"/></span></a>
+<div class="card-body"><div class="card-meta"><span>{getDestination(tour.destinations[0]).country[lang]}</span><span><Icon name="clock" size={14}/>{duration(lang,tour.days)}</span></div><h3><a href={`/${lang}/tours/${tour.slug}/`}>{tour.title[lang]}</a></h3><p>{tour.destinations.map(d=>getDestination(d).name[lang]).join(' · ')}</p><div class="card-foot"><span>{tour.price!==null?`${t(lang,tour.priceStatus==='market-estimate'?'estimatedFrom':'fromPrice')} ${new Intl.NumberFormat(lang,{style:'currency',currency:tour.currency,maximumFractionDigits:0}).format(tour.price)}`:t(lang,'suggested')}{tour.price!==null&&<small class="price-unit">{t(lang,'perPerson')}</small>}</span><a href={`/${lang}/contact/?tour=${tour.slug}`}>{t(lang,'quote')} <Icon name="arrow" size={16}/></a></div></div>
+</article>

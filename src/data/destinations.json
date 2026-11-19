@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "samarkand",
+    "name": {
+      "en": "Samarkand",
+      "uz": "Samarqand",
+      "ru": "Самарканд",
+      "ky": "Самарканд",
+      "tg": "Самарқанд"
+    },
+    "countryId": "uzbekistan",
+    "country": {
+      "en": "Uzbekistan",
+      "uz": "O‘zbekiston",
+      "ru": "Узбекистан",
+      "ky": "Өзбекстан",
+      "tg": "Ӯзбекистон"
+    },
+    "image": "samarkand",
+    "summary": {
+      "en": "Stand beneath the tiled arches of the Registan, trace the details of Shah-i-Zinda and leave time for a market morning. Samarkand rewards both the first wide view and the second, closer look.",
+      "uz": "Registon peshtoqlari ostida turing, Shohi Zinda naqshlarini tomosha qiling, bozor tongiga vaqt ajrating. Samarqandning keng manzaralari ham, mayda tafsilotlari ham hayratlantiradi.",
+      "ru": "Арки Регистана, узоры Шахи-Зинды и утро на базаре. Самарканд впечатляет и общим видом, и деталями, которые замечаешь, остановившись.",
+      "ky": "Регистандын аркалары, Шахи-Зинданын оймолору жана базардагы таң. Самарканд жалпы көрүнүшү менен да, майда деталдары менен да таң калтырат.",
+      "tg": "Тоқҳои Регистон, нақшҳои Шоҳи Зинда ва субҳи бозор. Самарқанд ҳам бо манзараи васеъ ва ҳам бо ҷузъиёти нозукаш мафтун мекунад."
+    },
+    "highlights": [
+      {
+        "en": "Registan Square",
+        "uz": "Registon maydoni",
+        "ru": "Площадь Регистан",
+        "ky": "Регистан аянты",
+        "tg": "Майдони Регистон"
+      },
+      {
+        "en": "Shah-i-Zinda tilework",
+        "uz": "Shohi Zinda koshinlari",
+        "ru": "Мозаики Шахи-Зинды",
+        "ky": "Шахи-Зинданын мозаикасы",
+        "tg": "Кошикории Шоҳи Зинда"
+      },
+      {
+        "en": "Siyob market",
+        "uz": "Siyob bozori",
+        "ru": "Сиабский базар",
+        "ky": "Сиаб базары",
+        "tg": "Бозори Сиёб"
+      }
+    ],
+    "region": "uzbekistan"
+  },
+  {
+    "slug": "bukhara",
+    "name": {
+      "en": "Bukhara",
+      "uz": "Buxoro",
+      "ru": "Бухара",
+      "ky": "Бухара",
+      "tg": "Бухоро"
+    },
+    "countryId": "uzbekistan",
+    "country": {
+      "en": "Uzbekistan",
+      "uz": "O‘zbekiston",
+      "ru": "Узбекистан",
+      "ky": "Өзбекстан",
+      "tg": "Ӯзбекистон"
+    },
+    "image": "bukhara",
+    "summary": {
+      "en": "Bukhara is a city for wandering. Move from shaded trading domes to quiet courtyards, linger around Lyabi-Hauz and watch the light change around the Kalyan minaret.",
+      "uz": "Buxoro sayr uchun yaratilgandek. Salqin savdo gumbazlaridan sokin hovlilarga o‘ting, Labi Hovuzda dam oling, Kalon minorasi atrofidagi yorug‘likni kuzating.",
+      "ru": "Бухара создана для прогулок. От торговых куполов к тихим дворам, от Ляби-Хауза к минарету Калян — здесь стоит замедлиться.",
+      "ky": "Бухара сейилдөөгө чакырат. Соода күмбөздөрүнөн тынч короолорго, Ляби-Хауздан Калян мунарасына чейин шашпай басыңыз.",
+      "tg": "Бухоро барои сайр аст. Аз тоқҳои тиҷоратӣ ба ҳавлӣҳои ором, аз Лаби Ҳавз ба манораи Калон — ин ҷо бояд оҳиста рафт."
+    },
+    "highlights": [
+      {
+        "en": "Poi-Kalyan ensemble",
+        "uz": "Poyi Kalon majmuasi",
+        "ru": "Ансамбль Пои-Калян",
+        "ky": "Пои-Калян ансамбли",
+        "tg": "Маҷмӯаи Пои Калон"
+      },
+      {
+        "en": "Old-city trading domes",
+        "uz": "Eski shahar savdo toqlari",
+        "ru": "Торговые купола",
+        "ky": "Эски шаардагы соода күмбөздөрү",
+        "tg": "Тоқҳои тиҷоратии шаҳри куҳна"
+      },
+      {
+        "en": "Lyabi-Hauz courtyards",
+        "uz": "Labi Hovuz hovlilari",
+        "ru": "Дворики Ляби-Хауза",
+        "ky": "Ляби-Хауз короолору",
+        "tg": "Ҳавлиҳои Лаби Ҳавз"
+      }
+    ],
+    "region": "uzbekistan"
+  },
+  {
+    "slug": "khiva",
+    "name": {
+      "en": "Khiva",
+      "uz": "Xiva",
+      "ru": "Хива",
+      "ky": "Хива",
+      "tg": "Хева"
+    },
+    "countryId": "uzbekistan",
+    "country": {
+      "en": "Uzbekistan",
+      "uz": "O‘zbekiston",
+      "ru": "Узбекистан",
+      "ky": "Өзбекстан",
+      "tg": "Ӯзбекистон"
+    },
+    "image": "khiva",
+    "summary": {
+      "en": "Inside the walls of Itchan Kala, streets unfold in warm clay and brilliant turquoise. Give Khiva an unhurried day and an evening to see its familiar landmarks in a softer light.",
+      "uz": "Ichan Qal’a devorlari ortida iliq loy ranglari va yorqin feruza naqshlar uyg‘unlashadi. Xivaga shoshilmasdan bir kun va oqshom ajrating.",
+      "ru": "Внутри стен Ичан-Калы улицы окрашены в глиняные и бирюзовые тона. Оставьте Хиве неспешный день и вечер, чтобы увидеть город в мягком свете.",
+      "ky": "Ичан-Каланын дубалдарынын ичинде чопо жана бирюза түстөрү айкалышат. Хиваны күндүз жана кечинде шашпай көрүңүз.",
+      "tg": "Даруни деворҳои Ичан-Қалъа ранги гил ва фирӯза якҷо мешаванд. Барои Хева як рӯзи ором ва як шом ҷудо кунед."
+    },
+    "highlights": [
+      {
+        "en": "Itchan Kala lanes",
+        "uz": "Ichan Qal’a ko‘chalari",
+        "ru": "Улицы Ичан-Калы",
+        "ky": "Ичан-Каланын көчөлөрү",
+        "tg": "Кӯчаҳои Ичан-Қалъа"
+      },
+      {
+        "en": "Kalta Minor",
+        "uz": "Kalta Minor",
+        "ru": "Кальта-Минор",
+        "ky": "Калта-Минор",
+        "tg": "Калта Минор"
+      },
+      {
+        "en": "Carved wooden columns",
+        "uz": "O‘ymakor yog‘och ustunlar",
+        "ru": "Резные деревянные колонны",
+        "ky": "Оюлган жыгач мамылар",
+        "tg": "Сутунҳои кандакории чӯбӣ"
+      }
+    ],
+    "region": "uzbekistan"
+  },
+  {
+    "slug": "tashkent",
+    "name": {
+      "en": "Tashkent",
+      "uz": "Toshkent",
+      "ru": "Ташкент",
+      "ky": "Ташкент",
+      "tg": "Тошканд"
+    },
+    "countryId": "uzbekistan",
+    "country": {
+      "en": "Uzbekistan",
+      "uz": "O‘zbekiston",
+      "ru": "Узбекистан",
+      "ky": "Өзбекстан",
+      "tg": "Ӯзбекистон"
+    },
+    "image": "tashkent",
+    "summary": {
+      "en": "Start with the capital’s everyday rhythm: a market, a metro ride and a walk through tree-lined streets. Tashkent brings old neighbourhoods and contemporary city life into the same day.",
+      "uz": "Poytaxtning kundalik hayotidan boshlang: bozor, metro va daraxtzor ko‘chalar. Toshkentda eski mahallalar va zamonaviy shahar hayoti yonma-yon.",
+      "ru": "Начните с ритма столицы: базар, метро и прогулка по зелёным улицам. Старые кварталы и современный город здесь встречаются в одном маршруте.",
+      "ky": "Борбордун күнүмдүк ыргагынан баштаңыз: базар, метро жана жашыл көчөлөр. Эски конуштар менен заманбап шаар бир маршрутта айкалышат.",
+      "tg": "Аз зиндагии пойтахт оғоз кунед: бозор, метро ва кӯчаҳои сабз. Маҳаллаҳои куҳна ва шаҳри муосир дар як масир ҷамъ мешаванд."
+    },
+    "highlights": [
+      {
+        "en": "Chorsu bazaar",
+        "uz": "Chorsu bozori",
+        "ru": "Базар Чорсу",
+        "ky": "Чорсу базары",
+        "tg": "Бозори Чорсу"
+      },
+      {
+        "en": "Metro architecture",
+        "uz": "Metro me’morchiligi",
+        "ru": "Архитектура метро",
+        "ky": "Метронун архитектурасы",
+        "tg": "Меъмории метро"
+      },
+      {
+        "en": "City parks and squares",
+        "uz": "Shahar bog‘lari va maydonlari",
+        "ru": "Городские парки и площади",
+        "ky": "Шаар бактары жана аянттары",
+        "tg": "Боғҳо ва майдонҳои шаҳр"
+      }
+    ],
+    "region": "uzbekistan"
+  },
+  {
+    "slug": "fergana",
+    "name": {
+      "en": "Fergana Valley",
+      "uz": "Farg‘ona vodiysi",
+      "ru": "Ферганская долина",
+      "ky": "Фергана өрөөнү",
+      "tg": "Водии Фарғона"
+    },
+    "countryId": "uzbekistan",
+    "country": {
+      "en": "Uzbekistan",
+      "uz": "O‘zbekiston",
+      "ru": "Узбекистан",
+      "ky": "Өзбекстан",
+      "tg": "Ӯзбекистон"
+    },
+    "image": "fergana",
+    "summary": {
+      "en": "Travel between Kokand, Rishtan and Margilan with time for architecture and craft traditions. The valley’s appeal lies in the details: a glazed bowl, a woven pattern, a conversation in a workshop.",
+      "uz": "Qo‘qon, Rishton va Marg‘ilon bo‘ylab me’morchilik va hunarmandchilikni o‘rganing. Vodiy jozibasi — sirlangan kosa, to‘qilgan naqsh, ustaxonadagi suhbatda.",
+      "ru": "Коканд, Риштан и Маргилан соединяют архитектуру с ремеслом. Очарование долины — в глазурованной чаше, тканом узоре и разговоре в мастерской.",
+      "ky": "Кокон, Риштан жана Маргилан архитектура менен кол өнөрчүлүктү бириктирет. Өрөөндүн көркү — сырдалган чөйчөктө, токулган оймодо жана устаканадагы маекте.",
+      "tg": "Қӯқанд, Риштон ва Марғелон меъморӣ ва ҳунармандиро пайванд медиҳанд. Ҷозибаи водӣ дар косаи сирдор, нақши матоъ ва суҳбати устохона аст."
+    },
+    "highlights": [
+      {
+        "en": "Kokand palace architecture",
+        "uz": "Qo‘qon saroyi me’morchiligi",
+        "ru": "Архитектура дворца в Коканде",
+        "ky": "Кокондогу сарай архитектурасы",
+        "tg": "Меъмории қасри Қӯқанд"
+      },
+      {
+        "en": "Rishtan ceramics",
+        "uz": "Rishton kulolchiligi",
+        "ru": "Керамика Риштана",
+        "ky": "Риштан керамикасы",
+        "tg": "Кулолии Риштон"
+      },
+      {
+        "en": "Margilan silk traditions",
+        "uz": "Marg‘ilon ipakchilik an’analari",
+        "ru": "Шёлковые традиции Маргилана",
+        "ky": "Маргиландын жибек салттары",
+        "tg": "Анъанаҳои абрешими Марғелон"
+      }
+    ],
+    "region": "uzbekistan"
+  },
+  {
+    "slug": "andijan",
+    "name": {
+      "en": "Andijan",
+      "uz": "Andijon",
+      "ru": "Андижан",
+      "ky": "Анжиян",
+      "tg": "Андиҷон"
+    },
+    "countryId": "uzbekistan",
+    "country": {
+      "en": "Uzbekistan",
+      "uz": "O‘zbekiston",
+      "ru": "Узбекистан",
+      "ky": "Өзбекстан",
+      "tg": "Ӯзбекистон"
+    },
+    "image": "fergana",
+    "summary": {
+      "en": "Add Andijan to a wider Fergana Valley journey. Explore the city’s connection with Babur, spend time in local markets and build a route with enough room for everyday encounters.",
+      "uz": "Andijonni Farg‘ona vodiysi sayohatiga qo‘shing. Shaharning Bobur bilan bog‘liqligini o‘rganing, bozorlarga boring, kundalik hayotga vaqt ajrating.",
+      "ru": "Добавьте Андижан к путешествию по долине. Познакомьтесь с наследием Бабура, загляните на рынки и оставьте время для повседневной жизни города.",
+      "ky": "Анжиянды өрөөн сапарына кошуңуз. Бабурдун мурасын көрүп, базарларга барып, шаардын күнүмдүк жашоосуна убакыт бөлүңүз.",
+      "tg": "Андиҷонро ба сафари водӣ илова кунед. Бо мероси Бобур шинос шавед, бозорҳоро бинед ва ба зиндагии рӯзмарра вақт диҳед."
+    },
+    "highlights": [
+      {
+        "en": "Babur heritage",
+        "uz": "Bobur merosi",
+        "ru": "Наследие Бабура",
+        "ky": "Бабурдун мурасы",
+        "tg": "Мероси Бобур"
+      },
+      {
+        "en": "Valley markets",
+        "uz": "Vodiy bozorlari",
+        "ru": "Рынки долины",
+        "ky": "Өрөөн базарлары",
+        "tg": "Бозорҳои водӣ"
+      },
+      {
+        "en": "A slower city walk",
+        "uz": "Shoshilmasdan shahar sayri",
+        "ru": "Неспешная прогулка",
+        "ky": "Шашпай шаар кыдыруу",
+        "tg": "Сайри ороми шаҳр"
+      }
+    ],
+    "region": "uzbekistan"
+  },
+  {
+    "slug": "chimgan",
+    "name": {
+      "en": "Chimgan mountains",
+      "uz": "Chimyon tog‘lari",
+      "ru": "Горы Чимгана",
+      "ky": "Чымган тоолору",
+      "tg": "Кӯҳҳои Чимғон"
+    },
+    "countryId": "uzbekistan",
+    "country": {
+      "en": "Uzbekistan",
+      "uz": "O‘zbekiston",
+      "ru": "Узбекистан",
+      "ky": "Өзбекстан",
+      "tg": "Ӯзбекистон"
+    },
+    "image": "mountains",
+    "summary": {
+      "en": "Trade the city for open mountain views. Choose a walk suited to your group, leave room for changing weather and keep the day flexible. The foothills make a refreshing contrast to Uzbekistan’s cities.",
+      "uz": "Shahar o‘rniga keng tog‘ manzaralarini tanlang. Guruhingizga mos yo‘lni belgilang, ob-havo o‘zgarishini hisobga oling. Tog‘ etaklari shahar sayohatlariga yoqimli rang qo‘shadi.",
+      "ru": "Смените город на горные просторы. Выберите прогулку по силам группы и оставьте запас на погоду. Предгорья прекрасно дополняют городские маршруты.",
+      "ky": "Шаарды тоо көрүнүшүнө алмаштырыңыз. Топко ылайык сейил жолун тандап, аба ырайына убакыт калтырыңыз. Тоо этектери шаар сапарын толуктайт.",
+      "tg": "Шаҳрро ба манзараҳои кӯҳ иваз кунед. Роҳи мувофиқи гурӯҳро интихоб карда, тағйири ҳаворо ба назар гиред. Доманакӯҳ саёҳати шаҳриро пурра мекунад."
+    },
+    "highlights": [
+      {
+        "en": "Mountain viewpoints",
+        "uz": "Tog‘ manzaralari",
+        "ru": "Горные панорамы",
+        "ky": "Тоо көрүнүштөрү",
+        "tg": "Манзараҳои кӯҳӣ"
+      },
+      {
+        "en": "Flexible walking routes",
+        "uz": "Moslashuvchan piyoda yo‘llar",
+        "ru": "Прогулки по вашим силам",
+        "ky": "Ылайыкташкан сейил жолдору",
+        "tg": "Роҳҳои пиёдагардии мувофиқ"
+      },
+      {
+        "en": "Fresh-air picnics",
+        "uz": "Ochiq havodagi pikniklar",
+        "ru": "Пикник на свежем воздухе",
+        "ky": "Таза абадагы эс алуу",
+        "tg": "Истироҳат дар ҳавои тоза"
+      }
+    ],
+    "region": "uzbekistan"
+  },
+  {
+    "slug": "turkey",
+    "name": {
+      "en": "Turkey",
+      "uz": "Turkiya",
+      "ru": "Турция",
+      "ky": "Түркия",
+      "tg": "Туркия"
+    },
+    "countryId": "turkey",
+    "country": {
+      "en": "Turkey",
+      "uz": "Turkiya",
+      "ru": "Турция",
+      "ky": "Түркия",
+      "tg": "Туркия"
+    },
+    "image": "cappadocia",
+    "summary": {
+      "en": "From Istanbul’s ferry crossings to Cappadocia’s valleys, Turkey invites a trip with contrast. Pair an energetic city stay with slower days among rock formations and open skies.",
+      "uz": "Istanbul paromlaridan Kapadokiya vodiylarigacha — Turkiya turli taassurotlarga boy. Shahar hayotini qoyalar va keng osmon ostidagi sokin kunlar bilan uyg‘unlashtiring.",
+      "ru": "От паромов Стамбула до долин Каппадокии — Турция полна контрастов. Соедините городской ритм с тихими днями среди скал и открытого неба.",
+      "ky": "Стамбулдун паромдорунан Каппадокиянын өрөөндөрүнө чейин Түркия ар түрдүү. Шаардын ыргагын аскалар арасындагы тынч күндөр менен айкалыштырыңыз.",
+      "tg": "Аз паромҳои Истанбул то водиҳои Каппадокия — Туркия пур аз тафовут аст. Зиндагии шаҳрро бо рӯзҳои ором миёни харсангҳо якҷо кунед."
+    },
+    "highlights": [
+      {
+        "en": "Istanbul neighbourhoods",
+        "uz": "Istanbul mahallalari",
+        "ru": "Кварталы Стамбула",
+        "ky": "Стамбул конуштары",
+        "tg": "Маҳаллаҳои Истанбул"
+      },
+      {
+        "en": "Cappadocia valleys",
+        "uz": "Kapadokiya vodiylari",
+        "ru": "Долины Каппадокии",
+        "ky": "Каппадокия өрөөндөрү",
+        "tg": "Водиҳои Каппадокия"
+      },
+      {
+        "en": "Bosphorus ferry views",
+        "uz": "Bosfor paromidan manzaralar",
+        "ru": "Виды с парома на Босфоре",
+        "ky": "Босфор паромунан көрүнүштөр",
+        "tg": "Манзараҳо аз пароми Босфор"
+      }
+    ],
+    "region": "international"
+  },
+  {
+    "slug": "uae",
+    "name": {
+      "en": "United Arab Emirates",
+      "uz": "Birlashgan Arab Amirliklari",
+      "ru": "Объединённые Арабские Эмираты",
+      "ky": "Бириккен Араб Эмираттары",
+      "tg": "Амороти Муттаҳидаи Араб"
+    },
+    "countryId": "uae",
+    "country": {
+      "en": "United Arab Emirates",
+      "uz": "Birlashgan Arab Amirliklari",
+      "ru": "Объединённые Арабские Эмираты",
+      "ky": "Бириккен Араб Эмираттары",
+      "tg": "Амороти Муттаҳидаи Араб"
+    },
+    "image": "dubai",
+    "summary": {
+      "en": "Find a different side of the Emirates between the skyline and the creek. Combine contemporary architecture with older trading quarters and leave an afternoon for the coast.",
+      "uz": "Osmono‘par binolar va ko‘rfaz oralig‘ida Amirliklarning boshqa qiyofasini toping. Zamonaviy me’morchilikni eski savdo mahallalari va sohil bilan birlashtiring.",
+      "ru": "Откройте Эмираты между небоскрёбами и заливом. Современная архитектура, старые торговые кварталы и время на побережье складываются в разнообразный маршрут.",
+      "ky": "Эмираттарды бийик имараттар менен булуңдун ортосунан тааныңыз. Заманбап архитектураны эски соода конуштары жана жээк менен айкалыштырыңыз.",
+      "tg": "Аморотро миёни осмонхарошҳо ва халиҷ кашф кунед. Меъмории муосирро бо маҳаллаҳои тиҷоратии куҳна ва соҳил якҷо кунед."
+    },
+    "highlights": [
+      {
+        "en": "Dubai Creek",
+        "uz": "Dubay ko‘rfazi",
+        "ru": "Дубай-Крик",
+        "ky": "Дубай булуңу",
+        "tg": "Халиҷи Дубай"
+      },
+      {
+        "en": "Contemporary architecture",
+        "uz": "Zamonaviy me’morchilik",
+        "ru": "Современная архитектура",
+        "ky": "Заманбап архитектура",
+        "tg": "Меъмории муосир"
+      },
+      {
+        "en": "Coastal afternoons",
+        "uz": "Sohildagi damlar",
+        "ru": "Время на побережье",
+        "ky": "Жээктеги эс алуу",
+        "tg": "Истироҳат дар соҳил"
+      }
+    ],
+    "region": "international"
+  },
+  {
+    "slug": "thailand",
+    "name": {
+      "en": "Thailand",
+      "uz": "Tailand",
+      "ru": "Таиланд",
+      "ky": "Таиланд",
+      "tg": "Таиланд"
+    },
+    "countryId": "thailand",
+    "country": {
+      "en": "Thailand",
+      "uz": "Tailand",
+      "ru": "Таиланд",
+      "ky": "Таиланд",
+      "tg": "Таиланд"
+    },
+    "image": "thailand",
+    "summary": {
+      "en": "Leave room for Thailand’s quieter moments: an early beach walk, a long lunch and an afternoon with no fixed plan. Choose your coast and travel dates together, with seasonal conditions in mind.",
+      "uz": "Tailandning sokin lahzalariga vaqt ajrating: ertalab sohil sayri, shoshilmasdan tushlik, erkin kun. Sohil va sanalarni mavsumiy sharoitni hisobga olib tanlang.",
+      "ru": "Оставьте место для тихих мгновений: утренней прогулки по пляжу, долгого обеда, свободного дня. Выбирайте побережье и даты с учётом сезона.",
+      "ky": "Эртең менен жээкте сейилдөө, шашпай тамактануу жана эркин күн үчүн орун калтырыңыз. Жээкти жана даталарды мезгилге жараша тандаңыз.",
+      "tg": "Барои лаҳзаҳои ором вақт гузоред: сайри субҳи соҳил, хӯроки нисфирӯзии ором ва рӯзи озод. Соҳилу санаро бо назардошти мавсим интихоб кунед."
+    },
+    "highlights": [
+      {
+        "en": "Island landscapes",
+        "uz": "Orol manzaralari",
+        "ru": "Островные пейзажи",
+        "ky": "Арал көрүнүштөрү",
+        "tg": "Манзараҳои ҷазира"
+      },
+      {
+        "en": "Local food markets",
+        "uz": "Mahalliy taom bozorlari",
+        "ru": "Местные гастрономические рынки",
+        "ky": "Жергиликтүү тамак базарлары",
+        "tg": "Бозорҳои хӯроки маҳаллӣ"
+      },
+      {
+        "en": "Time by the sea",
+        "uz": "Dengiz bo‘yida dam",
+        "ru": "Отдых у моря",
+        "ky": "Деңиз жээгинде эс алуу",
+        "tg": "Истироҳат дар баҳр"
+      }
+    ],
+    "region": "international"
+  },
+  {
+    "slug": "malaysia",
+    "name": {
+      "en": "Malaysia",
+      "uz": "Malayziya",
+      "ru": "Малайзия",
+      "ky": "Малайзия",
+      "tg": "Малайзия"
+    },
+    "countryId": "malaysia",
+    "country": {
+      "en": "Malaysia",
+      "uz": "Malayziya",
+      "ru": "Малайзия",
+      "ky": "Малайзия",
+      "tg": "Малайзия"
+    },
+    "image": "malaysia",
+    "summary": {
+      "en": "Kuala Lumpur offers a lively starting point: layered neighbourhoods, skyline views and food worth slowing down for. Build a compact city stay or make it the beginning of a longer Malaysian journey.",
+      "uz": "Kuala-Lumpur — jonli mahallalar, shahar manzaralari va mazali taomlar. Qisqa shahar sayohatini tanlang yoki uni Malayziya bo‘ylab katta sayohatga aylantiring.",
+      "ru": "Куала-Лумпур — яркое начало: разные кварталы, панорамы и еда, ради которой стоит замедлиться. Выберите короткую городскую поездку или продолжите знакомство с Малайзией.",
+      "ky": "Куала-Лумпур — жандуу башталыш: ар түрдүү конуштар, шаар көрүнүшү жана даамдуу тамак. Кыска шаар сапарын же узак Малайзия саякатын тандаңыз.",
+      "tg": "Куала-Лумпур оғози ҷолиб аст: маҳаллаҳои гуногун, манзараи шаҳр ва ғизои лазиз. Сафари кӯтоҳи шаҳрӣ ё саёҳати дарози Малайзияро интихоб кунед."
+    },
+    "highlights": [
+      {
+        "en": "Kuala Lumpur skyline",
+        "uz": "Kuala-Lumpur manzarasi",
+        "ru": "Панорама Куала-Лумпура",
+        "ky": "Куала-Лумпур көрүнүшү",
+        "tg": "Манзараи Куала-Лумпур"
+      },
+      {
+        "en": "Neighbourhood food walks",
+        "uz": "Mahallalarda taom sayri",
+        "ru": "Гастрономические прогулки",
+        "ky": "Тамак-аш сейилдери",
+        "tg": "Сайри хӯрокҳои маҳаллӣ"
+      },
+      {
+        "en": "City gardens",
+        "uz": "Shahar bog‘lari",
+        "ru": "Городские сады",
+        "ky": "Шаар бактары",
+        "tg": "Боғҳои шаҳр"
+      }
+    ],
+    "region": "international"
+  },
+  {
+    "slug": "egypt",
+    "name": {
+      "en": "Egypt",
+      "uz": "Misr",
+      "ru": "Египет",
+      "ky": "Египет",
+      "tg": "Миср"
+    },
+    "countryId": "egypt",
+    "country": {
+      "en": "Egypt",
+      "uz": "Misr",
+      "ru": "Египет",
+      "ky": "Египет",
+      "tg": "Миср"
+    },
+    "image": "egypt",
+    "summary": {
+      "en": "Start with Cairo and Giza, then give yourself time to absorb the scale of what you have seen. A considered itinerary balances monumental sights with rest and realistic travel times.",
+      "uz": "Qohira va Gizadan boshlang, ko‘rganlaringizni his qilishga vaqt bering. Puxta yo‘nalish yirik obidalar, dam va haqiqiy yo‘l vaqtlarini uyg‘unlashtiradi.",
+      "ru": "Начните с Каира и Гизы, затем дайте себе время осмыслить увиденное. Хороший маршрут сочетает великие памятники, отдых и реалистичное время в пути.",
+      "ky": "Каир менен Гизадан баштап, көргөнүңүздү сезүүгө убакыт бөлүңүз. Туура маршрут эстеликтерди, эс алууну жана жол убактысын тең салмактайт.",
+      "tg": "Аз Қоҳира ва Гиза оғоз кунед ва барои дарки дидаҳоятон вақт диҳед. Масири хуб ёдгориҳо, истироҳат ва вақти воқеии роҳро мутаносиб мекунад."
+    },
+    "highlights": [
+      {
+        "en": "Giza plateau",
+        "uz": "Giza platosi",
+        "ru": "Плато Гиза",
+        "ky": "Гиза платосу",
+        "tg": "Паҳнкӯҳи Гиза"
+      },
+      {
+        "en": "Cairo city life",
+        "uz": "Qohira shahar hayoti",
+        "ru": "Городская жизнь Каира",
+        "ky": "Каир шаарынын жашоосу",
+        "tg": "Зиндагии шаҳри Қоҳира"
+      },
+      {
+        "en": "History at a human pace",
+        "uz": "Shoshilmasdan tarix bilan tanishuv",
+        "ru": "История в спокойном темпе",
+        "ky": "Тарыхты шашпай таануу",
+        "tg": "Шиносоии ором бо таърих"
+      }
+    ],
+    "region": "international"
+  }
+]

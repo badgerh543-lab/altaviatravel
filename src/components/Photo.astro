@@ -1,0 +1,8 @@
+---
+import media from '../data/media.json';
+interface Props {id:string;alt:string;class?:string;priority?:boolean;sizes?:string;}
+const {id,alt,class:className='',priority=false,sizes='(max-width: 700px) 100vw, 50vw'}=Astro.props;
+const photo=media.find(p=>p.id===id);
+if(!photo)throw new Error('Missing photo '+id);
+---
+<img class={className} src={photo.src} srcset={[...new Map(photo.variants.map(v=>[v.width,v])).values()].map(v=>`${v.src} ${v.width}w`).join(', ')} sizes={sizes} width={photo.width} height={photo.height} alt={alt} loading={priority?'eager':'lazy'} fetchpriority={priority?'high':'auto'} decoding="async"/>

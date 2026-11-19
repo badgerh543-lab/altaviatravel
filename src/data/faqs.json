@@ -1,0 +1,98 @@
+[
+  {
+    "q": {
+      "en": "Is an inquiry a confirmed booking?",
+      "uz": "So‘rov tasdiqlangan bronmi?",
+      "ru": "Запрос — это подтверждённое бронирование?",
+      "ky": "Суроо ырасталган бронбу?",
+      "tg": "Оё дархост фармоиши тасдиқшуда аст?"
+    },
+    "a": {
+      "en": "No. An inquiry records your preferences. Availability, itinerary, services and the final price must be confirmed in writing before you accept a booking.",
+      "uz": "Yo‘q. So‘rov istaklaringizni qayd etadi. Bronni qabul qilishdan oldin mavjudlik, yo‘nalish, xizmatlar va yakuniy narx yozma tasdiqlanishi kerak.",
+      "ru": "Нет. Запрос фиксирует пожелания. Наличие, маршрут, услуги и итоговая цена должны быть подтверждены письменно до вашего согласия на бронирование.",
+      "ky": "Жок. Суроо каалоолоруңузду каттайт. Бронго макул болгонго чейин орундар, маршрут, кызматтар жана баа жазуу жүзүндө ырасталат.",
+      "tg": "Не. Дархост хоҳишҳоро сабт мекунад. Пеш аз қабули фармоиш мавҷудият, масир, хизматҳо ва нархи ниҳоӣ хаттӣ тасдиқ мешаванд."
+    }
+  },
+  {
+    "q": {
+      "en": "Can I change an itinerary?",
+      "uz": "Yo‘nalishni o‘zgartira olamanmi?",
+      "ru": "Можно изменить маршрут?",
+      "ky": "Маршрутту өзгөртсөм болобу?",
+      "tg": "Оё масирро тағйир дода метавонам?"
+    },
+    "a": {
+      "en": "Yes, the published routes are starting points. Share your interests, dates, pace and accommodation preferences in the custom trip planner. Feasibility is checked when your proposal is prepared.",
+      "uz": "Ha, e’lon qilingan yo‘nalishlar boshlang‘ich g‘oyalar. Rejalashtirgichda qiziqish, sana, sur’at va turar joy istaklaringizni yozing. Imkoniyatlar taklif tayyorlashda tekshiriladi.",
+      "ru": "Да, опубликованные маршруты — отправная точка. Укажите интересы, даты, темп и пожелания к проживанию в планировщике. Возможности проверяются при подготовке предложения.",
+      "ky": "Ооба, маршруттар баштапкы идеялар. Пландоочуда кызыгуу, дата, ыргак жана жатакана каалоосун жазыңыз. Мүмкүнчүлүк сунуш даярдоодо текшерилет.",
+      "tg": "Бале, масирҳои нашршуда ғояи аввалияанд. Шавқ, сана, суръат ва иқоматро дар банақшагир нависед. Имконият ҳангоми омодасозии пешниҳод санҷида мешавад."
+    }
+  },
+  {
+    "q": {
+      "en": "Why do I need a quote if a price is shown?",
+      "uz": "Narx ko‘rsatilgan bo‘lsa ham, nega alohida taklif kerak?",
+      "ru": "Зачем запрашивать стоимость, если цена уже указана?",
+      "ky": "Баа көрсөтүлсө да, эмне үчүн өзүнчө сунуш керек?",
+      "tg": "Агар нарх нишон дода шуда бошад, чаро пешниҳоди алоҳида лозим аст?"
+    },
+    "a": {
+      "en": "The displayed price is a planning estimate unless explicitly marked otherwise. Dates, room choices, group size, flights and included services can change the total. Your written quote confirms the exact price and services before you decide to book.",
+      "uz": "Alohida qayd etilmagan bo‘lsa, ko‘rsatilgan narx rejalashtirish uchun taxminiy hisobdir. Sana, xona turi, guruh hajmi, aviachipta va xizmatlar yakuniy summaga ta’sir qiladi. Bron qilishdan oldin aniq narx va xizmatlar yozma taklifda tasdiqlanadi.",
+      "ru": "Если не указано иное, показанная цена — ориентир для планирования. Даты, категория номера, размер группы, перелёт и состав услуг влияют на итоговую сумму. Точная цена и услуги подтверждаются в письменном предложении до бронирования.",
+      "ky": "Башкача белгиленбесе, көрсөтүлгөн баа — пландоо үчүн болжолдуу сумма. Даталар, бөлмө түрү, топтун көлөмү, учуу жана кызматтар акыркы баага таасир этет. Так баа жана кызматтар брондоого чейин жазуу жүзүндөгү сунушта ырасталат.",
+      "tg": "Агар тартиби дигар зикр нашуда бошад, нархи нишоншуда барои банақшагирӣ тахминӣ аст. Сана, навъи ҳуҷра, шумораи гурӯҳ, парвоз ва хизматҳо ба маблағи ниҳоӣ таъсир мерасонанд. Нарх ва хизматҳои дақиқ пеш аз фармоиш дар пешниҳоди хаттӣ тасдиқ мешаванд."
+    }
+  },
+  {
+    "q": {
+      "en": "Can families and travelers with access needs inquire?",
+      "uz": "Oilalar va alohida ehtiyojli sayohatchilar so‘rov bera oladimi?",
+      "ru": "Можно отправить запрос семье или путешественнику с особыми потребностями?",
+      "ky": "Үй-бүлөлөр жана жеткиликтүүлүк муктаждыгы барлар суроо бере алабы?",
+      "tg": "Оё оилаҳо ва сайёҳони ниёзманд ба дастрасӣ дархост дода метавонанд?"
+    },
+    "a": {
+      "en": "Couples, friends and families who enjoy flexible discovery. Tell us about mobility needs, children’s ages and preferred walking pace before a proposal is prepared.",
+      "uz": "Erkin kashfiyotni yoqtiradigan juftliklar, do‘stlar va oilalar uchun. Taklifdan oldin harakatlanish ehtiyojlari, bolalar yoshi va yurish sur’atini ayting.",
+      "ru": "Для пар, друзей и семей, любящих гибкие маршруты. До подготовки предложения сообщите о потребностях в доступности, возрасте детей и темпе ходьбы.",
+      "ky": "Ийкемдүү саякатты сүйгөн жуптар, достор жана үй-бүлөлөр үчүн. Сунуш даярдалганга чейин жеткиликтүүлүк муктаждыгын, балдардын жашын жана басуу ыргагын айтыңыз.",
+      "tg": "Барои ҷуфтҳо, дӯстон ва оилаҳое, ки сафари озодро дӯст медоранд. Пеш аз пешниҳод эҳтиёҷи дастрасӣ, синни кӯдакон ва суръати роҳравиро бигӯед."
+    }
+  },
+  {
+    "q": {
+      "en": "Are flights and insurance included?",
+      "uz": "Parvoz va sug‘urta kiritilganmi?",
+      "ru": "Включены перелёты и страховка?",
+      "ky": "Учуулар жана камсыздандыруу киреби?",
+      "tg": "Оё парвоз ва суғурта дохиланд?"
+    },
+    "a": {
+      "en": "Only services explicitly itemised in your confirmed quote are included. Ask about flights, baggage, insurance, transfers and entrance fees before accepting.",
+      "uz": "Faqat tasdiqlangan taklifda aniq ko‘rsatilgan xizmatlar kiradi. Qabul qilishdan oldin parvoz, bagaj, sug‘urta, transfer va kirish to‘lovlarini so‘rang.",
+      "ru": "Включены только услуги, перечисленные в подтверждённом предложении. Уточните перелёты, багаж, страховку, трансферы и билеты до согласия.",
+      "ky": "Ырасталган сунушта так жазылган кызматтар гана кирет. Макул болгонго чейин учуу, жүк, камсыздандыруу, трансфер жана билеттерди тактаңыз.",
+      "tg": "Танҳо хизматҳои дар пешниҳоди тасдиқшуда зикршуда дохиланд. Пеш аз қабул парвоз, бағоҷ, суғурта, интиқол ва чиптаҳоро пурсед."
+    }
+  },
+  {
+    "q": {
+      "en": "Can I pay on this website?",
+      "uz": "Saytda to‘lov qila olamanmi?",
+      "ru": "Можно оплатить на сайте?",
+      "ky": "Сайтта төлөсөм болобу?",
+      "tg": "Оё дар сомона пардохт кардан мумкин аст?"
+    },
+    "a": {
+      "en": "This website accepts inquiries, not payments. Payment methods, cancellation rules and deadlines must be agreed with ALTAVIA in writing before a booking.",
+      "uz": "Sayt so‘rovlarni qabul qiladi, to‘lovlarni emas. To‘lov usuli, bekor qilish va muddatlar bron qilishdan oldin ALTAVIA bilan yozma kelishiladi.",
+      "ru": "Сайт принимает запросы, а не платежи. Способы оплаты, отмена и сроки согласуются с ALTAVIA письменно до бронирования.",
+      "ky": "Сайт төлөм эмес, суроолорду кабыл алат. Төлөм, жокко чыгаруу жана мөөнөттөр брондоого чейин ALTAVIA менен жазуу жүзүндө макулдашылат.",
+      "tg": "Сомона дархост қабул мекунад, на пардохт. Тарзи пардохт, бекоркунӣ ва муҳлатҳо пеш аз фармоиш бо ALTAVIA хаттӣ мувофиқа мешаванд."
+    }
+  }
+]

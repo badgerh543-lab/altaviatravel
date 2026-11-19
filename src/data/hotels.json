@@ -1,0 +1,262 @@
+[
+  {
+    "id": "hilton-tashkent",
+    "name": "Hilton Tashkent City",
+    "area": {
+      "en": "Tashkent City",
+      "uz": "Toshkent Siti",
+      "ru": "Ташкент-Сити",
+      "ky": "Ташкент-Сити",
+      "tg": "Тошканд Сити"
+    },
+    "description": {
+      "en": "A city-hotel option for a Tashkent stay. Discuss airport transfers and sightseeing transport.",
+      "uz": "Toshkentdagi shahar mehmonxonasi varianti. Aeroport va sayr transportini kelishing.",
+      "ru": "Городской вариант в Ташкенте. Обсудите трансфер и транспорт для экскурсий.",
+      "ky": "Ташкенттеги шаардык вариант. Аэропорт жана сейилдөө транспортун талкуулаңыз.",
+      "tg": "Варианти шаҳрӣ дар Тошканд. Интиқоли фурудгоҳ ва нақлиётро мувофиқа кунед."
+    },
+    "url": "https://www.hilton.com/en/hotels/tastchi-hilton-tashkent-city/",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "hgi-samarkand",
+    "name": "Hilton Garden Inn Samarkand",
+    "area": {
+      "en": "Samarkand",
+      "uz": "Samarqand",
+      "ru": "Самарканд",
+      "ky": "Самарканд",
+      "tg": "Самарқанд"
+    },
+    "description": {
+      "en": "A Samarkand city base; transport is needed for a comfortable multi-stop sightseeing day.",
+      "uz": "Samarqandda joylashish varianti; bir nechta manzilga sayr uchun transportni rejalang.",
+      "ru": "Городская база в Самарканде; для маршрута с несколькими остановками нужен транспорт.",
+      "ky": "Самарканддагы вариант; бир нече жерге баруу үчүн транспорт пландаңыз.",
+      "tg": "Ҷойгиршавӣ дар Самарқанд; барои чанд истгоҳ нақлиётро тарҳрезӣ кунед."
+    },
+    "url": "https://www.hilton.com/en/hotels/skddbgi-hilton-garden-inn-samarkand/",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "mercure-bukhara",
+    "name": "Mercure Bukhara Old Town",
+    "area": {
+      "en": "Bukhara",
+      "uz": "Buxoro",
+      "ru": "Бухара",
+      "ky": "Бухара",
+      "tg": "Бухоро"
+    },
+    "description": {
+      "en": "An old-town option to discuss for a Bukhara stay. Ask about the chosen room and walking route.",
+      "uz": "Buxoroning eski shahridagi variant. Xona va piyoda yo‘nalishini kelishing.",
+      "ru": "Вариант в старом городе Бухары. Уточните номер и пешеходный маршрут.",
+      "ky": "Бухаранын эски шаарындагы вариант. Бөлмөнү жана жөө маршрутту тактаңыз.",
+      "tg": "Варианти шаҳри куҳнаи Бухоро. Ҳуҷра ва масири пиёдагардиро муайян кунед."
+    },
+    "url": "https://all.accor.com/hotel/C0E8/index.en.shtml",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "farovon-khiva",
+    "name": "Farovon Khiva",
+    "area": {
+      "en": "Khiva",
+      "uz": "Xiva",
+      "ru": "Хива",
+      "ky": "Хива",
+      "tg": "Хева"
+    },
+    "description": {
+      "en": "A Khiva hotel option. Plan transfers between the hotel and Itchan Kala as part of the quote.",
+      "uz": "Xivadagi variant. Mehmonxona va Ichan Qal’a orasidagi transportni taklifda kelishing.",
+      "ru": "Вариант в Хиве. Транспорт до Ичан-Калы согласуйте в предложении.",
+      "ky": "Хивадагы вариант. Ичан-Калага транспортту сунушта макулдашыңыз.",
+      "tg": "Вариант дар Хева. Нақлиёт то Ичан-Қалъаро дар пешниҳод мувофиқа кунед."
+    },
+    "url": "https://farovonhotels.uz/khiva/about",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "asia-fergana",
+    "name": "Asia Fergana",
+    "area": {
+      "en": "Fergana city",
+      "uz": "Farg‘ona shahri",
+      "ru": "Фергана",
+      "ky": "Фергана шаары",
+      "tg": "Шаҳри Фарғона"
+    },
+    "description": {
+      "en": "A Fergana-city base for the valley route. Kokand, Rishtan, Margilan and Andijan require road transfers.",
+      "uz": "Vodiy safari uchun Farg‘onadagi baza. Qo‘qon, Rishton, Marg‘ilon va Andijonga avtomobil yo‘li kerak.",
+      "ru": "База в Фергане; Коканд, Риштан, Маргилан и Андижан требуют переездов.",
+      "ky": "Ферганадагы база; Кокон, Риштан, Маргилан жана Анжиянга унаа керек.",
+      "tg": "Ҷойгиршавӣ дар Фарғона; Қӯқанд, Риштон, Марғелон ва Андиҷон интиқол мехоҳанд."
+    },
+    "url": "https://fergana.asiahotels.uz/en-gb/",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "amirsoy-chalet",
+    "name": "Le Chalet by Amirsoy",
+    "area": {
+      "en": "Amirsoy, Bostanliq district",
+      "uz": "Amirsoy, Bo‘stonliq tumani",
+      "ru": "Амирсой, Бостанлыкский район",
+      "ky": "Амирсой, Бостанлык району",
+      "tg": "Амирсой, ноҳияи Бӯстонлиқ"
+    },
+    "description": {
+      "en": "A chalet option in the wider mountain region, not in Chimgan village. Agree the road route and chalet size.",
+      "uz": "Tog‘ hududidagi shale varianti, Chimyon qishlog‘ida emas. Yo‘l va shale hajmini kelishing.",
+      "ru": "Шале в горном регионе, не в посёлке Чимган. Согласуйте дорогу и размер шале.",
+      "ky": "Тоолуу аймактагы шале, Чымган айылында эмес. Жолду жана өлчөмүн макулдашыңыз.",
+      "tg": "Шале дар минтақаи кӯҳӣ, на дар деҳаи Чимғон. Роҳ ва андозаро мувофиқа кунед."
+    },
+    "url": "https://www.amirsoy.com/en/deluxe-chalet",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "novotel-istanbul",
+    "name": "Novotel Istanbul Bosphorus",
+    "area": {
+      "en": "Karaköy, Istanbul",
+      "uz": "Qoraqo‘y, Istanbul",
+      "ru": "Каракёй, Стамбул",
+      "ky": "Каракёй, Стамбул",
+      "tg": "Қаракӯй, Истанбул"
+    },
+    "description": {
+      "en": "A Karaköy base for city exploration. Confirm transport for the historic peninsula and airport.",
+      "uz": "Shahar sayri uchun Qoraqo‘ydagi baza. Tarixiy yarimorol va aeroport transportini kelishing.",
+      "ru": "База в Каракёе. Уточните транспорт до исторического полуострова и аэропорта.",
+      "ky": "Каракёйдогу база. Тарыхый жарым арал жана аэропорт транспортун тактаңыз.",
+      "tg": "Ҷойгиршавӣ дар Қаракӯй. Нақлиёти нимҷазираи таърихӣ ва фурудгоҳро санҷед."
+    },
+    "url": "https://all.accor.com/hotel/8654/index.en.shtml",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "museum-cappadocia",
+    "name": "Museum Hotel",
+    "area": {
+      "en": "Uçhisar, Cappadocia",
+      "uz": "Uchhisor, Kappadokiya",
+      "ru": "Учхисар, Каппадокия",
+      "ky": "Учхисар, Каппадокия",
+      "tg": "Учҳисор, Каппадокия"
+    },
+    "description": {
+      "en": "An Uçhisar hotel example for a cave-style stay. Confirm room layout, stairs and any accessibility needs.",
+      "uz": "G‘or uslubida turar joy uchun Uchhisordagi variant. Xona, zinapoya va qulay kirishni tekshiring.",
+      "ru": "Пример для проживания в Учхисаре. Уточните планировку, лестницы и доступность.",
+      "ky": "Учхисардагы вариант. Бөлмө түзүлүшүн, тепкичтерди жана жеткиликтүүлүктү тактаңыз.",
+      "tg": "Вариант дар Учҳисор. Тарҳи ҳуҷра, зинапоя ва дастрасиро санҷед."
+    },
+    "url": "https://www.museumhotel.com.tr/en/contact",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "rove-downtown",
+    "name": "Rove Downtown",
+    "area": {
+      "en": "Downtown Dubai",
+      "uz": "Dubay Dauntaun",
+      "ru": "Даунтаун, Дубай",
+      "ky": "Даунтаун, Дубай",
+      "tg": "Даунтаун, Дубай"
+    },
+    "description": {
+      "en": "A Downtown base for the Burj Khalifa area. Beach and old-city visits need separate travel planning.",
+      "uz": "Burj Xalifa hududi uchun Dauntaun bazasi. Plyaj va eski shaharga yo‘lni rejalang.",
+      "ru": "База в Даунтауне у Бурдж-Халифы. Пляж и старый город требуют переездов.",
+      "ky": "Бурж-Халифа аймагындагы база. Пляж жана эски шаарга жол пландаңыз.",
+      "tg": "Ҷойгиршавӣ назди Бурҷ Халифа. Роҳ ба соҳил ва шаҳри куҳнаро тарҳрезӣ кунед."
+    },
+    "url": "https://www.rovehotels.com/en/hotels/downtown/",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "al-bandar",
+    "name": "Al Bandar Rotana – Dubai Creek",
+    "area": {
+      "en": "Deira, Dubai Creek",
+      "uz": "Dayra, Dubay Krik",
+      "ru": "Дейра, Дубай-Крик",
+      "ky": "Дейра, Дубай-Крик",
+      "tg": "Дайра, Дубай Крик"
+    },
+    "description": {
+      "en": "A Creek-side alternative to Downtown. Discuss whether old Dubai or beach access matters more to you.",
+      "uz": "Dauntaunga muqobil Krik bo‘yidagi variant. Eski Dubay yoki plyaj ustuvorligini kelishing.",
+      "ru": "Альтернатива Даунтауну у Крика. Обсудите приоритет: старый Дубай или пляж.",
+      "ky": "Даунтаунга альтернатива. Эски Дубай же пляж маанилүү экенин талкуулаңыз.",
+      "tg": "Алтернативаи Даунтаун назди Крик. Афзалияти шаҳри куҳна ё соҳилро муҳокима кунед."
+    },
+    "url": "https://www.rotana.com/rotanahotelandresorts/unitedarabemirates/dubai/albandarrotana/accommodation",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "novotel-kamala",
+    "name": "Novotel Phuket Kamala Beach",
+    "area": {
+      "en": "Kamala, Phuket",
+      "uz": "Kamala, Pxuket",
+      "ru": "Камала, Пхукет",
+      "ky": "Камала, Пхукет",
+      "tg": "Камала, Пхукет"
+    },
+    "description": {
+      "en": "A Kamala beach-base example on Phuket. Boat excursions and Old Town visits require separate transfers.",
+      "uz": "Pxuketning Kamala sohilidagi variant. Qayiq sayri va eski shaharga alohida transport kerak.",
+      "ru": "Пример размещения у Камалы. Морские экскурсии и Старый город требуют трансферов.",
+      "ky": "Камаладагы вариант. Кайык сапары жана эски шаарга өзүнчө транспорт керек.",
+      "tg": "Ҷойгиршавии Камала. Қаиқ ва шаҳри куҳна интиқоли алоҳида мехоҳанд."
+    },
+    "url": "https://all.accor.com/hotel/7235/index.en.shtml",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "traders-kl",
+    "name": "Traders Hotel, Kuala Lumpur",
+    "area": {
+      "en": "KLCC, Kuala Lumpur",
+      "uz": "KLCC, Kuala-Lumpur",
+      "ru": "KLCC, Куала-Лумпур",
+      "ky": "KLCC, Куала-Лумпур",
+      "tg": "KLCC, Куала-Лумпур"
+    },
+    "description": {
+      "en": "A KLCC city-base example. A Twin Towers view depends on the booked room category.",
+      "uz": "KLCCdagi variant. Egizak minoralar manzarasi bron qilingan xona turiga bog‘liq.",
+      "ru": "Городская база в KLCC. Вид на башни зависит от выбранной категории номера.",
+      "ky": "KLCCдеги база. Мунараларга көрүнүш брондолгон бөлмөнүн түрүнө жараша.",
+      "tg": "Ҷойгиршавӣ дар KLCC. Манзараи манораҳо аз навъи ҳуҷра вобаста аст."
+    },
+    "url": "https://www.shangri-la.com/kualalumpur/traders/",
+    "checkedOn": "2026-11-18"
+  },
+  {
+    "id": "mena-house",
+    "name": "Marriott Mena House, Cairo",
+    "area": {
+      "en": "Giza, Greater Cairo",
+      "uz": "Giza, Qohira hududi",
+      "ru": "Гиза, Большой Каир",
+      "ky": "Гиза, Каир аймагы",
+      "tg": "Гиза, минтақаи Қоҳира"
+    },
+    "description": {
+      "en": "A Giza base near the pyramid area. Central Cairo visits require road travel; views depend on room category.",
+      "uz": "Piramidalar hududiga yaqin Giza bazasi. Qohira markaziga transport kerak; manzara xona turiga bog‘liq.",
+      "ru": "База в Гизе у пирамид. До центра Каира нужен транспорт; вид зависит от номера.",
+      "ky": "Пирамидалар жанындагы база. Каир борборуна унаа керек; көрүнүш бөлмөгө жараша.",
+      "tg": "Ҷойгиршавӣ назди аҳромҳо. Маркази Қоҳира нақлиёт мехоҳад; манзара аз ҳуҷра вобаста аст."
+    },
+    "url": "https://www.marriott.com/hotels/travel/caimn-marriott-mena-house-cairo/",
+    "checkedOn": "2026-11-18"
+  }
+]

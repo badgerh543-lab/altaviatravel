@@ -1,0 +1,65 @@
+{
+  "files.encoding": "utf8",
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/src/data/tours.json"
+      ],
+      "url": "./src/data/schemas/tours.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/destinations.json"
+      ],
+      "url": "./src/data/schemas/destinations.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/articles.json"
+      ],
+      "url": "./src/data/schemas/articles.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/gallery.json"
+      ],
+      "url": "./src/data/schemas/gallery.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/translations.json"
+      ],
+      "url": "./src/data/schemas/translations.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/faqs.json"
+      ],
+      "url": "./src/data/schemas/faqs.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/service-notes.json"
+      ],
+      "url": "./src/data/schemas/service-notes.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/policies.json"
+      ],
+      "url": "./src/data/schemas/policies.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/hotels.json"
+      ],
+      "url": "./src/data/schemas/hotels.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/data/places.json"
+      ],
+      "url": "./src/data/schemas/places.schema.json"
+    }
+  ]
+}

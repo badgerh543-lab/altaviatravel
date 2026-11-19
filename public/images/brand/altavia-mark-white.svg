@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 166" fill="none">
+  <title>Altavia travel — winged A</title>
+  <defs>
+    <mask id="a-cuts" maskUnits="userSpaceOnUse" x="0" y="0" width="480" height="166">
+      <path fill="#fff" d="M0 0h480v166H0z"/>
+      <path d="m240 78 31 65h-62l31-65Z" fill="#000"/>
+    </mask>
+    <mask id="a-bar" maskUnits="userSpaceOnUse" x="0" y="0" width="480" height="166">
+      <path fill="#fff" d="M0 0h480v166H0z"/>
+      <path d="M220 110h40" stroke="#000" stroke-width="2.8"/>
+    </mask>
+    <path id="wing" d="M9 17c-4-1-5 1-2 4l21 21c12 11 25 15 46 17l138 12H66c-5 0-6 2-3 6l9 10c9 10 20 14 36 13l108-6-103 22c-5 1-6 3-3 6l9 8c10 9 22 10 35 5l68-24-70 34c-5 2-5 4 0 7l10 4c11 4 20 3 32-3l30-16 16-43c-3-16-10-25-24-29L9 17Z"/>
+  </defs>
+  <g mask="url(#a-cuts)">
+    <use href="#wing" fill="#ffffff"/>
+    <use href="#wing" transform="translate(480) scale(-1 1)" fill="#ffffff"/>
+  </g>
+  <path d="m240 87-23 49 23-10 23 10-23-49Z" fill="#ffffff" mask="url(#a-bar)"/>
+</svg>

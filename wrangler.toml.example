@@ -1,0 +1,18 @@
+name = "altavia"
+pages_build_output_dir = "./dist"
+compatibility_date = "2026-11-18"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "altavia-inquiries"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+# Configure SITE_URL and BUSINESS_READY in the Pages dashboard.
+# Configure INQUIRY_ENCRYPTION_KEY, RATE_LIMIT_SECRET and TURNSTILE_SECRET_KEY
+# as encrypted secrets. TURNSTILE_SITE_KEY is the public widget key.
+# Use an independent database and keys for preview; never bind production data there.
+# Private /edit workspace: ADMIN_ENABLED=true and sufficient Workers Paid CPU.
+# CMS_BUILD_TOKEN is a private runtime AND build secret (40+ random characters).
+# CMS_DEPLOY_HOOK is a private runtime secret; CMS_SOURCE_URL is a build setting.
+# See docs/admin-panel.md before enabling production administration/publishing.

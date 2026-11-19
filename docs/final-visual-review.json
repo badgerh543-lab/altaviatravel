@@ -1,0 +1,61 @@
+{
+  "errors": [],
+  "reviews": [
+    {
+      "season": "autumn",
+      "route": "/en/",
+      "violations": []
+    },
+    {
+      "season": "spring",
+      "route": "/en/",
+      "violations": []
+    },
+    {
+      "season": "summer",
+      "route": "/en/",
+      "violations": []
+    },
+    {
+      "season": "winter",
+      "route": "/en/",
+      "violations": []
+    },
+    {
+      "name": "home-mobile",
+      "route": "/uz/",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "name": "catalog-mobile",
+      "route": "/ru/tours/",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "name": "tour-desktop",
+      "route": "/en/tours/dubai-escape/",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "name": "planner-mobile",
+      "route": "/ky/custom/",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "name": "admin-desktop",
+      "route": "/edit/",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "name": "admin-mobile",
+      "route": "/edit/",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ]
+}

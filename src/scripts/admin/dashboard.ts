@@ -1,0 +1,20 @@
+import type {Workspace} from './app';
+import {h,button,card,money} from './ui';
+import {showBookingList,openBooking} from './bookings';
+export async function renderDashboard(w:Workspace){
+  const data=await w.api('dashboard');const statuses=Object.fromEntries(data.statuses.map((r:any)=>[r.status,r.count]));const intents=Object.fromEntries(data.intents.map((r:any)=>[r.intent,r.count]));
+  const metrics=[
+    {key:'active',label:'Active tours',value:data.activeTours,note:'Published and visible',action:()=>w.go('Tours')},
+    {key:'booked',label:'Booked',value:(statuses.reserved||0)+(statuses.approved||0),note:'Reserved or approved',action:()=>showBookingList(w,{status:'booked'})},
+    {key:'interested',label:'Interested',value:intents.interested||0,note:'Open customer requests',action:()=>showBookingList(w,{intent:'interested'})},
+    {key:'ready-to-pay',label:'Wants to pay',value:intents['ready-to-pay']||0,note:'Follow up about payment',action:()=>showBookingList(w,{intent:'ready-to-pay'})},
+    {key:'needs-info',label:'Needs more info',value:intents['needs-info']||0,note:'Questions to answer',action:()=>showBookingList(w,{intent:'needs-info'})}
+  ];
+  w.host.append(h('div',{class:'edit-dashboard-intro'},[h('div',{},[h('span',{class:'eyebrow orange'},['YOUR BUSINESS, AT A GLANCE']),h('h2',{},['Good journeys start here.']),h('p',{},['See what is live, who is interested and which customers need your attention.'])]),button('Refresh dashboard',()=>w.run(()=>w.go('Dashboard')))]));
+  w.host.append(h('div',{class:'edit-stats edit-dashboard-stats'},metrics.map((metric,index)=>h('button',{type:'button',class:'edit-stat'+(index===0?' edit-highlight':''),'data-dashboard-metric':metric.key,onclick:()=>w.run(metric.action)},[h('span',{},[metric.label]),h('strong',{},[metric.value]),h('small',{},[metric.note]),h('i',{'aria-hidden':'true'},['↗'])]))));
+  w.host.append(h('p',{class:'edit-muted edit-count-explainer'},['Click a number to open its list. A booked customer can also need information or want to pay.']));
+  const recent=data.recent.map((item:any)=>h('tr',{},[h('td',{},[h('strong',{},[item.name]),h('small',{},[w.collections.tours.find((t:any)=>t.slug===item.tour_slug)?.title.en||'Custom trip'])]),h('td',{},[item.status==='sold'?'Completed':item.status==='cancelled'?'Closed':item.intent==='needs-info'?'Needs more info':item.intent==='ready-to-pay'?'Wants to pay':'Interested']),h('td',{},[h('span',{class:'edit-status '+item.status},[{new:'New',reserved:'Booked',approved:'Approved',sold:'Paid / sold',cancelled:'Cancelled'}[item.status as string]||item.status])]),h('td',{},[button('Open request',()=>w.run(async()=>{const result=await w.api('bookings?reference='+item.id);if(result.items[0])openBooking(w,result.items[0]);}))])]));
+  const activity=recent.length?h('div',{class:'edit-table-wrap'},[h('table',{class:'edit-table'},[h('thead',{},[h('tr',{},['Customer / tour','Customer wants','Booking','Action'].map(title=>h('th',{scope:'col'},[title])))]),h('tbody',{},recent)])]):h('div',{class:'edit-empty'},[h('h3',{},['Your next journey starts with a request.']),h('p',{},['Website inquiries will appear here automatically. You can also add a reservation yourself.'])]);
+  w.host.append(h('div',{class:'edit-dashboard-columns'},[card('Recent customer requests',[activity,button('View all bookings',()=>w.run(()=>showBookingList(w,{})))]),card('Quick actions',[h('div',{class:'edit-quick-actions'},[button('Manage tours',()=>w.run(()=>w.go('Tours'))),button('Bookings & customer requests',()=>w.run(()=>showBookingList(w,{}))),button('Change website season',()=>w.run(()=>w.go('Theme')))]),h('div',{class:'edit-dashboard-sales'},[h('h3',{},[(statuses.sold||0)+' paid / sold bookings']),...data.revenue.map((r:any)=>h('p',{},[money(r.amount_minor,r.currency)])),h('small',{},['Recorded sales in retained records (90 days).'])])])]));
+  if(data.publishing.draft!==data.publishing.published)w.host.append(h('div',{class:'edit-notice edit-pending'},[h('strong',{},['You have unpublished changes.']),h('p',{},['Saved tour and content changes go live after Review & publish. Theme changes apply separately.'])]));
+}

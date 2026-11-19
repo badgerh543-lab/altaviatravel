@@ -1,0 +1,182 @@
+[
+  {
+    "id": "bukhara",
+    "image": "bukhara",
+    "caption": {
+      "en": "Traditional adras dress, Bukhara",
+      "uz": "An’anaviy adras libos, Buxoro",
+      "ru": "Традиционное платье из адраса, Бухара",
+      "ky": "Салттуу адрас көйнөк, Бухара",
+      "tg": "Либоси анъанавии адрас, Бухоро"
+    },
+    "categories": [
+      "uzbekistan",
+      "culture"
+    ]
+  },
+  {
+    "id": "khiva",
+    "image": "khiva",
+    "caption": {
+      "en": "Kalta Minor, Khiva",
+      "uz": "Kalta Minor, Xiva",
+      "ru": "Кальта-Минор, Хива",
+      "ky": "Калта-Минор, Хива",
+      "tg": "Калта Минор, Хева"
+    },
+    "categories": [
+      "uzbekistan",
+      "culture"
+    ]
+  },
+  {
+    "id": "tashkent",
+    "image": "tashkent",
+    "caption": {
+      "en": "Amir Timur Square, Tashkent",
+      "uz": "Amir Temur maydoni, Toshkent",
+      "ru": "Сквер Амира Темура, Ташкент",
+      "ky": "Амир Темур аянты, Ташкент",
+      "tg": "Майдони Амир Темур, Тошканд"
+    },
+    "categories": [
+      "uzbekistan",
+      "culture"
+    ]
+  },
+  {
+    "id": "fergana",
+    "image": "fergana",
+    "caption": {
+      "en": "Khudayar Khan Palace, Kokand",
+      "uz": "Xudoyorxon saroyi, Qo‘qon",
+      "ru": "Дворец Худояр-хана, Коканд",
+      "ky": "Худояр хандын сарайы, Кокон",
+      "tg": "Қасри Худоёрхон, Қӯқанд"
+    },
+    "categories": [
+      "uzbekistan",
+      "culture"
+    ]
+  },
+  {
+    "id": "istanbul",
+    "image": "istanbul",
+    "caption": {
+      "en": "The Bosphorus, Istanbul",
+      "uz": "Bosfor, Istanbul",
+      "ru": "Босфор, Стамбул",
+      "ky": "Босфор, Стамбул",
+      "tg": "Босфор, Истанбул"
+    },
+    "categories": [
+      "international",
+      "culture"
+    ]
+  },
+  {
+    "id": "mountains",
+    "image": "mountains",
+    "caption": {
+      "en": "Greater Chimgan, Uzbekistan",
+      "uz": "Katta Chimyon, O‘zbekiston",
+      "ru": "Большой Чимган, Узбекистан",
+      "ky": "Чоң Чымган, Өзбекстан",
+      "tg": "Чимғони Калон, Ӯзбекистон"
+    },
+    "categories": [
+      "uzbekistan",
+      "adventure"
+    ]
+  },
+  {
+    "id": "malaysia",
+    "image": "malaysia",
+    "caption": {
+      "en": "Petronas Towers, Kuala Lumpur",
+      "uz": "Petronas minoralari, Kuala-Lumpur",
+      "ru": "Башни Петронас, Куала-Лумпур",
+      "ky": "Петронас мунаралары, Куала-Лумпур",
+      "tg": "Бурҷҳои Петронас, Куала-Лумпур"
+    },
+    "categories": [
+      "international",
+      "culture"
+    ]
+  },
+  {
+    "id": "egypt",
+    "image": "egypt",
+    "caption": {
+      "en": "The pyramids of Giza",
+      "uz": "Giza piramidalari",
+      "ru": "Пирамиды Гизы",
+      "ky": "Гиза пирамидалары",
+      "tg": "Аҳроми Гиза"
+    },
+    "categories": [
+      "international",
+      "culture"
+    ]
+  },
+  {
+    "id": "dubai",
+    "image": "dubai",
+    "caption": {
+      "en": "Dubai from the water",
+      "uz": "Suvdan Dubay manzarasi",
+      "ru": "Дубай со стороны воды",
+      "ky": "Суудан Дубай көрүнүшү",
+      "tg": "Манзараи Дубай аз об"
+    },
+    "categories": [
+      "international",
+      "culture"
+    ]
+  },
+  {
+    "id": "thailand",
+    "image": "thailand",
+    "caption": {
+      "en": "Longtail boats, Phi Phi, Thailand",
+      "uz": "Qayiqlar, Phi Phi, Tailand",
+      "ru": "Лодки на Пхи-Пхи, Таиланд",
+      "ky": "Кайыктар, Пхи-Пхи, Таиланд",
+      "tg": "Қаиқҳо, Пхи-Пхи, Таиланд"
+    },
+    "categories": [
+      "international",
+      "adventure"
+    ]
+  },
+  {
+    "id": "cappadocia",
+    "image": "cappadocia",
+    "caption": {
+      "en": "Sunrise in Cappadocia",
+      "uz": "Kapadokiyada tong",
+      "ru": "Рассвет в Каппадокии",
+      "ky": "Каппадокиядагы таң",
+      "tg": "Субҳ дар Каппадокия"
+    },
+    "categories": [
+      "international",
+      "adventure"
+    ]
+  },
+  {
+    "id": "samarkand",
+    "image": "samarkand",
+    "caption": {
+      "en": "Registan, Samarkand",
+      "uz": "Registon, Samarqand",
+      "ru": "Регистан, Самарканд",
+      "ky": "Регистан, Самарканд",
+      "tg": "Регистон, Самарқанд"
+    },
+    "categories": [
+      "uzbekistan",
+      "culture"
+    ]
+  }
+]

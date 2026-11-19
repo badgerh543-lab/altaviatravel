@@ -1,0 +1,13 @@
+import tours from '../src/data/tours.json' with {type:'json'};
+import destinations from '../src/data/destinations.json' with {type:'json'};
+import articles from '../src/data/articles.json' with {type:'json'};
+import gallery from '../src/data/gallery.json' with {type:'json'};
+import media from '../src/data/media.json' with {type:'json'};
+import faqs from '../src/data/faqs.json' with {type:'json'};
+import notes from '../src/data/service-notes.json' with {type:'json'};
+import translations from '../src/data/translations.json' with {type:'json'};
+import policies from '../src/data/policies.json' with {type:'json'};
+import company from '../src/data/company.json' with {type:'json'};
+import hotels from '../src/data/hotels.json' with {type:'json'};
+import places from '../src/data/places.json' with {type:'json'};
+export const seedContent={tours,destinations,articles,gallery,media,faqs,'service-notes':notes,translations,policies,company,hotels,places};

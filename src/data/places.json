@@ -1,0 +1,743 @@
+[
+  {
+    "id": "registan",
+    "name": {
+      "en": "Registan Square",
+      "uz": "Registon maydoni",
+      "ru": "Площадь Регистан",
+      "ky": "Регистан аянты",
+      "tg": "Майдони Регистон"
+    },
+    "description": {
+      "en": "See the three madrasahs framing Samarkand’s best-known square and their tiled facades.",
+      "uz": "Samarqandning mashhur maydonini o‘ragan uch madrasa va koshinli peshtoqlarni ko‘ring.",
+      "ru": "Три медресе вокруг главной площади Самарканда и их мозаичные фасады.",
+      "ky": "Самарканддын белгилүү аянтындагы үч медресе жана мозаикалуу фасаддар.",
+      "tg": "Се мадрасаи атрофи майдони машҳури Самарқанд ва пештоқҳои кошикорӣ."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "shah-i-zinda",
+    "name": {
+      "en": "Shah-i-Zinda",
+      "uz": "Shohi Zinda",
+      "ru": "Шахи-Зинда",
+      "ky": "Шахи-Зинда",
+      "tg": "Шоҳи Зинда"
+    },
+    "description": {
+      "en": "Walk through a historic mausoleum ensemble known for detailed blue tilework.",
+      "uz": "Moviy koshinlari bilan tanilgan tarixiy maqbaralar majmuasi bo‘ylab sayr qiling.",
+      "ru": "Прогулка по ансамблю мавзолеев с тонкой голубой мозаикой.",
+      "ky": "Көк мозаикасы менен белгилүү тарыхый күмбөздөр ансамбли.",
+      "tg": "Сайр дар маҷмӯаи мақбараҳо бо кошикории нозуки кабуд."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "siyob",
+    "name": {
+      "en": "Siyob Bazaar",
+      "uz": "Siyob bozori",
+      "ru": "Сиабский базар",
+      "ky": "Сиаб базары",
+      "tg": "Бозори Сиёб"
+    },
+    "description": {
+      "en": "Browse bread, dried fruit and local produce; leave time for a market walk.",
+      "uz": "Non, quruq meva va mahalliy mahsulotlar rastalari uchun vaqt ajrating.",
+      "ru": "Лепёшки, сухофрукты и местные продукты на прогулке по базару.",
+      "ky": "Нан, кургатылган мөмө жана жергиликтүү азыктар сатылган базар.",
+      "tg": "Нон, меваи хушк ва маҳсулоти маҳаллӣ дар сайри бозор."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "gur-emir",
+    "name": {
+      "en": "Gur-e-Amir",
+      "uz": "Amir Temur maqbarasi",
+      "ru": "Гур-Эмир",
+      "ky": "Гур-Эмир",
+      "tg": "Гӯри Амир"
+    },
+    "description": {
+      "en": "Visit the Timurid mausoleum complex and see its distinctive dome.",
+      "uz": "Temuriylar maqbarasi majmuasi va uning betakror gumbazini tomosha qiling.",
+      "ru": "Мавзолей Тимуридов с узнаваемым куполом.",
+      "ky": "Өзгөчө күмбөзү бар Тимурийлердин тарыхый комплекси.",
+      "tg": "Маҷмӯаи мақбараи Темуриён бо гунбази шинохта."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "poi-kalyan",
+    "name": {
+      "en": "Poi-Kalyan",
+      "uz": "Poyi Kalon",
+      "ru": "Пои-Калян",
+      "ky": "Пои-Калян",
+      "tg": "Пои Калон"
+    },
+    "description": {
+      "en": "Explore the square around the Kalyan minaret, mosque and Mir-i-Arab madrasah.",
+      "uz": "Kalon minorasi, masjid va Mir Arab madrasasi atrofidagi maydonni ko‘ring.",
+      "ru": "Площадь у минарета Калян, мечети и медресе Мири-Араб.",
+      "ky": "Калян мунарасы, мечит жана Мири-Араб медресесинин айланасы.",
+      "tg": "Майдони назди манораи Калон, масҷид ва мадрасаи Мири Араб."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "lyabi-hauz",
+    "name": {
+      "en": "Lyabi-Hauz",
+      "uz": "Labi Hovuz",
+      "ru": "Ляби-Хауз",
+      "ky": "Ляби-Хауз",
+      "tg": "Лаби Ҳавз"
+    },
+    "description": {
+      "en": "Pause by the old-city pond and walk the surrounding lanes and courtyards.",
+      "uz": "Eski shahar hovuzi yonida dam oling, yaqin ko‘cha va hovlilarni aylaning.",
+      "ru": "Отдых у пруда старого города и прогулка по соседним переулкам.",
+      "ky": "Эски шаардын көлмөсү жана анын жанындагы көчөлөр.",
+      "tg": "Истироҳат назди ҳавз ва сайри кӯчаву ҳавлиҳои шаҳри куҳна."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "bukhara-domes",
+    "name": {
+      "en": "Trading domes",
+      "uz": "Savdo toqlari",
+      "ru": "Торговые купола",
+      "ky": "Соода күмбөздөрү",
+      "tg": "Тоқҳои тиҷоратӣ"
+    },
+    "description": {
+      "en": "Look for ceramics, textiles and craft stalls beneath Bukhara’s historic domes.",
+      "uz": "Buxoroning tarixiy toqlarida sopol, mato va hunarmandchilik rastalarini ko‘ring.",
+      "ru": "Керамика, ткани и ремесленные лавки под историческими куполами.",
+      "ky": "Тарыхый күмбөздөрдүн астындагы керамика, кездеме жана кол өнөрчүлүк.",
+      "tg": "Кулолӣ, матоъ ва дӯконҳои ҳунарӣ дар зери тоқҳои таърихӣ."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "itchan-kala",
+    "name": {
+      "en": "Itchan Kala",
+      "uz": "Ichan Qal’a",
+      "ru": "Ичан-Кала",
+      "ky": "Ичан-Кала",
+      "tg": "Ичан-Қалъа"
+    },
+    "description": {
+      "en": "Explore Khiva’s walled old town, its narrow lanes, gates and madrasahs.",
+      "uz": "Xivaning devorlar bilan o‘ralgan eski shahri, darvoza va madrasalarini ko‘ring.",
+      "ru": "Старый город Хивы с крепостными стенами, воротами и медресе.",
+      "ky": "Хиванын дубалдуу эски шаары, дарбазалары жана медреселери.",
+      "tg": "Шаҳри куҳнаи девордори Хева, дарвозаҳо ва мадрасаҳо."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "kalta-minor",
+    "name": {
+      "en": "Kalta Minor",
+      "uz": "Kalta Minor",
+      "ru": "Кальта-Минор",
+      "ky": "Калта-Минор",
+      "tg": "Калта Минор"
+    },
+    "description": {
+      "en": "See the turquoise-tiled minaret on a walk inside Itchan Kala.",
+      "uz": "Ichan Qal’a sayrida feruza koshinli minorani tomosha qiling.",
+      "ru": "Бирюзовый минарет на прогулке внутри Ичан-Калы.",
+      "ky": "Ичан-Каланын ичиндеги бирюза мозаикалуу мунара.",
+      "tg": "Манораи кошикории фирӯза дар сайри Ичан-Қалъа."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "juma-khiva",
+    "name": {
+      "en": "Juma Mosque",
+      "uz": "Juma masjidi",
+      "ru": "Джума-мечеть",
+      "ky": "Жума мечити",
+      "tg": "Масҷиди Ҷумъа"
+    },
+    "description": {
+      "en": "Discover the prayer hall’s carved wooden columns, subject to visitor access.",
+      "uz": "Tashrif uchun ochiq bo‘lsa, o‘ymakor yog‘och ustunli namozgohni ko‘ring.",
+      "ru": "Зал с резными деревянными колоннами, при доступе для посетителей.",
+      "ky": "Зыяратчыларга ачык болсо, оюлган жыгач мамылуу залды көрүңүз.",
+      "tg": "Толори сутунҳои чӯбии кандакорӣ, агар барои меҳмонон боз бошад."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "chorsu",
+    "name": {
+      "en": "Chorsu Bazaar",
+      "uz": "Chorsu bozori",
+      "ru": "Базар Чорсу",
+      "ky": "Чорсу базары",
+      "tg": "Бозори Чорсу"
+    },
+    "description": {
+      "en": "Explore Tashkent’s produce and spice stalls beneath and around the market dome.",
+      "uz": "Toshkent bozorining gumbazi ostidagi va atrofidagi mahsulot rastalarini ko‘ring.",
+      "ru": "Продукты и специи под куполом ташкентского базара и вокруг него.",
+      "ky": "Ташкент базарынын күмбөзүндөгү азык-түлүк жана татымалдар.",
+      "tg": "Маҳсулот ва ҳанутҳо зери гунбаз ва атрофи бозори Тошканд."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "tashkent-metro",
+    "name": {
+      "en": "Tashkent Metro",
+      "uz": "Toshkent metrosi",
+      "ru": "Ташкентское метро",
+      "ky": "Ташкент метросу",
+      "tg": "Метрои Тошканд"
+    },
+    "description": {
+      "en": "Ride between selected stations to see varied architecture and decorative details.",
+      "uz": "Turli me’moriy bezaklarni ko‘rish uchun tanlangan bekatlarda sayr qiling.",
+      "ru": "Поездка между станциями с разной архитектурой и декором.",
+      "ky": "Ар түрдүү архитектурасы бар тандалган станциялардын ортосунда жүрүү.",
+      "tg": "Сафар байни истгоҳҳои интихобшуда бо меъморӣ ва ороиши гуногун."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "khast-imam",
+    "name": {
+      "en": "Khast Imam",
+      "uz": "Hazrati Imom",
+      "ru": "Хаст-Имам",
+      "ky": "Хаст-Имам",
+      "tg": "Ҳазрати Имом"
+    },
+    "description": {
+      "en": "See the religious ensemble in the old city; dress respectfully at active sites.",
+      "uz": "Eski shahardagi diniy majmuani ko‘ring; ibodat joylarida kiyinish odobiga rioya qiling.",
+      "ru": "Религиозный ансамбль старого города; для действующих святынь нужна скромная одежда.",
+      "ky": "Эски шаардагы диний комплекс; сыйынуу жайларында ылайыктуу кийиниңиз.",
+      "tg": "Маҷмӯаи динии шаҳри куҳна; дар ҷойҳои ибодат либоси муносиб пӯшед."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/o/uzbekistan-classic-tour-uz-2-8-days-7-nights/",
+    "optional": false
+  },
+  {
+    "id": "kokand-palace",
+    "name": {
+      "en": "Khudayar Khan Palace",
+      "uz": "Xudoyorxon o‘rdasi",
+      "ru": "Дворец Худояр-хана",
+      "ky": "Кудаяр хандын сарайы",
+      "tg": "Қасри Худоёрхон"
+    },
+    "description": {
+      "en": "See Kokand’s palace facade and discuss a museum visit with your guide.",
+      "uz": "Qo‘qondagi saroy peshtoqini ko‘ring, muzey tashrifini gid bilan kelishing.",
+      "ru": "Фасад дворца в Коканде; посещение музея можно согласовать с гидом.",
+      "ky": "Кокондогу сарайдын фасады; музейге барууну гид менен талкуулаңыз.",
+      "tg": "Пештоқи қасри Қӯқанд; боздиди осорхонаро бо роҳбалад мувофиқа кунед."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/c/tourist-routes/",
+    "optional": false
+  },
+  {
+    "id": "rishtan",
+    "name": {
+      "en": "Rishtan ceramics",
+      "uz": "Rishton kulolchiligi",
+      "ru": "Керамика Риштана",
+      "ky": "Риштан керамикасы",
+      "tg": "Кулолии Риштон"
+    },
+    "description": {
+      "en": "Visit a ceramics workshop when arranged; demonstrations depend on the artisan.",
+      "uz": "Oldindan kelishilgan kulolchilik ustaxonasiga boring; namoyish ustaga bog‘liq.",
+      "ru": "Посещение мастерской по договорённости; демонстрация зависит от мастера.",
+      "ky": "Макулдашылган устаканага баруу; көрсөтүү устага жараша болот.",
+      "tg": "Боздиди устохона бо мувофиқа; намоиш аз ҳунарманд вобаста аст."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/c/tourist-routes/",
+    "optional": false
+  },
+  {
+    "id": "margilan",
+    "name": {
+      "en": "Margilan silk",
+      "uz": "Marg‘ilon ipagi",
+      "ru": "Шёлк Маргилана",
+      "ky": "Маргиландын жибеги",
+      "tg": "Абрешими Марғелон"
+    },
+    "description": {
+      "en": "Learn about silk weaving at an arranged workshop stop in Margilan.",
+      "uz": "Marg‘ilonda kelishilgan ustaxona tashrifida ipak to‘qishni o‘rganing.",
+      "ru": "Знакомство с ткачеством шёлка в мастерской по договорённости.",
+      "ky": "Маргиланда макулдашылган устаканада жибек токуу менен таанышуу.",
+      "tg": "Шиносоӣ бо абрешимбофӣ дар устохонаи мувофиқашудаи Марғелон."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/c/tourist-routes/",
+    "optional": false
+  },
+  {
+    "id": "andijan-babur",
+    "name": {
+      "en": "Babur heritage in Andijan",
+      "uz": "Andijonda Bobur merosi",
+      "ru": "Наследие Бабура в Андижане",
+      "ky": "Анжияндагы Бабур мурасы",
+      "tg": "Мероси Бобур дар Андиҷон"
+    },
+    "description": {
+      "en": "Include Babur-related sights and a walk through the city in your valley route.",
+      "uz": "Vodiy dasturiga Bobur bilan bog‘liq manzillar va shahar sayrini qo‘shing.",
+      "ru": "Места, связанные с Бабуром, и прогулка по городу в маршруте долины.",
+      "ky": "Өрөөн маршрутунда Бабурга байланышкан жерлер жана шаар сейили.",
+      "tg": "Ҷойҳои марбут ба Бобур ва сайри шаҳр дар масири водӣ."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/c/tourist-routes/",
+    "optional": false
+  },
+  {
+    "id": "chimgan",
+    "name": {
+      "en": "Chimgan mountain trails",
+      "uz": "Chimyon tog‘ yo‘laklari",
+      "ru": "Горные тропы Чимгана",
+      "ky": "Чымгандын тоо жолдору",
+      "tg": "Роҳҳои кӯҳии Чимғон"
+    },
+    "description": {
+      "en": "Choose a walk suited to your fitness and the day’s trail conditions.",
+      "uz": "Tayyorgarligingiz va yo‘l holatiga mos piyoda yo‘nalishini tanlang.",
+      "ru": "Прогулка с учётом подготовки и состояния троп в день поездки.",
+      "ky": "Даярдыкка жана ошол күнкү жолдун абалына ылайык сейил.",
+      "tg": "Сайр мувофиқи омодагии шумо ва ҳолати роҳ дар рӯзи сафар."
+    },
+    "sourceUrl": "https://www.amirsoy.com/en/",
+    "optional": false
+  },
+  {
+    "id": "charvak",
+    "name": {
+      "en": "Charvak viewpoints",
+      "uz": "Chorvoq manzaralari",
+      "ru": "Виды на Чарвак",
+      "ky": "Чарвак көрүнүштөрү",
+      "tg": "Манзараҳои Чорвоқ"
+    },
+    "description": {
+      "en": "Add scenic stops around the reservoir when the driving route allows.",
+      "uz": "Avtomobil yo‘nalishi imkon bersa, suv ombori atrofidagi manzarali joylarda to‘xtang.",
+      "ru": "Панорамные остановки у водохранилища, если позволяет маршрут.",
+      "ky": "Маршрутка ылайык суу сактагычтагы кооз көрүнүштөргө токтоо.",
+      "tg": "Истгоҳҳои манзаравии обанбор, агар масири роҳ имкон диҳад."
+    },
+    "sourceUrl": "https://uzbekistan.travel/en/c/tourist-routes/",
+    "optional": false
+  },
+  {
+    "id": "amirsoy",
+    "name": {
+      "en": "Amirsoy",
+      "uz": "Amirsoy",
+      "ru": "Амирсой",
+      "ky": "Амирсой",
+      "tg": "Амирсой"
+    },
+    "description": {
+      "en": "A resort stop can be arranged; lifts and activities depend on season and operation.",
+      "uz": "Kurortga tashrif kelishiladi; lift va mashg‘ulotlar mavsum hamda ish holatiga bog‘liq.",
+      "ru": "Остановка на курорте по договорённости; подъёмники и активности зависят от сезона и работы.",
+      "ky": "Курортко баруу макулдашылат; көтөргүчтөр мезгилге жана иштешине жараша болот.",
+      "tg": "Боздиди осоишгоҳ бо мувофиқа; лифтҳо ва фаъолиятҳо аз мавсим вобастаанд."
+    },
+    "sourceUrl": "https://www.amirsoy.com/en/",
+    "optional": true
+  },
+  {
+    "id": "sultanahmet",
+    "name": {
+      "en": "Sultanahmet & Blue Mosque",
+      "uz": "Sultonahmad va Moviy masjid",
+      "ru": "Султанахмет и Голубая мечеть",
+      "ky": "Султанахмет жана Көк мечит",
+      "tg": "Султонаҳмад ва Масҷиди Кабуд"
+    },
+    "description": {
+      "en": "Explore the historic square; mosque visits follow prayer times and visitor rules.",
+      "uz": "Tarixiy maydonni ko‘ring; masjid tashrifi namoz va tashrif qoidalariga moslanadi.",
+      "ru": "Историческая площадь; посещение мечети зависит от молитв и правил входа.",
+      "ky": "Тарыхый аянт; мечитке кирүү намаз убактысына жана эрежелерге ылайык.",
+      "tg": "Майдони таърихӣ; боздиди масҷид мувофиқи намоз ва қоидаҳои вуруд."
+    },
+    "sourceUrl": "https://goturkiye.com/istanbul",
+    "optional": false
+  },
+  {
+    "id": "hagia-sophia",
+    "name": {
+      "en": "Hagia Sophia",
+      "uz": "Ayasofya",
+      "ru": "Айя-София",
+      "ky": "Айя-София",
+      "tg": "Айя-София"
+    },
+    "description": {
+      "en": "See its exterior from the historic peninsula; visitor-gallery entry is a separate ticketed choice.",
+      "uz": "Tarixiy yarimorolda tashqi ko‘rinishini ko‘ring; tashrif galereyasi uchun alohida chipta kelishiladi.",
+      "ru": "Внешний осмотр; вход в галерею посетителей — отдельная платная опция.",
+      "ky": "Сыртынан көрүү; зыяратчылар галереясына кирүү өзүнчө билет менен.",
+      "tg": "Тамошои берунӣ; вуруд ба галереяи меҳмонон интихоби алоҳида бо чипта."
+    },
+    "sourceUrl": "https://goturkiye.com/istanbul",
+    "optional": false
+  },
+  {
+    "id": "topkapi",
+    "name": {
+      "en": "Topkapı Palace",
+      "uz": "To‘pqopi saroyi",
+      "ru": "Дворец Топкапы",
+      "ky": "Топкапы сарайы",
+      "tg": "Қасри Тӯпқопӣ"
+    },
+    "description": {
+      "en": "Discuss a palace visit, including which ticketed areas to include and time for queues.",
+      "uz": "Saroy tashrifi, chiptali hududlar va navbat uchun vaqtni oldindan kelishing.",
+      "ru": "Согласуйте посещение дворца, зоны по билетам и время на очередь.",
+      "ky": "Сарайга барууну, билеттүү аймактарды жана кезек убактысын макулдашыңыз.",
+      "tg": "Боздиди қаср, қисмҳои чиптадор ва вақти навбатро мувофиқа кунед."
+    },
+    "sourceUrl": "https://goturkiye.com/istanbul",
+    "optional": false
+  },
+  {
+    "id": "bosphorus",
+    "name": {
+      "en": "Bosphorus ferry",
+      "uz": "Bosfor paromi",
+      "ru": "Паром по Босфору",
+      "ky": "Босфор парому",
+      "tg": "Пароми Босфор"
+    },
+    "description": {
+      "en": "See waterfront neighbourhoods from a ferry; sailing route and tickets are agreed separately.",
+      "uz": "Paromdan sohil mahallalarini ko‘ring; yo‘nalish va chipta alohida kelishiladi.",
+      "ru": "Набережные с парома; маршрут и билеты согласовываются отдельно.",
+      "ky": "Паромдон жээк конуштарын көрүү; маршрут жана билет өзүнчө макулдашылат.",
+      "tg": "Маҳаллаҳои соҳилӣ аз паром; масир ва чипта алоҳида мувофиқа мешаванд."
+    },
+    "sourceUrl": "https://goturkiye.com/istanbul",
+    "optional": false
+  },
+  {
+    "id": "goreme",
+    "name": {
+      "en": "Göreme Open-Air Museum",
+      "uz": "Go‘reme ochiq osmon muzeyi",
+      "ru": "Музей Гёреме под открытым небом",
+      "ky": "Гёреме ачык асман музейи",
+      "tg": "Осорхонаи кушоди Гӯреме"
+    },
+    "description": {
+      "en": "Explore the rock-cut heritage site; plan comfortable shoes and the required entrance tickets.",
+      "uz": "Qoyaga o‘yilgan tarixiy majmuaga boring; qulay poyabzal va kirish chiptasini rejalang.",
+      "ru": "Скальный исторический комплекс; нужны удобная обувь и входные билеты.",
+      "ky": "Аскага оюлган тарыхый комплекс; ыңгайлуу бут кийим жана билет керек.",
+      "tg": "Маҷмӯаи таърихии сангтарошӣ; пойафзоли роҳат ва чипта лозим аст."
+    },
+    "sourceUrl": "https://www.museumhotel.com.tr/en/contact",
+    "optional": false
+  },
+  {
+    "id": "uchisar",
+    "name": {
+      "en": "Uçhisar",
+      "uz": "Uchhisor",
+      "ru": "Учхисар",
+      "ky": "Учхисар",
+      "tg": "Учҳисор"
+    },
+    "description": {
+      "en": "Walk through the village and choose a viewpoint over the surrounding valleys.",
+      "uz": "Qishloq bo‘ylab sayr qiling, atrofdagi vodiylarga qaragan manzara nuqtasini tanlang.",
+      "ru": "Прогулка по посёлку и виды на окружающие долины.",
+      "ky": "Айылды кыдырып, өрөөндөргө караган көрүнүштү тандаңыз.",
+      "tg": "Сайри деҳа ва интихоби нуқтаи тамошои водиҳои атроф."
+    },
+    "sourceUrl": "https://www.museumhotel.com.tr/en/contact",
+    "optional": false
+  },
+  {
+    "id": "pasabag",
+    "name": {
+      "en": "Paşabağ Valley",
+      "uz": "Pashabag‘ vodiysi",
+      "ru": "Долина Пашабаг",
+      "ky": "Пашабаг өрөөнү",
+      "tg": "Водии Пашабоғ"
+    },
+    "description": {
+      "en": "See the region’s distinctive rock formations on the agreed valley route.",
+      "uz": "Kelishilgan vodiy yo‘nalishida o‘ziga xos qoyalarni tomosha qiling.",
+      "ru": "Необычные скальные образования на согласованном маршруте.",
+      "ky": "Макулдашылган маршруттагы өзгөчө аска түзүлүштөрү.",
+      "tg": "Сангҳои ғайриоддӣ дар масири мувофиқашудаи водӣ."
+    },
+    "sourceUrl": "https://www.museumhotel.com.tr/en/contact",
+    "optional": false
+  },
+  {
+    "id": "balloon",
+    "name": {
+      "en": "Hot-air balloon flight",
+      "uz": "Havo sharida parvoz",
+      "ru": "Полёт на воздушном шаре",
+      "ky": "Аба шарында учуу",
+      "tg": "Парвоз бо пуфак"
+    },
+    "description": {
+      "en": "Request as an optional extra. Weather, operator acceptance and availability determine whether flights run.",
+      "uz": "Qo‘shimcha xizmat sifatida so‘rang. Parvoz ob-havo, operator roziligi va joyga bog‘liq.",
+      "ru": "Заказывается отдельно. Полёты зависят от погоды, допуска оператора и наличия мест.",
+      "ky": "Өзүнчө суралат. Учуу аба ырайына, оператордун уруксатына жана орунга жараша.",
+      "tg": "Алоҳида дархост кунед. Парвоз аз обу ҳаво, иҷозати оператор ва ҷой вобаста аст."
+    },
+    "sourceUrl": "https://goturkiye.com/cappadocia",
+    "optional": true
+  },
+  {
+    "id": "al-fahidi",
+    "name": {
+      "en": "Al Fahidi",
+      "uz": "Al-Fahidi",
+      "ru": "Аль-Фахиди",
+      "ky": "Аль-Фахиди",
+      "tg": "Ал-Фаҳидӣ"
+    },
+    "description": {
+      "en": "Walk the lanes of the historic neighbourhood to see wind-tower architecture and courtyards.",
+      "uz": "Tarixiy mahallada shamol minoralari va hovlilarni ko‘rib sayr qiling.",
+      "ru": "Улочки исторического квартала с ветряными башнями и дворами.",
+      "ky": "Тарыхый конуштун шамал мунаралары жана короолору.",
+      "tg": "Кӯчаҳои маҳаллаи таърихӣ бо бурҷҳои бодгир ва ҳавлӣҳо."
+    },
+    "sourceUrl": "https://www.visitdubai.com/en/places-to-visit/al-fahidi-historical-neighbourhood",
+    "optional": false
+  },
+  {
+    "id": "dubai-creek",
+    "name": {
+      "en": "Dubai Creek & souks",
+      "uz": "Dubay Krik va bozorlar",
+      "ru": "Дубай-Крик и рынки",
+      "ky": "Дубай-Крик жана базарлар",
+      "tg": "Дубай Крик ва бозорҳо"
+    },
+    "description": {
+      "en": "Explore the waterfront and souks; an abra crossing can be added to the route.",
+      "uz": "Sohil va bozorlarni aylaning; abra qayig‘ida o‘tishni dasturga qo‘shish mumkin.",
+      "ru": "Набережная и рынки; переправу на абре можно добавить в маршрут.",
+      "ky": "Жээк жана базарлар; абра менен өтүүнү маршрутка кошсо болот.",
+      "tg": "Соҳил ва бозорҳо; гузариш бо абраро ба барнома илова кардан мумкин."
+    },
+    "sourceUrl": "https://www.visitdubai.com/en/places-to-visit/al-fahidi-historical-neighbourhood",
+    "optional": false
+  },
+  {
+    "id": "downtown-dubai",
+    "name": {
+      "en": "Downtown & Burj Khalifa",
+      "uz": "Dauntaun va Burj Xalifa",
+      "ru": "Даунтаун и Бурдж-Халифа",
+      "ky": "Даунтаун жана Бурж-Халифа",
+      "tg": "Даунтаун ва Бурҷ Халифа"
+    },
+    "description": {
+      "en": "See the skyline from ground level. An observation-deck ticket is an optional extra, not included by default.",
+      "uz": "Manzarani yerdan ko‘ring. Kuzatuv maydonchasi chiptasi alohida; avtomatik kiritilmaydi.",
+      "ru": "Осмотр с уровня улицы. Билет на смотровую площадку заказывается отдельно.",
+      "ky": "Көчөдөн көрүү. Байкоо аянтчасына билет өзүнчө, демейкиде кошулбайт.",
+      "tg": "Тамошо аз кӯча. Чиптаи майдончаи тамошо алоҳида аст ва худкор дохил намешавад."
+    },
+    "sourceUrl": "https://www.visitdubai.com/-/media/Images/pdf/2026/dubai-city-guide-en-2026.pdf",
+    "optional": false
+  },
+  {
+    "id": "dubai-marina",
+    "name": {
+      "en": "Dubai Marina",
+      "uz": "Dubay Marina",
+      "ru": "Дубай-Марина",
+      "ky": "Дубай-Марина",
+      "tg": "Дубай Марина"
+    },
+    "description": {
+      "en": "Plan a waterfront walk and leave time for the drive from other parts of Dubai.",
+      "uz": "Sohil sayrini rejalang, shaharning boshqa joylaridan yetib kelishga vaqt ajrating.",
+      "ru": "Прогулка по набережной с запасом времени на дорогу из других районов.",
+      "ky": "Жээкте сейилдөө жана башка райондордон келүүгө жетиштүү убакыт.",
+      "tg": "Сайри соҳил бо вақти кофӣ барои роҳ аз дигар қисмҳои шаҳр."
+    },
+    "sourceUrl": "https://www.visitdubai.com/-/media/Images/pdf/2026/dubai-city-guide-en-2026.pdf",
+    "optional": false
+  },
+  {
+    "id": "kamala",
+    "name": {
+      "en": "Kamala Beach",
+      "uz": "Kamala plyaji",
+      "ru": "Пляж Камала",
+      "ky": "Камала пляжы",
+      "tg": "Соҳили Камала"
+    },
+    "description": {
+      "en": "Use Phuket’s west coast as a beach base; swimming depends on sea conditions and local flags.",
+      "uz": "Pxuket g‘arbiy sohilida dam oling; suzish dengiz holati va bayroqlarga bog‘liq.",
+      "ru": "Пляжный отдых на западном побережье; купание зависит от моря и местных флагов.",
+      "ky": "Батыш жээкте эс алуу; сүзүү деңиз абалына жана желектерге жараша.",
+      "tg": "Истироҳати соҳили ғарбӣ; шиноварӣ аз баҳр ва парчамҳо вобаста аст."
+    },
+    "sourceUrl": "https://all.accor.com/hotel/7235/index.en.shtml",
+    "optional": false
+  },
+  {
+    "id": "phuket-old-town",
+    "name": {
+      "en": "Phuket Old Town",
+      "uz": "Pxuket eski shahri",
+      "ru": "Старый город Пхукета",
+      "ky": "Пхукеттин эски шаары",
+      "tg": "Шаҳри куҳнаи Пхукет"
+    },
+    "description": {
+      "en": "Walk past colourful shophouses and stop for local food and small shops.",
+      "uz": "Rangli uy-do‘konlar yonidan sayr qiling, mahalliy taom va rastalar uchun to‘xtang.",
+      "ru": "Разноцветные торговые дома, небольшие магазины и местная кухня.",
+      "ky": "Түркүн түстүү дүкөн үйлөрү, чакан соода жайлары жана жергиликтүү тамак.",
+      "tg": "Хонаҳои рангаи тиҷоратӣ, дӯконҳои хурд ва таоми маҳаллӣ."
+    },
+    "sourceUrl": "https://www.tourismthailand.org/Attraction/phuket-old-town",
+    "optional": false
+  },
+  {
+    "id": "island-boat",
+    "name": {
+      "en": "Island boat excursion",
+      "uz": "Orollarga qayiq sayri",
+      "ru": "Морская экскурсия к островам",
+      "ky": "Аралдарга кайык сапары",
+      "tg": "Сафари қаиқ ба ҷазираҳо"
+    },
+    "description": {
+      "en": "Choose an optional island excursion after checking sea conditions, departure port and park access.",
+      "uz": "Dengiz holati, jo‘nash bandargohi va bog‘ga kirishni tekshirib, qo‘shimcha sayr tanlang.",
+      "ru": "Дополнительная экскурсия после проверки моря, порта отправления и доступа в парк.",
+      "ky": "Деңиз, жөнөө порту жана паркка кирүү текшерилгенден кийин кошумча сапар.",
+      "tg": "Сафари иловагӣ баъди санҷиши баҳр, бандар ва дастрасии боғ."
+    },
+    "sourceUrl": "https://www.tourismthailand.org/",
+    "optional": true
+  },
+  {
+    "id": "petronas",
+    "name": {
+      "en": "Petronas Twin Towers",
+      "uz": "Petronas egizak minoralari",
+      "ru": "Башни Петронас",
+      "ky": "Петронас эгиз мунаралары",
+      "tg": "Манораҳои дугонаи Петронас"
+    },
+    "description": {
+      "en": "See the towers from KLCC; skybridge and observation visits require separately arranged tickets.",
+      "uz": "Minoralarni KLCCdan ko‘ring; ko‘prik va kuzatuv uchun chipta alohida kelishiladi.",
+      "ru": "Осмотр башен от KLCC; билеты на мост и смотровую площадку согласуются отдельно.",
+      "ky": "KLCCден мунараларды көрүү; көпүрө жана байкоо билети өзүнчө.",
+      "tg": "Тамошои манораҳо аз KLCC; чиптаи пул ва майдонча алоҳида."
+    },
+    "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/",
+    "optional": false
+  },
+  {
+    "id": "klcc-park",
+    "name": {
+      "en": "KLCC Park",
+      "uz": "KLCC bog‘i",
+      "ru": "Парк KLCC",
+      "ky": "KLCC паркы",
+      "tg": "Боғи KLCC"
+    },
+    "description": {
+      "en": "Add a central-city park walk around the Twin Towers area.",
+      "uz": "Egizak minoralar atrofidagi shahar bog‘ida sayr qiling.",
+      "ru": "Прогулка по центральному парку возле башен-близнецов.",
+      "ky": "Эгиз мунаралар жанындагы борбордук паркта сейилдөө.",
+      "tg": "Сайри боғи марказӣ назди манораҳои дугона."
+    },
+    "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/",
+    "optional": false
+  },
+  {
+    "id": "giza",
+    "name": {
+      "en": "Giza Pyramids & Sphinx",
+      "uz": "Giza piramidalari va Sfinks",
+      "ru": "Пирамиды Гизы и Сфинкс",
+      "ky": "Гиза пирамидалары жана Сфинкс",
+      "tg": "Аҳромҳои Гиза ва Сфинкс"
+    },
+    "description": {
+      "en": "Plan time for the pyramid plateau. Entry inside individual pyramids is a separate ticketed option.",
+      "uz": "Piramidalar maydoniga vaqt ajrating. Ayrim piramidalar ichiga kirish uchun alohida chipta kerak.",
+      "ru": "Осмотр плато; вход внутрь отдельных пирамид оплачивается отдельно.",
+      "ky": "Платону көрүү; айрым пирамидалардын ичине кирүү өзүнчө билет менен.",
+      "tg": "Тамошои ҳамворӣ; вуруд ба дохили баъзе аҳромҳо чиптаи алоҳида мехоҳад."
+    },
+    "sourceUrl": "https://www.marriott.com/hotels/travel/caimn-marriott-mena-house-cairo/",
+    "optional": false
+  },
+  {
+    "id": "gem",
+    "name": {
+      "en": "Grand Egyptian Museum",
+      "uz": "Katta Misr muzeyi",
+      "ru": "Большой Египетский музей",
+      "ky": "Чоң Египет музейи",
+      "tg": "Осорхонаи Бузурги Миср"
+    },
+    "description": {
+      "en": "Arrange a museum visit near Giza; confirm the ticket type and galleries before booking.",
+      "uz": "Giza yaqinidagi muzeyga tashrifni kelishing; chipta turi va galereyalarni tekshiring.",
+      "ru": "Посещение музея у Гизы; заранее согласуйте тип билета и галереи.",
+      "ky": "Гиза жанындагы музей; билет түрүн жана галереяларды алдын ала тактаңыз.",
+      "tg": "Боздиди осорхонаи назди Гиза; навъи чипта ва галереяҳоро санҷед."
+    },
+    "sourceUrl": "https://tickets.gem.eg/",
+    "optional": false
+  }
+]
