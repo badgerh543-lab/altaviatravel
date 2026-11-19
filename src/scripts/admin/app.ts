@@ -5,7 +5,7 @@ import {renderBookings} from './bookings';
 import {renderDashboard} from './dashboard';
 import {renderTours,renderContent,renderMedia,reviewPublish} from './content';
 import {renderUsers,renderPayments,renderAudit} from './settings';
-export interface Workspace {user:JsonRecord|null;csrf:string;collections:JsonRecord;templates:JsonRecord;revision:number;locale:string;api:(path:string,data?:any)=>Promise<any>;run:(work:()=>Promise<unknown>)=>Promise<void>;refreshContent:()=>Promise<void>;go:(tab:string)=>Promise<void>;message:(text:string,error?:boolean)=>void;host:HTMLElement;}
+export interface Workspace {user:JsonRecord|null;csrf:string;collections:JsonRecord;templates:JsonRecord;revision:number;locale:string;api:(path:string,data?:any)=>Promise<any>;run:(work:()=>Promise<unknown>)=>Promise<void>;refreshContent:()=>Promise<JsonRecord>;go:(tab:string)=>Promise<void>;message:(text:string,error?:boolean)=>void;host:HTMLElement;}
 const root=document.querySelector<HTMLElement>('#edit-app')!;
 const workspace:Workspace={user:null,csrf:'',collections:{},templates:{},revision:0,locale:'en',host:root,api,run,refreshContent,go,message};
 let activeTab='Dashboard',messageNode:HTMLElement|null=null;let navigating=0;
@@ -13,7 +13,10 @@ let loginOptions={localLogin:false,passwordMinLength:12,mfaRequired:true};
 async function api(path:string,data?:any){
   const target=new URL('/api/admin/'+path,location.origin);target.pathname=target.pathname.replace(/\/$/,'')+'/';
   const response=await fetch(target,{method:data===undefined?'GET':'POST',headers:{Accept:'application/json',...(data===undefined?{}:{'Content-Type':'application/json','X-CSRF-Token':workspace.csrf})},body:data===undefined?undefined:JSON.stringify(data),credentials:'same-origin',cache:'no-store',redirect:'error',signal:AbortSignal.timeout(path==='publish'?150000:25000)});
-  const result=await response.json();if(!response.ok){if(response.status===401&&path!=='login'){workspace.user=null;workspace.collections={};workspace.csrf='';renderLogin();}throw new Error([result.error,...(result.fields||[])].join('\n'));}
+  if(!response.headers.get('content-type')?.toLowerCase().includes('application/json'))throw new Error(response.status===404?'The admin API is missing from this deployment. Deploy the backend, then configure its database and secrets.':'The admin service did not return a valid response. Please try again or check the deployment.');
+  let result:JsonRecord;try{result=await response.json();}catch{throw new Error('The admin service returned an empty or invalid response. Please check the backend deployment.');}
+  if(!result||typeof result!=='object'||Array.isArray(result))throw new Error('The admin service returned an invalid response.');
+  if(!response.ok){if(response.status===401&&path!=='login'){workspace.user=null;workspace.collections={};workspace.csrf='';renderLogin();}throw new Error([result.error||'The operation could not be completed.',...(Array.isArray(result.fields)?result.fields:[])].join('\n'));}
   if(result.csrf)workspace.csrf=result.csrf;if(result.user)workspace.user=result.user;return result;
 }
 function message(text:string,error=false){if(!messageNode){messageNode=h('div',{'aria-live':'polite',tabindex:'-1'});workspace.host.prepend(messageNode);}messageNode.className=error?'edit-error':'edit-success';messageNode.textContent=text;messageNode.focus();}
@@ -61,5 +64,8 @@ async function renderAccount(host:HTMLElement){
     confirmation.addEventListener('submit',event=>{event.preventDefault();void run(async()=>{submit.disabled=true;try{const verified=await api('mfa/confirm',{code:code.value});activeTab='Dashboard';await renderShell();const {dialog,body}=openDialog('Save your recovery codes');const saved={value:false};const done=button('I saved the codes',()=>{if(saved.value)dialog.close();},'button');done.disabled=true;body.append(notice('Each recovery code works once. Save these now; they will not be shown again.'),h('ul',{class:'edit-recovery'},verified.recoveryCodes.map((value:string)=>h('li',{},[value]))),button('Download recovery codes',()=>download('altavia-recovery-codes.txt',verified.recoveryCodes.join('\n'))),check('I stored the recovery codes privately',false,value=>{saved.value=value;done.disabled=!value;}),h('div',{class:'edit-actions'},[done]));}finally{submit.disabled=false;}});});
   }),'button'));
 }
-async function start(){try{loginOptions=await api('login');await api('session');await renderShell();}catch{renderLogin();}}
+async function start(){
+  try{const options=await api('login');loginOptions={localLogin:options.localLogin===true,passwordMinLength:Number(options.passwordMinLength)||12,mfaRequired:options.mfaRequired!==false};}catch(error){renderLogin();message(error instanceof Error?error.message:'The admin service is unavailable.',true);return;}
+  try{await api('session');await renderShell();}catch{renderLogin();}
+}
 void start();

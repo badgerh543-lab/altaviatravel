@@ -1,0 +1,11 @@
+{
+  "runtime": "local Cloudflare workerd with migrated D1",
+  "checks": [
+    "production login, forced password change, authenticator setup and protected dashboard on local workerd with migrated D1",
+    "authenticated booking creation and retrieval through actual Worker API and D1",
+    "authenticated seasonal theme persists in D1",
+    "unconfigured public inquiries and CMS export fail closed with JSON; unknown API returns JSON 404"
+  ],
+  "remoteDeployment": false,
+  "remoteDatabaseConfigured": false
+}

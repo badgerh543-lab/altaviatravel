@@ -1,5 +1,7 @@
 # Cloudflare Pages deployment
 
+**Already using the `altaviatravel` Worker?** Follow [the Workers setup guide](docs/cloudflare-workers.md). The repository now includes an explicit Worker entrypoint for the same secure API; moving to Pages is no longer required. The sections below describe the alternative Pages deployment. Use only the configuration for the chosen hosting platform.
+
 The static website needs no paid API or persistent server. Secure public inquiries use Pages Functions, D1 and Turnstile. Hosting quotas/availability depend on your Cloudflare account; no subscription or deployment was created in this workspace.
 
 ## 1. Prepare content and account
@@ -8,9 +10,9 @@ Complete `docs/remaining-setup.md`. Add verified contacts, review routes/transla
 
 Sign in to your own Cloudflare account. Decide your real canonical HTTPS domain. Use a separate test database for previews. Do not point preview branches at customer data.
 
-The owner has chosen **altavitravel.uz**. Use **`SITE_URL=https://altavitravel.uz`** in both production build settings and Functions runtime. This enables production canonical URLs, indexing and the robots sitemap reference. Leave this unset, or use the local URL, for local checks; Pages/Workers preview origins remain noindex. `/sitemap.xml` and `/robots.txt` are available in development and generated as static files during builds. The sitemap includes only actual public language pages. Do not manually maintain a second sitemap in `public/`.
+The owner has chosen **altaviatravel.uz**. Use **`SITE_URL=https://altaviatravel.uz`** in both production build settings and Functions runtime. This enables production canonical URLs, indexing and the robots sitemap reference. Leave this unset, or use the local URL, for local checks; Pages/Workers preview origins remain noindex. `/sitemap.xml` and `/robots.txt` are available in development and generated as static files during builds. The sitemap includes only actual public language pages. Do not manually maintain a second sitemap in `public/`.
 
-The current checkout has not been uploaded to GitHub or deployed. Upload the current source with `.gitignore` respected, including `functions/`, `server/`, `shared/`, `src/`, `migrations/` and build scripts. Exclude `.local/`, `.env*`, `.wrangler/`, databases and keys. The connected Git repository must receive these latest files before Cloudflare can build them.
+The owner has uploaded the source to GitHub and deployed a frontend-only Worker. Push the latest explicit backend adapter before deploying again. Keep `.gitignore` respected, including `functions/`, `server/`, `shared/`, `src/`, `migrations/` and build scripts. Exclude `.local/`, `.env*`, `.wrangler/`, databases and keys. The connected Git repository must receive these latest files before Cloudflare can build them.
 
 ## 2. D1 and configuration
 
@@ -18,14 +20,14 @@ From the project root, use the official Wrangler CLI:
 
 ```powershell
 npx wrangler login
-npx wrangler d1 create altavia-inquiries
 Copy-Item wrangler.toml.example wrangler.toml
+npx wrangler d1 create altavia-inquiries --config wrangler.toml
 ```
 
 Put the returned database ID into `wrangler.toml`. Keep binding name `DB`. Apply all pending migrations:
 
 ```powershell
-npx wrangler d1 migrations apply DB --remote
+npx wrangler d1 migrations apply DB --remote --config wrangler.toml
 ```
 
 The migrations are `0001_inquiries.sql`, `0002_admin.sql` and `0003_dashboard_theme.sql`. The third adds customer intents and seasonal settings while preserving existing records. Apply them to the intended account/database only, before deploying the updated Functions. See [D1 migrations](https://developers.cloudflare.com/d1/reference/migrations/) and [Pages bindings](https://developers.cloudflare.com/pages/functions/bindings/).
@@ -59,19 +61,19 @@ The API checks Turnstile hostname and action `inquiry`, not merely the client to
 
 In the dashboard, select **Workers & Pages > Create application > Pages > Connect to Git** (or **Import an existing Git repository**), then choose `badgerh543-lab/altaviatravel`, production branch `main`, and the Astro preset. Leave the root directory empty. Pages does not ask for a deploy command or preview deploy command. A screen requiring those commands is the Workers build flow; create a Pages project instead.
 
-Do not use `npx wrangler deploy` for this application. Without a Workers configuration, Wrangler can automatically add an Astro adapter and rebuild into a different output layout. That does not deploy the existing root `functions/` API. Use Pages Git deployment or the explicit `wrangler pages deploy` command below. Do not accept an automatically generated adapter/configuration pull request for this Pages setup.
+For this Pages deployment, use Pages Git integration or the explicit `wrangler pages deploy` command below. `npx wrangler deploy --config wrangler.jsonc` now targets the separate, supported Workers adapter described above. Do not accept an automatically generated Astro adapter/configuration pull request for either setup; it would bypass the explicit API entrypoint.
 
 Configure a Pages Git project with build command `npm run build`, output `dist`, and Node version 24 or later. Keep `functions/` at the repository root. Set `SITE_URL` and `BUSINESS_READY` in the build environment as well as runtime; the build validates business fields when enabled. Alternatively deploy from the root with Wrangler after building:
 
 ```powershell
 # Set SITE_URL to your verified domain in a private .env first.
 npm run build
-npx wrangler pages deploy dist --project-name altavia
+npx wrangler pages deploy dist --project-name altavia --config wrangler.toml
 ```
 
 Use Wrangler or Git deployment for Functions; do not drag only `dist/` into an upload UI and expect the backend to accompany it. `public/_routes.json` restricts function execution to `/api/*`. `_headers`, `robots.txt` and `sitemap.xml` are generated into `dist/` by postbuild. Local/example builds are deliberately noindex. Cloudflare applies the configured static security/cache headers.
 
-Keep `_headers`, `robots.txt` and `sitemap.xml` out of `public/`: the build already generates these files. A duplicate `public/robots.txt` overrides the Astro endpoint during the build, and a copied `_headers` file can conflict with an adapter's generated rules. Set production `SITE_URL=https://altavitravel.uz` explicitly; a successful build without it remains noindex.
+Keep `_headers`, `robots.txt` and `sitemap.xml` out of `public/`: the build already generates these files. A duplicate `public/robots.txt` overrides the Astro endpoint during the build, and a copied `_headers` file can conflict with an adapter's generated rules. Set production `SITE_URL=https://altaviatravel.uz` explicitly; a successful build without it remains noindex.
 
 Read [Pages configuration](https://developers.cloudflare.com/pages/functions/wrangler-configuration/) and [deployment commands](https://developers.cloudflare.com/workers/wrangler/commands/pages/). Dashboard configuration changes require redeployment. Configure preview independently with a preview database and secrets; leave `BUSINESS_READY` false until that environment is intentionally enabled.
 
@@ -90,14 +92,14 @@ This worker has no public endpoint. Its daily 02:17 UTC schedule deletes expired
 There is no public database-reading route. Staff use their authorized Cloudflare account. List references/timestamps without decrypting contact data:
 
 ```powershell
-npx wrangler d1 execute DB --remote --command "SELECT id, created_at, expires_at FROM inquiries ORDER BY created_at DESC LIMIT 100"
+npx wrangler d1 execute DB --remote --config wrangler.toml --command "SELECT id, created_at, expires_at FROM inquiries ORDER BY created_at DESC LIMIT 100"
 ```
 
 To retrieve a specific record, replace `REFERENCE` with the form's UUID (a UUID only). Use a private local folder:
 
 ```powershell
 New-Item -ItemType Directory -Force .local | Out-Null
-npx wrangler d1 execute DB --remote --command "SELECT id, created_at, expires_at, payload FROM inquiries WHERE id='REFERENCE'" --json | Set-Content -Encoding utf8 .local/export.json
+npx wrangler d1 execute DB --remote --config wrangler.toml --command "SELECT id, created_at, expires_at, payload FROM inquiries WHERE id='REFERENCE'" --json | Set-Content -Encoding utf8 .local/export.json
 node --env-file=.env.production.local scripts/decrypt-export.mjs .local/export.json
 ```
 

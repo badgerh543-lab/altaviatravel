@@ -1,4 +1,4 @@
-export const defaultSiteOrigin='https://altavitravel.uz';
+export const defaultSiteOrigin='https://altaviatravel.uz';
 export const publicLanguages=['uz','en','ru','ky','tg'];
 export const publicPages=['tours','destinations','inbound','outbound','domestic','custom','gallery','about','journal','faq','contact','privacy','terms','booking-conditions','credits'];
 export function siteOrigin(value){

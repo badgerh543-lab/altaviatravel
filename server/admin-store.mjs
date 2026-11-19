@@ -97,12 +97,12 @@ export async function handleStore(path,method,body,ctx){
       if(JSON.stringify(data[name])!==JSON.stringify(published[name]))fail(403,'Owner content has pending changes. Ask the owner to publish this revision.');
     }}
     const errors=validateContent(data);if(errors.length)return {status:422,body:{error:'Fix the content before publishing.',fields:errors}};
-    if(!options.onPublish&&!/^https:\/\/api\.cloudflare\.com\/client\/v4\/pages\/webhooks\/deploy_hooks\/[a-zA-Z0-9_-]+$/.test(env.CMS_DEPLOY_HOOK||''))fail(503,'Publishing is not configured. Your draft is safely saved. Configure the Cloudflare build hook first.');
+    if(!options.onPublish&&!/^https:\/\/api\.cloudflare\.com\/client\/v4\/(?:pages\/webhooks|workers\/builds)\/deploy_hooks\/[a-zA-Z0-9_-]+$/.test(env.CMS_DEPLOY_HOOK||''))fail(503,'Publishing is not configured. Your draft is safely saved. Configure the Cloudflare build hook first.');
     const result=await query(env,'UPDATE cms_state SET published=draft,published_revision=revision,published_at=?,publishing_until=? WHERE id=1 AND revision=? AND publishing_until<?',new Date().toISOString(),Date.now()+180000,state.revision,Date.now()).run();if(changed(result)!==1)fail(409,'Draft changed during review. Reload.');
     await audit(env,user,'publish_requested',String(state.revision));
     try{
       if(options.onPublish){await options.onPublish(data,state.revision);await query(env,'UPDATE cms_state SET deployed_revision=? WHERE id=1',state.revision).run();return {body:{ok:true,status:'deployed',revision:state.revision}};}
-      const response=await (options.fetch||fetch)(env.CMS_DEPLOY_HOOK,{method:'POST',signal:AbortSignal.timeout(12000)});if(!response.ok)throw new Error();return {body:{ok:true,status:'build_requested',revision:state.revision,message:'The host accepted the build request. Public pages update after a successful deployment.'}};
+      const response=await (options.fetch||fetch)(env.CMS_DEPLOY_HOOK,{method:'POST',redirect:'error',signal:AbortSignal.timeout(12000)});if(!response.ok)throw new Error();return {body:{ok:true,status:'build_requested',revision:state.revision,message:'The host accepted the build request. Public pages update after a successful deployment.'}};
     }catch{await audit(env,user,'publish_failed',String(state.revision));fail(503,'The published snapshot was saved, but the build did not finish. Retry publishing; public pages still show the last successful build.');}finally{await query(env,'UPDATE cms_state SET publishing_until=0 WHERE id=1 AND published_revision=?',state.revision).run();}
   }
   if(path==='users'&&method==='GET'){

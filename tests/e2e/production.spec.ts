@@ -10,8 +10,8 @@ test('default autumn renders immediately without restyling the page after appear
 test('sitemap is valid XML with all public language variants and the purchased domain',async({page,request})=>{
   const response=await request.get('/sitemap.xml');expect(response.status()).toBe(200);expect(response.headers()['content-type']).toContain('xml');const xml=await response.text();
   await page.goto('/en/');const result=await page.evaluate(xml=>{const doc=new DOMParser().parseFromString(xml,'application/xml');return {errors:doc.querySelectorAll('parsererror').length,urls:[...doc.getElementsByTagNameNS('http://www.sitemaps.org/schemas/sitemap/0.9','url')].map(node=>({loc:node.getElementsByTagNameNS('http://www.sitemaps.org/schemas/sitemap/0.9','loc')[0].textContent,alternates:node.getElementsByTagNameNS('http://www.w3.org/1999/xhtml','link').length}))};},xml);
-  expect(result.errors).toBe(0);expect(result.urls).toHaveLength(225);for(const url of result.urls){expect(url.loc).toMatch(/^https:\/\/altavitravel\.uz\/(uz|en|ru|ky|tg)\//);expect(url.alternates).toBe(6);}expect(xml).not.toMatch(/\/edit|\/api\/|404\.html/);
-  await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href','https://altavitravel.uz/en/');
+  expect(result.errors).toBe(0);expect(result.urls).toHaveLength(225);for(const url of result.urls){expect(url.loc).toMatch(/^https:\/\/altaviatravel\.uz\/(uz|en|ru|ky|tg)\//);expect(url.alternates).toBe(6);}expect(xml).not.toMatch(/\/edit|\/api\/|404\.html/);
+  await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href','https://altaviatravel.uz/en/');
 });
 test('Russian tour durations use correct plurals and single-destination pages avoid duplicate photos',async({page})=>{
   await page.goto('/ru/tours/');await expect(page.locator('[data-days="2"] .card-meta').first()).toContainText('2 дня');

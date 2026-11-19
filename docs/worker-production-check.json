@@ -1,0 +1,35 @@
+{
+  "worker": "altaviatravel",
+  "version": "a84eb608-2bd7-46cc-b9d8-d98912e25108",
+  "database": "altaviatravel",
+  "binding": "DB",
+  "apiCompute": "SQLite-backed AltaviaBackend Durable Object (BACKEND)",
+  "migrationsApplied": 3,
+  "adminAccountCreated": true,
+  "adminPasswordStoredOutsideSource": true,
+  "authentication": {
+    "target": "https://altaviatravel.uz",
+    "checks": [
+      "production login API returns valid JSON",
+      "private generated developer password is accepted and session is Secure/HttpOnly",
+      "password change and authenticator setup are required before dashboard access",
+      "test session revoked by logout"
+    ],
+    "passwordDisplayed": false,
+    "productionPasswordChanged": false,
+    "productionMfaEnrolled": false
+  },
+  "browser": {
+    "url": "https://altaviatravel.uz/edit/",
+    "status": 200,
+    "productionLoginOptions": true,
+    "signInFormVisible": true,
+    "javascriptErrors": [],
+    "passwordSubmitted": false
+  },
+  "publicInquiryIntakeEnabled": false,
+  "cmsBuildHookConfigured": false,
+  "customDomainConnected": true,
+  "previousError1102Mitigated": true,
+  "subscriptionChanged": false
+}

@@ -1,6 +1,6 @@
 # Remaining setup for public operation
 
-The final local audit and application fixes are implemented. The owner has purchased **altavitravel.uz**, but the current source has not been uploaded to GitHub or deployed to Cloudflare. Remaining deployment work and owner/service inputs are listed below.
+The owner has purchased **altaviatravel.uz** and uploaded the source to GitHub. The original Worker deployment omitted the API. The explicit Worker backend has now been deployed, the owner's `altaviatravel` D1 database has all three migrations, security secrets are configured, and a separate developer account has been created. The initial credential is stored privately in ignored `.local/online-admin-login.txt`; first sign-in still requires changing it and enrolling an authenticator. The custom domain is now connected and the login API/browser checks pass at https://altaviatravel.uz/edit/. The API runs in the private BACKEND Durable Object to avoid the Free edge Worker CPU limit during password hashing; account/customer data remains in D1. Use [cloudflare-workers.md](cloudflare-workers.md) for ongoing configuration, CMS build hooks and public booking activation.
 
 ## Remaining technical work
 
@@ -18,9 +18,9 @@ Gallery photos are licensed destination/editorial images. Group, hotel and custo
 
 ## Hosting
 
-Follow [../DEPLOYMENT.md](../DEPLOYMENT.md): configure Cloudflare Pages, D1, domain, Turnstile, secrets and the retention worker. Use independent databases/keys for staging. Set `BUSINESS_READY=true` only after review. Set `SITE_URL` at build time and API runtime; preview builds remain noindex.
+For the existing Worker, follow [cloudflare-workers.md](cloudflare-workers.md): configure D1, domain, Turnstile and secrets. The main Worker includes scheduled retention. Alternatively, [../DEPLOYMENT.md](../DEPLOYMENT.md) covers Pages with its separate retention Worker. Use independent databases/keys for staging. Set `BUSINESS_READY=true` only after review. Set `SITE_URL` at build time and API runtime; preview builds remain noindex.
 
-Use `SITE_URL=https://altavitravel.uz` for production. The final sitemap contains 225 public pages with five-language alternatives and excludes `/edit`, `/api` and 404 pages. Submit `https://altavitravel.uz/sitemap.xml` to Search Console after deployment, not before the domain serves the completed site.
+Use `SITE_URL=https://altaviatravel.uz` for production. The final sitemap contains 225 public pages with five-language alternatives and excludes `/edit`, `/api` and 404 pages. Submit `https://altaviatravel.uz/sitemap.xml` to Search Console after deployment, not before the domain serves the completed site.
 
 An unconfigured public API refuses submissions without a false success receipt. Browsing, planning and downloading a request still work. Local mode saves encrypted records without cloud credentials.
 

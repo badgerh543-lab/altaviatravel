@@ -1,0 +1,59 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "altaviatravel",
+  "main": "workers/app.mjs",
+  "compatibility_date": "2026-11-19",
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [
+    {"pattern": "altaviatravel.uz", "custom_domain": true}
+  ],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api",
+      "/api/*"
+    ]
+  },
+  "vars": {
+    "SITE_URL": "https://altaviatravel.uz",
+    "ADMIN_ORIGIN": "https://altaviatravel.badgerh543.workers.dev",
+    "ADMIN_ENABLED": "true",
+    "BUSINESS_READY": "false"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "altaviatravel",
+      "database_id": "7ceac654-3360-478e-96a8-31f2e13bb0bd",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [{"name": "BACKEND", "class_name": "AltaviaBackend"}]
+  },
+  "migrations": [
+    {"tag": "v1-backend-compute", "new_sqlite_classes": ["AltaviaBackend"]}
+  ],
+  "triggers": {
+    "crons": [
+      "17 2 * * *"
+    ]
+  },
+  "env": {
+    "preview": {
+      "routes": [],
+      "durable_objects": {"bindings": []},
+      "vars": {
+        "SITE_URL": "https://altaviatravel-preview.badgerh543.workers.dev",
+        "ADMIN_ENABLED": "false",
+        "BUSINESS_READY": "false"
+      },
+      "d1_databases": [],
+      "triggers": {
+        "crons": []
+      }
+    }
+  }
+}

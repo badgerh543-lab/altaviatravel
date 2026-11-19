@@ -5,16 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "node --env-file-if-exists=.env scripts/dev.mjs",
-    "build": "node --env-file-if-exists=.env scripts/sync-content.mjs && node --env-file-if-exists=.env scripts/validate-content.mjs && node --env-file-if-exists=.env node_modules/astro/bin/astro.mjs build && node --env-file-if-exists=.env scripts/postbuild.mjs",
+    "build": "node --env-file-if-exists=.env scripts/build.mjs",
     "preview": "node --env-file-if-exists=.env scripts/dev.mjs --preview",
     "check": "astro check",
-    "test": "node --test tests/backend.test.mjs tests/local-server.test.mjs tests/admin.test.mjs tests/seo.test.mjs",
+    "test": "node --test tests/backend.test.mjs tests/local-server.test.mjs tests/admin.test.mjs tests/seo.test.mjs tests/worker.test.mjs",
     "test:e2e": "playwright test",
     "inquiries": "node scripts/inquiries.mjs",
     "media": "node scripts/prepare-media.mjs",
     "audit:runtime": "npm audit --omit=dev",
     "content:check": "node scripts/validate-content.mjs",
-    "admin": "node --env-file-if-exists=.env scripts/admin.mjs"
+    "admin": "node --env-file-if-exists=.env scripts/admin.mjs",
+    "cloud:bind": "node scripts/cloudflare-bind.mjs",
+    "cloud:secrets": "node scripts/cloudflare-secrets.mjs",
+    "cloud:deploy": "npm run build && wrangler deploy --config wrangler.jsonc",
+    "cloud:preview": "wrangler dev --config wrangler.jsonc --env preview"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
@@ -27,7 +31,8 @@
     "lighthouse": "^13.6.0",
     "qrcode": "^1.5.4",
     "sharp": "^0.35.5",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "wrangler": "4.164.0"
   },
   "engines": {
     "node": ">=24.0.0"

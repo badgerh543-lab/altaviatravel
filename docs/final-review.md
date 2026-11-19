@@ -1,6 +1,6 @@
 # Final local review — 19 November 2026
 
-Prepared for **https://altavitravel.uz**. No GitHub upload, Cloudflare deployment, production database or live-domain acceptance is claimed.
+Prepared for **https://altaviatravel.uz**. No GitHub upload, Cloudflare deployment, production database or live-domain acceptance is claimed.
 
 ## Fixed
 
@@ -31,6 +31,6 @@ The sitemap follows [Google's localized-page guidance](https://developers.google
 
 The final local performance scores are **87 homepage / 95 tour / 100 contact**, with accessibility 100 on all three. Homepage rendering remains below the requested 90 performance target. Earlier measurements varied from 83 to 92; the final report uses the latest result. See `performance/summary.json` and `remaining-setup.md`.
 
-Upload the current source with ignored files excluded, configure Cloudflare Pages/D1/Turnstile/secrets and the CMS hook, create the separate production account, configure scheduled deletion/backups and test on HTTPS. Set `SITE_URL=https://altavitravel.uz` at build and runtime. Do not set `CMS_SOURCE_URL` until the first deployment can serve the private export.
+Upload the current source with ignored files excluded, configure Cloudflare Pages/D1/Turnstile/secrets and the CMS hook, create the separate production account, configure scheduled deletion/backups and test on HTTPS. Set `SITE_URL=https://altaviatravel.uz` at build and runtime. Do not set `CMS_SOURCE_URL` until the first deployment can serve the private export.
 
 Company email/privacy contact, supplier-approved prices/services and policy approval remain owner inputs. Language structure and known wording were reviewed; no independent native-language proofreading or external penetration test was performed. Email/Telegram alerts and live payment processing remain separate work.

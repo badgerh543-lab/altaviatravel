@@ -1,6 +1,6 @@
 # Architecture
 
-Astro builds 228 static pages from typed JSON. Shared language-aware layouts and small browser modules need no client framework hydration or paid content API. `dist/` is the public website; `functions/` is compiled separately by Cloudflare Pages.
+Astro builds 228 static pages from typed JSON. Shared language-aware layouts and small browser modules need no client framework hydration or paid content API. `dist/` is the public website. The chosen Workers deployment uses `workers/app.mjs` and an `ASSETS` binding. `/api/*` is forwarded through the private `BACKEND` binding to `AltaviaBackend`, a SQLite-backed Durable Object, which executes the shared production handlers with a 30-second default CPU allowance. This avoids Error 1102 during password hashing on the Free edge Worker budget. The object supplies compute only; D1 still stores accounts, bookings, content and encrypted records. Static assets bypass it. The alternative Pages deployment compiles `functions/` separately and needs adequate paid CPU for authentication. Both use the same authorization and storage code; a static asset upload by itself does not deploy the API.
 
 ## Inquiry flow
 
@@ -28,7 +28,7 @@ Persistence is the inquiry delivery mechanism, not email. Staff must monitor the
 
 ## Administrative CMS
 
-See [admin-panel.md](admin-panel.md). Static public pages remain inexpensive to serve. Authenticated APIs maintain versioned JSON drafts and published snapshots in SQLite/D1. Local publish backs up source and output, builds into staging and promotes on success. Cloud publish triggers a Git Pages build that fetches the private content export. New/hidden/deleted tours generate the appropriate public routes at build time. Image bytes are immutable size-checked WebP assets in the database, exposed after publication. Merchant secrets, customer details and authenticator secrets are encrypted, and no arbitrary filesystem/code editing API is exposed.
+See [admin-panel.md](admin-panel.md) and [cloudflare-workers.md](cloudflare-workers.md). Static public pages remain inexpensive to serve. Authenticated APIs maintain versioned JSON drafts and published snapshots in SQLite/D1. Local publish backs up source and output, builds into staging and promotes on success. Cloud publish triggers an allowlisted Cloudflare Pages or Workers build hook; that build fetches the private content export. New/hidden/deleted tours generate the appropriate public routes at build time. Image bytes are immutable size-checked WebP assets in the database, exposed after publication. Merchant secrets, customer details and authenticator secrets are encrypted, and no arbitrary filesystem/code editing API is exposed.
 
 `shared/tour-details.mjs` resolves complete per-tour public contents and legacy shared defaults for both the editor and Astro. Tour-only staff can maintain these inline fields without editing global collections. The editor preserves the selected tour and displays missing requirements by section/language. Navigation renders asynchronous responses into their own view so an old dashboard response cannot overwrite a newly opened editor.
 

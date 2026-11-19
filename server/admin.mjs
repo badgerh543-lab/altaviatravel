@@ -19,11 +19,16 @@ export async function handleAdmin(request,env,options={}){
     if(!env.DB||!configured({...env,DB:env.DB},true)||(!local&&env.ADMIN_ENABLED!=='true'))return json({error:'Administration is not configured.'},503);
     const url=new URL(request.url);const expected=new URL(env.SITE_URL).origin;
     if(!local&&(url.protocol!=='https:'||!expected.startsWith('https://')))fail(403,'HTTPS is required.');
+    if(!local){
+      const allowed=new Set([expected]);
+      if(env.ADMIN_ORIGIN){const alias=new URL(env.ADMIN_ORIGIN);if(alias.protocol!=='https:'||alias.username||alias.password||alias.pathname!=='/'||alias.search||alias.hash)return json({error:'Administration origin is not configured correctly.'},503);allowed.add(alias.origin);}
+      if(!allowed.has(url.origin))fail(403,'This hostname is not enabled for administration.');
+    }
     if(request.headers.get('sec-fetch-site')==='cross-site')fail(403,'Cross-site requests are not allowed.');
     const path=url.pathname.replace(/^\/api\/admin\/?/,'').replace(/\/$/,'');const method=request.method;
     if(!['GET','POST'].includes(method))return json({error:'Method not allowed.'},405,{'Allow':'GET, POST'});
     const user=await sessionFor(request,env,local);
-    if(method==='POST'&&request.headers.get('origin')!==expected)fail(403,'Request origin does not match.');
+    if(method==='POST'&&request.headers.get('origin')!==(local?expected:url.origin))fail(403,'Request origin does not match.');
     if(path!=='login'&&!user)fail(401,'Sign in to continue.');
     if(method==='POST'&&path!=='login'){
       const csrf=request.headers.get('x-csrf-token')||'';
